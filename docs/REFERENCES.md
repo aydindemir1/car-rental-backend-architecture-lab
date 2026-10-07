@@ -81,3 +81,20 @@ Exact version/license/compatibility ve ücretsiz edition sınırları uygulama g
 - [GitHub Pages](https://docs.github.com/en/pages), [Cloudflare Pages local](https://developers.cloudflare.com/pages/functions/local-development/)
 
 Sürüm/security/license ve runtime/browser compatibility uygulama gününde doğrulanıp pin edilir. Local validation gerçek provider deployment veya field performance ölçümü değildir.
+
+
+## Software Architect genişletme kaynakları
+
+- [Software Architect roadmap](https://roadmap.sh/software-architect) — 2026-10-08 live graph snapshot (Europe/Istanbul tarihi).
+- [Apache Pekko typed supervision](https://pekko.apache.org/docs/pekko/current/typed/fault-tolerance.html)
+- [Spark](https://spark.apache.org/docs/latest/), [Hadoop local/pseudo-distributed](https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html)
+- [Apache Camel](https://camel.apache.org/manual/), [Flowable OSS](https://www.flowable.com/open-source-code)
+- [IIBA BABOK](https://www.iiba.org/knowledgehub/business-analysis-body-of-knowledge-babok-guide/)
+- [TOGAF kaynak/lisans erişimi](https://www.opengroup.org/togaf-licensed-downloads)
+- [Capgemini architecture](https://www.capgemini.com/solutions/clean-core-with-mpsa-approach/) — public enterprise-architecture context; proprietary IAF bütün yönteminin açık tam kaynak olduğu varsayılmaz.
+- [UML](https://www.omg.org/spec/UML), [C4](https://c4model.com/), [arc42](https://arc42.org/)
+- [PMI standards](https://www.pmi.org/standards), [PRINCE2 methodology](https://www.prince2.com/uk/prince2-methodology), [Scrum Guide](https://scrumguides.org/)
+- [SEI ATAM](https://www.sei.cmu.edu/library/atam-method-for-architecture-evaluation/)
+- [ERPNext/Frappe REST API](https://docs.frappe.io/framework/user/en/api/rest), [Paperless-ngx REST API](https://docs.paperless-ngx.com/api/)
+
+Public kaynaktaki overview ile tüm telifli standard/yönteme erişim farklıdır. Version/licence/access/runtime uyumluluğu uygulama gününde kontrol edilir; sertifikasyon/evaluation/license agreement kullanıcı adına otomatik kabul edilmez. Teknik ürün, model/case ve access gap evidence'ı ayrı tutulur.

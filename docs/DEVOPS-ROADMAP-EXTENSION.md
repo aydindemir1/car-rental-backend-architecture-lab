@@ -1,6 +1,6 @@
 # Araç Kiralama — DevOps genişletme programı
 
-**Planlandı.** Emlak Day 46–85 onaylı DevOps programı ve araç mevcut programı karşılaştırılarak, roadmap.sh/devops eksikleri **Day 65–78** kapsamına eklendi. DevOps eklenince program 78 milestone olmuştu; yeni Frontend fazıyla 99 milestone'dır; milestone tek takvim günü demek değildir. Emlak repo değişmez. [Günlük planlar](roadmap/README.md), [coverage](coverage/devops-coverage.md), [erişim sınırları](coverage/devops-cloud-exceptions.md).
+**Planlandı.** Emlak Day 46–85 onaylı DevOps programı ve araç mevcut programı karşılaştırılarak, roadmap.sh/devops eksikleri **Day 65–78** kapsamına eklendi. DevOps eklenince program 78 milestone olmuştu; yeni Software Architect fazıyla 117 milestone'dır; milestone tek takvim günü demek değildir. Emlak repo değişmez. [Günlük planlar](roadmap/README.md), [coverage](coverage/devops-coverage.md), [erişim sınırları](coverage/devops-cloud-exceptions.md).
 
 ## Hedef
 
@@ -60,9 +60,14 @@ Mor ürün-spesifik satırlar için gerekli farklı ürün deneyleri ayrı lab p
 
 Her gün scope→ADR/ownership→küçük implementation commit→anlamlı başarı/hata/recovery testi→CI/build→local runtime→evidence/runbook sırasıyla kapanır. Sürüm/edition/license uyumluluğu gün başında doğrulanır ve pin edilir; secret/key/PII Git'e girmez.
 
-Day 64 önceki üç roadmap checkpoint olarak korunur. Day 78 Backend/Full Stack/System Design/DevOps ara checkpoint; Day 99 Frontend dahil beş roadmap final audit'tir. Envanterin 74 zorunlu occurrence'ı için owner ve görev vardır; provider/SaaS actual kullanım engelleri [istisna belgesinde](coverage/devops-cloud-exceptions.md) ayrı status'ta görünür. Tüm mor ürünler runtime'da doğrulandı iddiası erişim/gap varken yapılmaz.
+Day 64 önceki üç roadmap checkpoint olarak korunur. Day 78 Backend/Full Stack/System Design/DevOps ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 Software Architect dahil altı roadmap final audit'tir. Envanterin 74 zorunlu occurrence'ı için owner ve görev vardır; provider/SaaS actual kullanım engelleri [istisna belgesinde](coverage/devops-cloud-exceptions.md) ayrı status'ta görünür. Tüm mor ürünler runtime'da doğrulandı iddiası erişim/gap varken yapılmaz.
 
 
 ## Frontend fazı sonrası audit geçişi
 
 [Frontend kapsamı](coverage/frontend-coverage.md) yeni kullanıcı talebiyle eklenmiştir. Day 78 dört roadmap ara checkpoint olarak korunur; Day 99 beş roadmap nihai audit'idir. Önceki cloud/SaaS erişim ve ownership sınırları korunur.
+
+
+## Software Architect fazı sonrası nihai gate
+
+[Software Architect kapsamı](coverage/software-architect-coverage.md) eklendi. Day 99 önceki beş roadmap ara checkpoint; Day 117 altı roadmap final audit. Önceki teknik profiller, erişim ve ownership sınırları korunur; runtime ve case validation ayrı raporlanır.

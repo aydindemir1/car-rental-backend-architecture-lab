@@ -16,7 +16,7 @@ Kaynak: [roadmap.sh/frontend](https://roadmap.sh/frontend), canlı graph **2026-
 
 Graph'taki topic sınıfı her zaman sarı değildir: React/GraphQL mor; Vue.js/SvelteKit yeşil; PWAs gri topic'tir. Renk/legend preserved; aynı ürün farklı SSR/SSG dalında farklı node ID ile bulunabilir. **Desktop Apps/Mobile Apps ve bağlı native ürünleri 8 occurrence olarak hariç**; 5 navigasyon button'ı eğitim konusu değildir.
 
-Emlak frontend içermez; 85 günlük planı büyütülmez. Çoğu frontend sahibi araç kiralamadır; mevcut Java API/security/DevOps/AI evidence'ı yeniden kullanılabilir. Referans emlak branch HEAD'i `a84beefb0d8d932a01056fbd4542910856129a28`. Araç Day 78 dört roadmap ara checkpoint; Day 79–98 ek deneyler; Day 99 beş roadmap final audit. Bütün mevcut/yeni ürün görevleri **Planlandı**; matriste bulunmaları bugün öğrenilip uygulanmış oldukları anlamına gelmez.
+Emlak frontend içermez; 85 günlük planı büyütülmez. Çoğu frontend sahibi araç kiralamadır; mevcut Java API/security/DevOps/AI evidence'ı yeniden kullanılabilir. Referans emlak branch HEAD'i `a84beefb0d8d932a01056fbd4542910856129a28`. Araç Day 78 dört roadmap ara checkpoint; Day 79–98 ek deneyler; Day 99 beş roadmap ara checkpoint. Bütün mevcut/yeni ürün görevleri **Planlandı**; matriste bulunmaları bugün öğrenilip uygulanmış oldukları anlamına gelmez.
 
 ## Sarı ana başlıkların günlük owner'ı
 
@@ -232,4 +232,9 @@ Responsive viewport/PWA testleri native mobile/desktop uygulama geliştirme değ
 
 GitHub Pages actual ücretsiz public static deploy evidence ister; erişim yoksa gap. Cloudflare local runtime **Partial**; actual managed deploy doğrulanmadı. Önceki cloud/SaaS istisnaları korunur. Claude Code actual local tool/model çalıştırılmadan Verified olmaz.
 
-Day 99, 72 required frontend occurrence ve beş roadmap matrisini implementation SHA, learning note, actual browser/runtime test, sürüm ve recovery evidence ile denetler. Gap/istisna/Partial/Comparison, full literal Verified sayısına karıştırılmaz. Mavi linked roadmap'in bütün alt dalları otomatik scope değildir; konu için burada tanımlı gerçek görevler esastır.
+Day 117, 72 required frontend occurrence ve altı roadmap matrisini implementation SHA, learning note, actual browser/runtime test, sürüm ve recovery evidence ile denetler. Gap/istisna/Partial/Comparison, full literal Verified sayısına karıştırılmaz. Mavi linked roadmap'in bütün alt dalları otomatik scope değildir; konu için burada tanımlı gerçek görevler esastır.
+
+
+## Software Architect fazı sonrası nihai audit
+
+[Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.

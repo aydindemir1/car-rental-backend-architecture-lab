@@ -1,6 +1,6 @@
 # Araç Kiralama — Frontend genişletme programı
 
-**Planlandı.** [Frontend matrisi](coverage/frontend-coverage.md) ve [snapshot](coverage/frontend-roadmap-snapshot.json) kullanıcı talebiyle programa dahil. **Desktop Apps ve Mobile Apps hariç.** Emlak 85 gün değişmez; araç programı 99 milestone'dır. Bir milestone birden fazla takvim gününe yayılabilir.
+**Planlandı.** [Frontend matrisi](coverage/frontend-coverage.md) ve [snapshot](coverage/frontend-roadmap-snapshot.json) kullanıcı talebiyle programa dahil. **Desktop Apps ve Mobile Apps hariç.** Emlak 85 gün değişmez; araç programı yeni mimari fazıyla 117 milestone'dır. Bir milestone birden fazla takvim gününe yayılabilir.
 
 ## Amaç ve mimari sınır
 
@@ -54,7 +54,7 @@ PWA browser/web kapsamıdır; native Mobile/Desktop Apps kapsamı açılmaz. Res
 | [98](roadmap/day-98.md) | Frontend AI, prompting, MCP, skills ve agents |
 | [99](roadmap/day-99.md) | Beş roadmap ve iki proje final audit |
 
-Day 79–98 programın yeni eğitim deneyleri; Day 99 Backend/Full Stack/System Design/DevOps/Frontend final audit. Day 48/64/78 önceki scope checkpoint'leri olarak kalır.
+Day 79–98 programın yeni eğitim deneyleri; Day 99 önceki beş roadmap ara checkpoint. Day 48/64/78 önceki scope checkpoint'leri olarak kalır.
 
 ## Kapanış standardı
 
@@ -64,3 +64,8 @@ Day 79–98 programın yeni eğitim deneyleri; Day 99 Backend/Full Stack/System 
 - Cancellation/cleanup, cache/private data, accessibility ve resource bütçesi her ilgili use-case'te değerlendirilir. Automatic a11y/Lighthouse score tek başına production uygunluk/field performance kanıtı değildir.
 - Ücretsiz local hosting/model/platform kararı korunur. Account/billing/ücretli/trial erişimi otomatik oluşturulmaz; actual managed deployment yoksa product gap/Partial korunur.
 - Versiyon/lisans/security/compatibility uygulama gününde kontrol edilip pin edilir; özellikle Vite actual bundler, SSR adapter ve AI client/model tool capability doğrulanır.
+
+
+## Software Architect fazı sonrası nihai gate
+
+[Software Architect kapsamı](coverage/software-architect-coverage.md) eklendi. Day 99 önceki beş roadmap ara checkpoint; Day 117 altı roadmap final audit. Önceki teknik profiller, erişim ve ownership sınırları korunur; runtime ve case validation ayrı raporlanır.

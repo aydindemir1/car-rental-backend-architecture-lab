@@ -1,6 +1,6 @@
 # Günlük eğitim planı
 
-99 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
+117 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
 
 | Gün | Konu | Kesin plan |
 |---|---|---|
@@ -102,6 +102,24 @@
 | Day 96 | Frontend deployment ve hosting kapsamı | [Plan](day-96.md) |
 | Day 97 | Yeşil frontend framework alternatifleri | [Plan](day-97.md) |
 | Day 98 | Frontend AI, prompting, MCP, skills ve agents | [Plan](day-98.md) |
-| Day 99 | Beş roadmap ve iki proje final audit | [Plan](day-99.md) |
+| Day 99 | Beş roadmap ara kapsam checkpoint | [Plan](day-99.md) |
+| Day 100 | Mimari seviyeler, sorumluluklar ve kalite senaryoları | [Plan](day-100.md) |
+| Day 101 | Karar verme, iletişim, coaching ve tahmin | [Plan](day-101.md) |
+| Day 102 | Dil/paradigma seçimi ve karşılaştırmalı kod | [Plan](day-102.md) |
+| Day 103 | OOP, SOLID, DDD, TDD ve presentation pattern'leri | [Plan](day-103.md) |
+| Day 104 | Mimari stiller ve seçim koşulları | [Plan](day-104.md) |
+| Day 105 | Actors: Apache Pekko ile concurrency ve supervision | [Plan](day-105.md) |
+| Day 106 | Mimari dokümantasyon ve UML | [Plan](day-106.md) |
+| Day 107 | BABOK, TOGAF ve IAF ile mimari case | [Plan](day-107.md) |
+| Day 108 | Yönetim yaklaşımları ve teslimat simülasyonu | [Plan](day-108.md) |
+| Day 109 | Spark, ETL ve data warehouse tasarımı | [Plan](day-109.md) |
+| Day 110 | Hadoop, HDFS ve MapReduce lab'ı | [Plan](day-110.md) |
+| Day 111 | ESB, SOAP, BPM ve BPEL sınırları | [Plan](day-111.md) |
+| Day 112 | Microfrontends, reactive ve web standartları | [Plan](day-112.md) |
+| Day 113 | Security, network ve operasyon mimarisi audit'i | [Plan](day-113.md) |
+| Day 114 | Enterprise Software ve ücretsiz entegrasyon case'i | [Plan](day-114.md) |
+| Day 115 | Mimari çalışma araçları ve collaboration | [Plan](day-115.md) |
+| Day 116 | Architecture evaluation ve fitness function'ları | [Plan](day-116.md) |
+| Day 117 | Altı roadmap ve iki proje final audit | [Plan](day-117.md) |
 
-Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.
+Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 altı roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.

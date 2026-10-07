@@ -8,7 +8,7 @@ Kaynak: [roadmap.sh/system-design](https://roadmap.sh/system-design). Canlı gra
 
 Bütün satırlar şimdilik **Planlandı / runtime evidence yok**. “Programa dahil” ile “öğrenildi/uygulandı” farklıdır. [Zorunlu uygulama sözleşmesi](mandatory-implementation-contract.md) geçerlidir: comparison, dependency veya ADR tek başına zorunlu konuyu kapatmaz.
 
-Emlak 85 günlük programında değişiklik yapılmaz. Araç Day 01–47 korunur; Day 48 Backend/Full Stack ara audit; yeni Day 49–63 System Design deneyleri; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap final audit'idir. Önceki uygulama aynı sorumluluğu kanıtlı karşılıyorsa yeniden kurulmaz. Evidence yoksa araç milestone'ındaki gerçek görev kapanmadan konu Verified olmaz.
+Emlak 85 günlük programında değişiklik yapılmaz. Araç Day 01–47 korunur; Day 48 Backend/Full Stack ara audit; yeni Day 49–63 System Design deneyleri; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 altı roadmap final audit'idir. Önceki uygulama aynı sorumluluğu kanıtlı karşılıyorsa yeniden kurulmaz. Evidence yoksa araç milestone'ındaki gerçek görev kapanmadan konu Verified olmaz.
 
 ## Ana başlıklar
 
@@ -252,3 +252,8 @@ System Design günlük görevleri/150 eşleştirme korunur. [DevOps kapsamı](de
 ## Frontend genişletmesi sonrası nihai audit
 
 [Frontend kapsamı](frontend-coverage.md) ayrıca kullanıcı talebiyle eklendi. Day 78 önceki dört roadmap için ara checkpoint olarak korunur; **Day 99** Backend/Full Stack/System Design/DevOps/Frontend final audit'idir. Önceki ürün görevleri ve cloud/SaaS erişim sınırları değişmez. Desktop/Mobile frontend branch'leri kapsam dışıdır; Node business backend hariç kalırken yalnız yeni frontend SSR render role'ü uygulanır.
+
+
+## Software Architect fazı sonrası nihai audit
+
+[Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.

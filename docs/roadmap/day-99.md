@@ -1,4 +1,4 @@
-# Day 99 — Beş roadmap ve iki proje final audit
+# Day 99 — Beş roadmap ara kapsam checkpoint
 
 Durum: **Planlandı**. Bu eğitim milestone'ı birden fazla takvim gününe yayılabilir. Kod/runtime evidence henüz oluşturulmadı.
 
@@ -22,7 +22,7 @@ Roadmap etiketleri: `Fullstack`, `Backend`.
 
 ## Planlanan dosyalar
 
-- `docs/coverage/completion-report.md`
+- `docs/coverage/five-roadmap-checkpoint.md`
 - `docs/coverage/capability-status.md`
 - `docs/evidence/day-99/` — sürüm/edition, exact komut, browser/runtime, fixture, expected/actual, ölçüm ve recovery.
 
@@ -49,3 +49,8 @@ Mevcut verified uygulama yeterliyse aynı sorumluluğu tekrar kurma/boş feat co
 - [ ] Coverage actual duruma güncellendi; yalnız comparison veya static export SSR implementation sayılmadı.
 
 Ücretli cloud/model API/hosting zorunluluğu yoktur; hesap/billing/remote deployment bugün yapılmaz. Local lab production SLA/scale, arama sıralaması veya mesleki unvan kanıtı değildir.
+
+
+## Software Architect fazına geçiş
+
+Day 99 önceki beş roadmap'i ara checkpoint olarak denetler. [Day 100](day-100.md) Software Architect genişletmesini başlatır; [Day 117](day-117.md) altı roadmap nihai audit'tir. Technical runtime ve framework/management case validation farklı evidence türleriyle raporlanır.

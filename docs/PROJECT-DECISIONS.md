@@ -65,3 +65,16 @@ React/TypeScript ana portal korunur. Mor Next.js/TanStack Start SSR ve Astro SSG
 Yeşil pnpm/yarn/Bun, Rollup/Parcel/SWC/Rolldown, Biome/Jest/Cypress, Relay, React Router ve Angular/Vue/Nuxt/SvelteKit/Solid/Eleventy/VuePress için bounded gerçek lab'lar planlanır. Same responsibility profilleri ayrı output/runtime'a sahiptir; bir portalda hepsi aynı anda zorunlu dependency/owner olmaz. Copilot/Cursor/Antigravity ve hosting/provider alternatifleri paid erişimsiz Comparison olabilir.
 
 GitHub Pages sahte public static artifact için gerçek ücretsiz deployment evidence ister; uygun erişim yoksa ürün gap'i. Cloudflare yerel runtime Partial'dır; gerçek managed deployment yerel sonuçla doğrulanmış sayılmaz. Ücretli cloud/SaaS/model API ve otomatik account/billing yoktur.
+
+
+## Software Architect kapsam kararı — 2026-10-08
+
+[roadmap.sh/software-architect](https://roadmap.sh/software-architect) ayrıca scope'tur. Emlak 85 gün değişmez; araç 99→117 milestone. Day 99 önceki beş roadmap ara checkpoint; Day 117 altı roadmap nihai audit. Bu explicit istek önceden linked mavi Software Architect başlığı için gereken representative capability'nin ötesinde bu snapshot'ı ayrıca scope yapar.
+
+Canlı graph 18 topic occurrence (Tools iki kez), 95 tiksiz subtopic ve 4 blue düğüm; navigasyon hariç 117. Mor/yeşil legend yoktur; bu renkler uydurulmaz. Listedeki her language/enterprise product birlikte zorunlu kurulmaz: Java ve seçilmiş Kotlin/ops/frontend dil profilleri; enterprise topic için actual ücretsiz OSS integration, exact ticari vendor'lar ayrı Comparison/access gap.
+
+Teknik konularda actual implementation/runtime/hata/recovery; sorumluluk/communication/framework/management için actual proje case artifact+review+revision kanıtı kullanılır. Bu farklı konu türlerinde “sırf ADR tamamlandı” ile “teknik capability uygulandı” karıştırılmaz. Statüler: Planlandı, Implemented/Integrated/Verified (runtime), Case Applied (vaka+review doğrulandı), Comparison, Design Only, Partial/Access Gap. Şu an tüm yeni görevler Planlandı'dır.
+
+Actors Apache Pekko; ETL Spark Java local; Hadoop MapReduce/HDFS separate bounded lab; ESB Apache Camel; BPM Flowable OSS; enterprise reference ERPNext/Paperless-ngx ayrı local profile olarak planlanır. Exact sürüm/licence/driver/Java/engine/resource compatibility gün başında kontrol edilir. Bunlar canonical booking ownership'i devralmaz. Framework proprietary kaynakları repo'ya kopyalanmaz; paid training/cert/trial/account veya license acceptance otomatik yapılmaz.
+
+BPMN Flowable uygulaması BPEL executed demek değildir; ücretsiz desteklenen engine yoksa BPEL runtime gap. OSS ERP/DMS SAP/Dynamics/Salesforce/IBM/EMC exact ürün deneyimi değildir. Softskill/management workshop eğitim simülasyonuysa bunu gerçek team/enterprise tecrübesi diye sunmayız. Önceki Node backend/native Desktop-Mobile/cloud/SaaS sınırları korunur.

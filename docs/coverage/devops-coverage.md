@@ -228,9 +228,14 @@ Day bağlantılarında somut görevler, başarı/hata/toparlanma kriterleri ve c
 
 ## Final gate ve istisnalar
 
-Day 99, Backend/Full Stack/System Design/DevOps/Frontend matrislerini birlikte denetler. 74 required occurrence için implementation SHA, öğrenme notu, version/edition ve başarı/hata/recovery evidence veya açık gap/istisna sahibi bulunur. AWS/Azure/GCP gerçek provider, local Lambda/Cloudflare ve CircleCI/Datadog erişim satırları full literal implementation sayısına karıştırılmaz. Tüm ürünler uygulandı iddiası yerine verified/gap/istisna/partial sayıları ayrı raporlanır.
+Day 117, altı roadmap matrisini birlikte denetler. 74 required occurrence için implementation SHA, öğrenme notu, version/edition ve başarı/hata/recovery evidence veya açık gap/istisna sahibi bulunur. AWS/Azure/GCP gerçek provider, local Lambda/Cloudflare ve CircleCI/Datadog erişim satırları full literal implementation sayısına karıştırılmaz. Tüm ürünler uygulandı iddiası yerine verified/gap/istisna/partial sayıları ayrı raporlanır.
 
 
 ## Frontend genişletmesi sonrası nihai audit
 
 [Frontend kapsamı](frontend-coverage.md) ayrıca kullanıcı talebiyle eklendi. Day 78 önceki dört roadmap için ara checkpoint olarak korunur; **Day 99** Backend/Full Stack/System Design/DevOps/Frontend final audit'idir. Önceki ürün görevleri ve cloud/SaaS erişim sınırları değişmez. Desktop/Mobile frontend branch'leri kapsam dışıdır; Node business backend hariç kalırken yalnız yeni frontend SSR render role'ü uygulanır.
+
+
+## Software Architect fazı sonrası nihai audit
+
+[Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.

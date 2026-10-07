@@ -23,7 +23,7 @@ Karar tarihi: 2026-10-07. Bu belge önceki **ücretsiz local/self-hosted** çal�
 
 Önce resmi sürüm/license/ücretsiz erişim şartlarını kontrol et. Hesap/credential veya ücretli/trial erişimi otomatik oluşturma; kullanıcı erişimi varsa ve ücret riski olmayan scope doğrulanmışsa explicit program sınırındaki testi çalıştır. Uygun ücretsiz erişim yoksa gap'i doğru raporla; eski unsupported CLI veya alternate ürünü aynı literal ürün gibi kullanma.
 
-Cloud provider kullanımını daha sonra aktive etmek ayrı kapsam kararıdır. Bu plan bütün provider ürünlerinin ellerle uygulanmış olacağını garanti etmez. Eğitim kapsamı, runtime evidence ve istisna/gap sayıları Day 99 raporunda ayrı yazılır.
+Cloud provider kullanımını daha sonra aktive etmek ayrı kapsam kararıdır. Bu plan bütün provider ürünlerinin ellerle uygulanmış olacağını garanti etmez. Eğitim kapsamı, runtime evidence ve istisna/gap sayıları Day 117 raporunda ayrı yazılır.
 
 ## Resmi kaynaklar
 
@@ -37,3 +37,8 @@ Cloud provider kullanımını daha sonra aktive etmek ayrı kapsam kararıdır. 
 ## Frontend fazı sonrası audit geçişi
 
 [Frontend kapsamı](frontend-coverage.md) yeni kullanıcı talebiyle eklenmiştir. Day 78 dört roadmap ara checkpoint olarak korunur; Day 99 beş roadmap nihai audit'idir. Önceki cloud/SaaS erişim ve ownership sınırları korunur.
+
+
+## Software Architect fazı sonrası nihai gate
+
+[Software Architect kapsamı](software-architect-coverage.md) eklendi. Day 99 önceki beş roadmap ara checkpoint; Day 117 altı roadmap final audit. Önceki teknik profiller, erişim ve ownership sınırları korunur; runtime ve case validation ayrı raporlanır.

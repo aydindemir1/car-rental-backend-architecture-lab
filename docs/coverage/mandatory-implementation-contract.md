@@ -22,7 +22,7 @@ Karar: 2026-10-07. Hedef farklı mimari, yaklaşım, prensip, pattern ve teknolo
 
 ## Kapanış
 
-Day 48 Backend/Full Stack ara audit'idir; Day 99, her zorunlu konunun iki projenin en az birinde uygulama+test kanıtını kontrol eder. Comparison veya Design Only, zorunlu konu satırını tamamlandı yapmaz. Bu karar günlük programın kapsam yükümlülüğüdür; yeni konular bugün çalıştırıldı anlamına gelmez.
+Day 48 Backend/Full Stack ara audit'idir; Day 117, her zorunlu konunun iki projenin en az birinde uygulama+test kanıtını kontrol eder. Comparison veya Design Only, zorunlu konu satırını tamamlandı yapmaz. Bu karar günlük programın kapsam yükümlülüğüdür; yeni konular bugün çalıştırıldı anlamına gelmez.
 
 
 ## Full Stack roadmap kapsamı
@@ -34,7 +34,7 @@ Aynı öğrenme+gerçek uygulama+test yükümlülüğü [Full Stack matrisine](f
 
 [System Design matrisi](system-design-coverage.md) kullanıcı talebiyle ayrıca kapsamdır. 27 ana konu + 120 alt konu occurrence'ı + Backend/Software Architect/DevOps mavi konuları görev sahibine bağlanır. Snapshot mor/yeşil tik taşımadığı için tikler uydurulmaz; bütün alt konular öğrenme, uygulama ve runtime test kapsamındadır. Node ID bazında kapsama denetimi yapılır; tekrar etiketlerde ortak evidence kullanılabilir.
 
-Day 49–63 eksik deneyleri uygular; Day 64 Backend/Full Stack/System Design ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap final audit'idir. Emlak mevcut uygulamaları evidence ile karşılar; karşılanmayan zorunlu konu araçta açık görev kalır. Geodes/stamps/CDN/leader seçim deneylerinin yerel sınırları ve correctness/failure sözleşmeleri saklanır; cloud sağlayıcı kullanılması zorunlu değildir.
+Day 49–63 eksik deneyleri uygular; Day 64 Backend/Full Stack/System Design ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 altı roadmap final audit'idir. Emlak mevcut uygulamaları evidence ile karşılar; karşılanmayan zorunlu konu araçta açık görev kalır. Geodes/stamps/CDN/leader seçim deneylerinin yerel sınırları ve correctness/failure sözleşmeleri saklanır; cloud sağlayıcı kullanılması zorunlu değildir.
 
 
 ## DevOps kapsamı ve yeni final gate
@@ -54,4 +54,15 @@ Mor product'lar literal öğrenme/temsilî uygulama/runtime test ister: Next.js 
 
 Node business-backend eğitim istisnası korunur; Frontend mavi Nodejs ve SSR explicit talebi için yalnız frontend rendering/lifecycle role'ü Day 91–92/97'de gerçek runtime görevidir. Java business owner/authorization/persistence canonical kalır. Önceki CSR fazının “tooling only” sınırı artık bu ayrı frontend rendering role'ü ile birlikte okunur.
 
-Day 48 iki roadmap, Day 64 üç roadmap, Day 78 dört roadmap ara checkpoint; **Day 99 beş roadmap final audit**. Önceki bölümlerdeki final gate ifadeleri kendi tarihsel checkpoint kapsamıdır; yürürlükte nihai gate Day 99'dur. Required ve seçilmiş green satırlar implementation/browser/runtime evidence ile kapanır; Cloudflare/Pages/Claude Code erişim engelleri açık gap/Partial olarak raporlanır.
+Day 48 iki roadmap, Day 64 üç roadmap, Day 78 dört roadmap ara checkpoint; **Day 99 beş roadmap ara checkpoint**. Önceki bölümlerdeki final gate ifadeleri kendi tarihsel checkpoint kapsamıdır; yürürlükte nihai gate Day 99'dur. Required ve seçilmiş green satırlar implementation/browser/runtime evidence ile kapanır; Cloudflare/Pages/Claude Code erişim engelleri açık gap/Partial olarak raporlanır.
+
+
+## Software Architect kapsamı ve yürürlükteki nihai gate
+
+[Software Architect matrisi](software-architect-coverage.md) explicit kullanıcı talebidir: 18 ana topic occurrence + 4 mavi = 22 required düğüm; 95 tiksiz alt konu da owner/scope/status'a bağlıdır. Mor/yeşil legend bulunmaz. Language seçeneklerinde Java ve anlamlı seçilmiş profiller yeterlidir; tüm language/vendor ürünleri uygulanmış iddiası yapılmaz.
+
+**Konuya uygun evidence:** Teknik konu için gerçek kod/konfigürasyon/entegrasyon ve runtime başarı/hata/recovery testleri gerekir. Communication, responsibility, architecture/management framework için gerçek projeye bağlı vaka/artifact, senaryo değerlendirmesi, reviewer rubric ve revision gerekir. Case Applied, teknik ürün Implemented/Verified değildir; sadece method adı veya okunmuş belge vaka uygulaması sayılmaz.
+
+Enterprise Software ana konusu actual ücretsiz OSS reference API integration ve failure/reconciliation ile uygulanır. SAP/MS Dynamics/Salesforce/IBM/EMC exact vendor kullanımı ayrı Comparison/access gap; BPEL model validation actual engine execution değildir. [Kaynak/erişim sınırları](software-architect-access-and-scope.md) geçerlidir.
+
+Day 48/64/78/99 önceki roadmap checkpoint'leridir; **Day 117 altı roadmap final audit**. Önceki final ifadeleri kendi tarihsel scope'larıyla okunur; yürürlükte final gate Day 117'dir. Teknik evidence, Case Applied, Partial, Comparison, Design Only ve access gap sayıları final raporda ayrı yer alır.
