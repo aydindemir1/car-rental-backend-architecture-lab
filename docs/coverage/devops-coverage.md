@@ -6,7 +6,7 @@ Kaynak: [roadmap.sh/devops](https://roadmap.sh/devops), canlı graph **2026-10-0
 
 | Sınıf | Düğüm sayısı | Uygulama yükümlülüğü |
 |---|---:|---|
-| Sarı / topic ana başlık | 22 | Explicit owner/görev; Cloud Providers local/no-cloud istisnası açık |
+| Sarı / topic ana başlık | 22 | Açık owner/görev; Cloud Providers local/no-cloud istisnası açık |
 | Mor tikli alt başlık | 46 | Ürün-spesifik öğrenme/uygulama/test; erişim/provider istisnaları ayrı |
 | Mavi konu occurrence'ı | 6 | Backend, Docker, Kubernetes, Linux, Network Engineer (iki düğüm) |
 | Yeşil alternatif | 58 | Seçilmiş ürünler uygulama; diğerleri requirement karşılaştırması |
@@ -63,12 +63,12 @@ Emlak 85 gün **değişmez**. Baseline okuma branch'i `docs/backend-roadmap-desi
 | [74](../roadmap/day-74.md) | Consul service mesh ve GitOps sınırları | Consul workload trafiği identity/mTLS/intentions üzerinden izin/verme testiyle doğrulanır; plain discovery yeterli değildir. GitOps drift/recovery ve baseline mesh identity testleri kanıtlıdır; competing controller yoktur. |
 | [75](../roadmap/day-75.md) | Serverless: Knative ve yerel provider runtime'ları | Java Knative scale-to-zero/restart ve function failure gözlenir; local Java SAM input/error testi çalışır. Workers local request/validation ve cleanup doğrulanır; iki provider satırı managed-cloud Verified diye kapanmaz. |
 | [76](../roadmap/day-76.md) | Cloud sağlayıcıları: kavramlar ve kapsam istisnası | Local network/identity/restore sözleşmeleri gerçek test evidence'ına bağlıdır; provider tasarımının uygulanmadığı açıkça yazılır. Cloud Providers/AWS/Azure/GCP status'ları full coverage hesabında istisna olarak görünür; ücretli kaynak oluşturulmaz. |
-| [77](../roadmap/day-77.md) | Container, supply chain ve recovery uçtan uca | Release zinciri digest/commit ile izlenebilir; failed gate deploy'u durdurur; uygulama E2E başarılıdır. Restore sonrası canonical booking ve projection invariant'ları doğrulanır; resource budget ve fiziksel HA sınırı raporlanır. |
+| [77](../roadmap/day-77.md) | Container, supply chain ve recovery uçtan uca | Release zinciri digest/commit ile izlenebilir; failed gate deploy'u durdurur; uygulama E 2 E başarılıdır. Restore sonrası canonical booking ve projection invariant'ları doğrulanır; resource budget ve fiziksel HA sınırı raporlanır. |
 | [78](../roadmap/day-78.md) | Dört roadmap ara kapsam checkpoint | Dört matrisin bütün required satırları Verified, açık gap veya açık istisna olarak evidence/reason sahibine bağlıdır. Literal 'roadmap'teki her mor ürün uygulandı' iddiası cloud/SaaS gap'leri varken yapılmaz; iki projenin final raporu tekrar üretilebilir. |
 
 ## Düğüm bazında tam coverage
 
-Day bağlantılarında somut görevler, başarı/hata/toparlanma kriterleri ve commit sırası bulunur. Emlak planına link vermek Verified değildir: runtime evidence yoksa araç owner'ındaki gap görevi uygulanır. Ortak responsibility için aynı verified evidence birden fazla occurrence'ı karşılayabilir.
+Day bağlantılarında somut görevler, başarı/hata/toparlanma kriterleri ve commit sırası bulunur. Emlak planına link vermek Verified değildir: runtime evidence yoksa araç owner'ındaki gap görevi uygulanır. Ortak responsibility için aynı doğrulanmış kanıt birden fazla occurrence'ı karşılayabilir.
 
 | Node ID | Renk / sınıf | Roadmap etiketi | Mevcut temel | Owner / görev | Plan status / sınır |
 |---|---|---|---|---|---|
@@ -133,7 +133,7 @@ Day bağlantılarında somut görevler, başarı/hata/toparlanma kriterleri ve c
 | `5vUKHuItQfkarp7LtACvX` | Gri (sıra bağımsız) | DMARC | Yeni açık görev / comparison sınırı | [Day 78](../roadmap/day-78.md) | Comparison (alternatif/gri) |
 | `WMuXqa4b5wyRuYAQKQJRj` | Gri (sıra bağımsız) | IMAP | Yeni açık görev / comparison sınırı | [Day 78](../roadmap/day-78.md) | Comparison (alternatif/gri) |
 | `ewcJfnDFKXN8I5TLpXEaB` | Gri (sıra bağımsız) | SPF | Yeni açık görev / comparison sınırı | [Day 78](../roadmap/day-78.md) | Comparison (alternatif/gri) |
-| `fzO6xVTBxliu24f3W5zaU` | Gri (sıra bağımsız) | POP3S | Yeni açık görev / comparison sınırı | [Day 78](../roadmap/day-78.md) | Comparison (alternatif/gri) |
+| `fzO6xVTBxliu24f3W5zaU` | Gri (sıra bağımsız) | POP 3 S | Yeni açık görev / comparison sınırı | [Day 78](../roadmap/day-78.md) | Comparison (alternatif/gri) |
 | `RYCD78msIR2BPJoIP71aj` | Gri (sıra bağımsız) | Domain Keys | Yeni açık görev / comparison sınırı | [Day 78](../roadmap/day-78.md) | Comparison (alternatif/gri) |
 | `QZ7bkY-MaEgxYoPDP3nma` | Gri (sıra bağımsız) | OSI Model | Yeni açık görev / comparison sınırı | [Day 78](../roadmap/day-78.md) | Comparison (alternatif/gri) |
 | `w5d24Sf8GDkLDLGUPxzS9` | Sarı / ana konu | Networking & Protocols | Yeni açık görev / comparison sınırı | [Day 68](../roadmap/day-68.md) | Planlandı / runtime evidence yok |
@@ -221,7 +221,7 @@ Day bağlantılarında somut görevler, başarı/hata/toparlanma kriterleri ve c
 ## Seçilmiş yeşil seçenekler
 
 - Mevcut emlakta Jenkins/Nexus; araçta FluxCD/Linkerd uygulama görevleri korunur.
-- GitLab, ESO, SOPS (snapshot etiketi `SOPs`), Envoy, OpenTelemetry ve Jaeger ayrı görev veya mevcut data plane üzerinden gerçek evidence'a bağlanır.
+- GitLab, ESO, SOPS (snapshot etiketi `SOPs`), Envoy, OpenTelemetry ve Jaeger ayrı görev veya mevcut data plane üzerinden gerçek kanıta bağlanır.
 - Prometheus'un yeşil observability occurrence'ı mevcut Prometheus uygulamasıyla; mor infrastructure occurrence'ı da aynı ürünün ilgili runtime evidence'ıyla karşılanabilir.
 - PowerShell uygun platformda küçük gerçek CLI görevi; Tomcat seçilmiş Spring embedded runtime üzerinde somut lifecycle deneyi. Koşul yoksa Comparison kalır.
 - Diğer yeşil ürünler zorunlu ikinci ürün olarak kurulmaz. Gri network/mail konuları karşılaştırma ve isteğe bağlı local fixture ile korunur; actual provider/mail runtime diye gösterilmez.
@@ -239,3 +239,8 @@ Day 117, altı roadmap matrisini birlikte denetler. 74 required occurrence için
 ## Software Architect fazı sonrası nihai audit
 
 [Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.
+
+
+## Yeni explicit kapsam ve final gün güncellemesi — 2026-10-08
+
+[Software Design & Architecture](software-design-architecture-coverage.md) ayrıca 97 node scope'tur. Bu matristeki eski milestone/evidence owner'ları korunur. Day 48/64/78/99/117 kendi roadmap checkpoint'leridir; **[Day 131](../roadmap/day-131.md) yedi-roadmap final audit** yürürlüktedir. Emlak 85 günlük programı değişmez; yeni araç görevleri Planlandı'dır.

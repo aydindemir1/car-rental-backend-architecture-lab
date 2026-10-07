@@ -28,7 +28,7 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | Oracle | Yeşil | PostgreSQL/MySQL kapsamda | 10–11 | MariaDB implement; diğer relational ürünler comparison | Planlandı / evidence yok |
 | MariaDB | Yeşil | PostgreSQL/MySQL kapsamda | 10–11 | MariaDB implement; diğer relational ürünler comparison | Planlandı / evidence yok |
 | Relational Databases | Sarı | PostgreSQL/MySQL kapsamda | 10–11 | MariaDB implement; diğer relational ürünler comparison | Planlandı / evidence yok |
-| NoSQL Databases | Sarı | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| NoSQL Databases | Sarı | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | ORMs | Gri/tiksiz | Persistence standardı ve Day 8/26/28/78 | 10–11,29,37 | Derin ACID/normalization/EXPLAIN ve migration deneyleri | Planlandı / evidence yok |
 | Normalization | Mor | Persistence standardı ve Day 8/26/28/78 | 10–11,29,37 | Derin ACID/normalization/EXPLAIN ve migration deneyleri | Planlandı / evidence yok |
 | ACID | Mor | Persistence standardı ve Day 8/26/28/78 | 10–11,29,37 | Derin ACID/normalization/EXPLAIN ve migration deneyleri | Planlandı / evidence yok |
@@ -49,21 +49,21 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | GraphQL | Gri/tiksiz | Day 12/15/16/27 | 08,27,38 | SOAP/HATEOAS ek; mevcut REST/gRPC/GraphQL tekrar use-case | Planlandı / evidence yok |
 | HTTP Caching | Mor | Day 13 Redis | 15 | HTTP caching+Memcached; Redis adı farklı dallarda olsa da rol aynı | Planlandı / evidence yok |
 | Caching | Sarı | Day 13 Redis | 15 | HTTP caching+Memcached; Redis adı farklı dallarda olsa da rol aynı | Planlandı / evidence yok |
-| Web Security | Gri/tiksiz | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
+| Web Security | Gri/tiksiz | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
 | Integration Testing | Mor | Day 26–28/33 | 29,45 | Contract/browser/DB/runtime evidence | Planlandı / evidence yok |
 | Functional Testing | Mor | Day 26–28/33 | 29,45 | Contract/browser/DB/runtime evidence | Planlandı / evidence yok |
 | Unit Testing | Mor | Day 26–28/33 | 29,45 | Contract/browser/DB/runtime evidence | Planlandı / evidence yok |
 | Testing | Sarı | Day 26–28/33 | 29,45 | Contract/browser/DB/runtime evidence | Planlandı / evidence yok |
 | CI / CD | Sarı | Day 46–85 | 30–36,46 | Local pipeline/deploy/recovery; blue linked roadmap bütününün bitmesi iddia edilmez | Planlandı / evidence yok |
-| Monolith | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
-| Service Mesh | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
-| SOA | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
-| Twelve Factor Apps | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
-| Architectural Patterns | Sarı | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
+| Monolith | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12 factor ve Linkerd | Planlandı / evidence yok |
+| Service Mesh | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12 factor ve Linkerd | Planlandı / evidence yok |
+| SOA | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12 factor ve Linkerd | Planlandı / evidence yok |
+| Twelve Factor Apps | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12 factor ve Linkerd | Planlandı / evidence yok |
+| Architectural Patterns | Sarı | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12 factor ve Linkerd | Planlandı / evidence yok |
 | RabbitMQ | Yeşil | Day 17–22/25 | 24 | Tek reliable pipeline, mevcut öğrenme yeniden kullanım | Planlandı / evidence yok |
 | Kafka | Mor | Day 17–22/25 | 24 | Tek reliable pipeline, mevcut öğrenme yeniden kullanım | Planlandı / evidence yok |
 | Message Brokers | Sarı | Day 17–22/25 | 24 | Tek reliable pipeline, mevcut öğrenme yeniden kullanım | Planlandı / evidence yok |
-| LXC | Gri/tiksiz | Day 47–62 Docker/K8s | 31–33 | Docker/K8s implement; LXC comparison | Planlandı / evidence yok |
+| LXC | Gri/tiksiz | Day 47–62 Docker/K 8 s | 31–33 | Docker/K 8 s implement; LXC comparison | Planlandı / evidence yok |
 | WebSockets | Mor | Day 38–39 SSE | 22,25–26,43 | WebSocket/polling/Firebase; model token streaming ayrı | Planlandı / evidence yok |
 | Server Sent Events | Mor | Day 38–39 SSE | 22,25–26,43 | WebSocket/polling/Firebase; model token streaming ayrı | Planlandı / evidence yok |
 | Nginx | Mor | Traefik alternatif | 14 | Nginx implement; diğer web server ürünleri comparison | Planlandı / evidence yok |
@@ -74,9 +74,9 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | Building For Scale | Sarı | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
 | Redis | Mor | Day 13 Redis | 15 | HTTP caching+Memcached; Redis adı farklı dallarda olsa da rol aynı | Planlandı / evidence yok |
 | Memcached | Yeşil | Day 13 Redis | 15 | HTTP caching+Memcached; Redis adı farklı dallarda olsa da rol aynı | Planlandı / evidence yok |
-| MongoDB | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| MongoDB | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | CouchDB | Yeşil | MongoDB/Couchbase seçili | 22 | Offline inspection replication/conflict uygulaması | Planlandı / evidence yok |
-| Neo4j | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| Neo 4 j | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Design & Architecture | Mavi | Day 8–45 | 01,09–13,19–24,48 | ADR/ownership/domain/scale/failure case; linked fullroadmap otomatik değil | Planlandı / evidence yok |
 | Graceful Degradation | Mor | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
 | Throttling | Mor | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
@@ -87,46 +87,46 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | Monitoring | Mor | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
 | Telemetry | Mor | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
 | DevOps | Mavi | Day 46–85 | 30–36,46 | Local pipeline/deploy/recovery; blue linked roadmap bütününün bitmesi iddia edilmez | Planlandı / evidence yok |
-| MD5 | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| SHA | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| scrypt | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| bcrypt | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| HTTPS | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| OWASP Risks | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| SSL/TLS | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| CORS | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| Server Security | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| CSP | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
-| API Security Best Practices | Mavi | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD5/SHA parola için değil | Planlandı / evidence yok |
+| MD 5 | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| SHA | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| scrypt | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| bcrypt | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| HTTPS | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| OWASP Risks | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| SSL/TLS | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| CORS | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| Server Security | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| CSP | Mor | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
+| API Security Best Practices | Mavi | Security standardı ve Day 14/49/58/60 | 14,16–18,31–32 | Hashing/CSP/CORS/OWASP açık deneyler; MD 5/SHA parola için değil | Planlandı / evidence yok |
 | How does the internet work? | Mor | Emlak HTTP/DNS kısmi | 02–03 | Açık temel deneyleri | Planlandı / evidence yok |
 | What is HTTP? | Mor | Emlak HTTP/DNS kısmi | 02–03 | Açık temel deneyleri | Planlandı / evidence yok |
 | What is Domain Name? | Mor | Emlak HTTP/DNS kısmi | 02–03 | Açık temel deneyleri | Planlandı / evidence yok |
 | What is hosting? | Mor | Emlak HTTP/DNS kısmi | 02–03 | Açık temel deneyleri | Planlandı / evidence yok |
 | DNS and how it works? | Mor | Emlak HTTP/DNS kısmi | 02–03 | Açık temel deneyleri | Planlandı / evidence yok |
 | Browsers and how they work? | Mor | Emlak HTTP/DNS kısmi | 02–03 | Açık temel deneyleri | Planlandı / evidence yok |
-| Authentication | Gri/tiksiz | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| JWT | Mor | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| Basic Authentication | Mor | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| Token Authentication | Mor | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| OAuth | Mor | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| Cookie Based Auth | Mor | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| OpenID | Gri/tiksiz | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| SAML | Gri/tiksiz | Day 14 JWT/OAuth2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
-| Docker | Mavi | Day 47–62 Docker/K8s | 31–33 | Docker/K8s implement; LXC comparison | Planlandı / evidence yok |
-| Kubernetes | Mavi | Day 47–62 Docker/K8s | 31–33 | Docker/K8s implement; LXC comparison | Planlandı / evidence yok |
+| Authentication | Gri/tiksiz | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| JWT | Mor | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| Basic Authentication | Mor | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| Token Authentication | Mor | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| OAuth | Mor | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| Cookie Based Auth | Mor | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| OpenID | Gri/tiksiz | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| SAML | Gri/tiksiz | Day 14 JWT/OAuth 2/OIDC | 16–18,38 | Basic/cookie, local SAML/OIDC lab ve negatif security test | Planlandı / evidence yok |
+| Docker | Mavi | Day 47–62 Docker/K 8 s | 31–33 | Docker/K 8 s implement; LXC comparison | Planlandı / evidence yok |
+| Kubernetes | Mavi | Day 47–62 Docker/K 8 s | 31–33 | Docker/K 8 s implement; LXC comparison | Planlandı / evidence yok |
 | Elasticsearch | Mor | Day 12/21/31 Elasticsearch | 23 | Solr yeşil alternatif uygulama | Planlandı / evidence yok |
 | Solr | Yeşil | Day 12/21/31 Elasticsearch | 23 | Solr yeşil alternatif uygulama | Planlandı / evidence yok |
 | Real-Time Data | Sarı | Day 38–39 SSE | 22,25–26,43 | WebSocket/polling/Firebase; model token streaming ayrı | Planlandı / evidence yok |
 | Long / Short Polling | Mor | Day 38–39 SSE | 22,25–26,43 | WebSocket/polling/Firebase; model token streaming ayrı | Planlandı / evidence yok |
 | Redis | Mor | Day 13 Redis | 15 | HTTP caching+Memcached; Redis adı farklı dallarda olsa da rol aynı | Planlandı / evidence yok |
-| DynamoDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| Firebase | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| RethinkDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| DynamoDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| Firebase | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| RethinkDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | SQLite | Yeşil | PostgreSQL/MySQL seçili | 37 | Embedded bakım aracı, transaction ve concurrent writer uygulaması | Planlandı / evidence yok |
-| Influx DB | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| Influx DB | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | TimescaleDB | Yeşil | InfluxDB seçili | 20 | İzole SQL time-series telemetry uygulaması ve runtime karşılaştırma | Planlandı / evidence yok |
-| Cassandra | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| AWS Neptune | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| Cassandra | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| AWS Neptune | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Observability | Mor | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
 | Basic Operations Skills | Mavi | Day 46–85 | 30–36,46 | Local pipeline/deploy/recovery; blue linked roadmap bütününün bitmesi iddia edilmez | Planlandı / evidence yok |
 | Full Stack | Mavi | Yok | 04–06,45 | Frontend ve full stack uygulama | Planlandı / evidence yok |
@@ -135,11 +135,11 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | CSS | Mor | Yok | 04–06,45 | Frontend ve full stack uygulama | Planlandı / evidence yok |
 | JavaScript | Gri/tiksiz | Java uygulama ekseni | 06–07 | Java backend ve JS frontend; diğer dil ürünleri comparison, bir dil seç semantiği | Planlandı / evidence yok |
 | System Design | Mavi | Day 8–45 | 01,09–13,19–24,49–64 | Kullanıcının ayrıca istediği System Design snapshot'ı [matriste](system-design-coverage.md) bütünüyle günlük görevlere bağlandı | Planlandı / evidence yok |
-| Microservices | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
-| Serverless | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
-| ClickHouse | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| ScyllaDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| DGraph | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| Microservices | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12 factor ve Linkerd | Planlandı / evidence yok |
+| Serverless | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12 factor ve Linkerd | Planlandı / evidence yok |
+| ClickHouse | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| ScyllaDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| DGraph | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo 4 j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Migrations | Mor | Persistence standardı ve Day 8/26/28/78 | 10–11,29,37 | Derin ACID/normalization/EXPLAIN ve migration deneyleri | Planlandı / evidence yok |
 | System Design | Mavi | Day 8–45 | 01,09–13,19–24,49–64 | Kullanıcının ayrıca istediği System Design snapshot'ı [matriste](system-design-coverage.md) bütünüyle günlük görevlere bağlandı | Planlandı / evidence yok |
 | Claude Code | Mor | Formal AI scope yok | 40 | Claude Code + local Ollama gerçek görevlerle uygulanır; yeşil coding araçları comparison | Planlandı / evidence yok |
@@ -187,7 +187,7 @@ Sarı/mor/mavi konular yalnız comparison ile kapatılamaz. Öğrenme, temsilî 
 
 ## DevOps kapsam geçişi
 
-[DevOps matrisi](devops-coverage.md) yeni explicit kapsamdır. Backend required ürün/görevleri korunur; Day 78 dört roadmap ara checkpoint'i ve actual evidence/gap/istisna raporlaması yapar. Önceki “linked roadmap otomatik scope değildir” sınırı, kullanıcının DevOps'u ayrıca istemesiyle bu explicit kapsamı engellemez.
+[DevOps matrisi](devops-coverage.md) yeni explicit kapsamdır. Backend required ürün/görevleri korunur; Day 78 dört roadmap ara checkpoint'i ve gerçek kanıt/gap/istisna raporlaması yapar. Önceki “linked roadmap otomatik scope değildir” sınırı, kullanıcının DevOps'u ayrıca istemesiyle bu explicit kapsamı engellemez.
 
 
 ## Frontend genişletmesi sonrası nihai audit
@@ -198,3 +198,8 @@ Sarı/mor/mavi konular yalnız comparison ile kapatılamaz. Öğrenme, temsilî 
 ## Software Architect fazı sonrası nihai audit
 
 [Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.
+
+
+## Yeni explicit kapsam ve final gün güncellemesi — 2026-10-08
+
+[Software Design & Architecture](software-design-architecture-coverage.md) ayrıca 97 node scope'tur. Bu matristeki eski milestone/evidence owner'ları korunur. Day 48/64/78/99/117 kendi roadmap checkpoint'leridir; **[Day 131](../roadmap/day-131.md) yedi-roadmap final audit** yürürlüktedir. Emlak 85 günlük programı değişmez; yeni araç görevleri Planlandı'dır.

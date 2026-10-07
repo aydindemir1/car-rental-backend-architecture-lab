@@ -10,3 +10,8 @@ Completion report Day 48'de satır bazlı doldurulur. Comparison/Design Only kon
 
 
 Zorunlu sarı/mor/mavi bir konu Comparison veya Design Only ile tamamlanmış sayılamaz. Kapanış alanları: owner proje, milestone, öğrenme notu, uygulama dosyası/commit, başarı testi, hata testi ve evidence. Semantik seçim başlıkları uygulama sözleşmesinde açıklanır.
+
+
+## Yürürlükteki final audit
+
+Day 48/64/78/99/117 tarihsel kapsam checkpoint'leridir; [Day 131](../roadmap/day-131.md) yedi explicit roadmap için final audit'tir. [Software Design & Architecture97 node matrisi](software-design-architecture-coverage.md) ayrıca **Planlandı**.23 GoF/seçilmişPoSA/peer/plugin/blackboard/ORM/ES tasks bugün çalıştırılmış değildir; runtime ve case-validation kanıtları ayrı sayılır.

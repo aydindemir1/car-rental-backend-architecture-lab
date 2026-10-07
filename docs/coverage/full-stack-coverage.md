@@ -4,7 +4,7 @@ Kaynak: [roadmap.sh/full-stack](https://roadmap.sh/full-stack); snapshot tarihi 
 
 ## Envanter ve istisnalar
 
-Canlı snapshot 19 ana topic düğümü içerir; Node.js ve Basic AWS Services çıkarıldığında 17 zorunlu ana konu kalır. Bu sürümde topic/subtopic düğümlerinde mor/yeşil legend verisi bulunmuyor; renkli tik varmış gibi sınıflandırma yapılmaz. Bütün uygulanabilir ana konular, checkpoint'ler ve mavi Frontend/Backend/DevOps kutuları matrise alınır. Mavi AWS ve Route53/SES/EC2/VPC/S3 alt dalları Basic AWS Services istisnasıyla kapsam dışıdır.
+Canlı snapshot 19 ana topic düğümü içerir; Node.js ve Basic AWS Services çıkarıldığında 17 zorunlu ana konu kalır. Bu sürümde topic/subtopic düğümlerinde mor/yeşil legend verisi bulunmuyor; renkli tik varmış gibi sınıflandırma yapılmaz. Bütün uygulanabilir ana konular, checkpoint'ler ve mavi Frontend/Backend/DevOps kutuları matrise alınır. Mavi AWS ve Route 53/SES/EC 2/VPC/S 3 alt dalları Basic AWS Services istisnasıyla kapsam dışıdır.
 
 Node.js backend/framework/API geliştirme konusu yoktur. npm/Vite frontend tooling'in gerektirdiği yerel Node executable yalnız build/test aracıdır; Node.js backend öğrenildi veya kullanıldı olarak işaretlenmez. Java/Spring Boot/Spring Cloud backend kalır. Ücretli AWS/cloud hesapları açılmaz.
 
@@ -12,12 +12,12 @@ Node.js backend/framework/API geliştirme konusu yoktur. npm/Vite frontend tooli
 
 | Full Stack ana konusu | Emlak planı | Araç kiralama görevi | Kapanış kanıtı |
 |---|---|---|---|
-| HTML | Frontend yok | Day 04 | Semantic ekran/form ve keyboard/a11y test |
+| HTML | Frontend yok | Day 04 | Semantic ekran/form ve keyboard/a 11 y test |
 | CSS | Frontend yok | Day 05 | Responsive grid/flex ve focus durumları |
 | JavaScript | Backend Java | Day 06 | DOM/event/async/fetch/cancellation ve failure UX |
 | npm | Yok | Day 05 bootstrap + Day 06 kapsamlı | Manifest/lockfile/scripts, clean npm ci/build/test |
 | Tailwind CSS | Yok | Day 05 | Gerçek frontend compiled CSS, responsive/focus tests |
-| React | Yok | Day 06 + Day 45 | Component/state/forms/router/API entegrasyonu ve browser E2E |
+| React | Yok | Day 06 + Day 45 | Component/state/forms/router/API entegrasyonu ve browser E 2 E |
 | Git | Bütün günlerde | Bütün günlerde; Day 07 | Branch/commit/diff, review ve conflict resolution fixture |
 | GitHub | Bütün günlerde | Day 07,34 | PR/checks ve secretsız CI workflow |
 | Node.js | Kapsam dışı | Kapsam dışı | Java backend seçildi; CLI checkpoint Java ile |
@@ -43,8 +43,8 @@ Node.js backend/framework/API geliştirme konusu yoktur. npm/Vite frontend tooli
 | Frontend Apps | Araç 06,45 | React route/form/API portalı; unit ve browser testi |
 | CLI Apps | Araç 07 | Java/Spring Boot kısa bakım CLI'si; Node.js backend yerine geçmez |
 | Simple CRUD Apps | Araç 08,10–11 | MariaDB üzerinde Booking API CRUD/state guard; PostgreSQL ürünü emlakta |
-| Complete App | Araç 45 | Browser→edge→BFF/Gateway→canonical write→derived read gerçek E2E |
-| Deployment | Araç 14,31–32,35 | Nginx static portal ve local Docker/K8s; AWS deploy yok |
+| Complete App | Araç 45 | Browser→edge→BFF/Gateway→canonical write→derived read gerçek E 2 E |
+| Deployment | Araç 14,31–32,35 | Nginx static portal ve local Docker/K 8 s; AWS deploy yok |
 | Automation | Emlak 63–65 + Araç 34–35 | Idempotent host/IaC + CI/GitOps; evidence referansları |
 | Monitoring | Araç 36,46 | OTel dashboard ve Monit bounded host checks; farklı görevler |
 | CI/CD | Araç 34–35 | GitHub Actions/Flux commit→artifact→local deployment zinciri |
@@ -82,3 +82,8 @@ Day 48 bu Full Stack kapsamının ara kontrolü olarak korunur; araç programın
 ## Software Architect fazı sonrası nihai audit
 
 [Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.
+
+
+## Yeni explicit kapsam ve final gün güncellemesi — 2026-10-08
+
+[Software Design & Architecture](software-design-architecture-coverage.md) ayrıca 97 node scope'tur. Bu matristeki eski milestone/evidence owner'ları korunur. Day 48/64/78/99/117 kendi roadmap checkpoint'leridir; **[Day 131](../roadmap/day-131.md) yedi-roadmap final audit** yürürlüktedir. Emlak 85 günlük programı değişmez; yeni araç görevleri Planlandı'dır.

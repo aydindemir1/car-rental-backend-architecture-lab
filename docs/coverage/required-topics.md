@@ -59,7 +59,7 @@ Kullanıcı ölçütü: sarı ana başlıklar, mor tikli alt başlıklar ve mavi
 - Nginx
 - Redis
 - MongoDB
-- Neo4j
+- Neo 4 j
 - Graceful Degradation
 - Throttling
 - Backpressure
@@ -68,7 +68,7 @@ Kullanıcı ölçütü: sarı ana başlıklar, mor tikli alt başlıklar ve mavi
 - Instrumentation
 - Monitoring
 - Telemetry
-- MD5
+- MD 5
 - SHA
 - scrypt
 - bcrypt
@@ -122,3 +122,8 @@ Kaynak: [roadmap.sh/backend](https://roadmap.sh/backend). Renkler öneri/alterna
 ## Uygulama yükümlülüğü
 
 Bu envanter yalnız not listesi değildir. Her zorunlu konu için [uygulama sözleşmesi](mandatory-implementation-contract.md) ve iki proje matrisindeki milestone uygulanır. Yeşil alternatiflerden seçilenler ayrı runtime deneyleri içerir. “Bir dil seç” başlığı Java ile karşılanır; diğer dil seçenekleri kendiliğinden zorunlu değildir.
+
+
+## Ek explicit roadmap — Software Design & Architecture
+
+[Software Design & Architecture matrisi](software-design-architecture-coverage.md)13 topic/81 subtopic/3 renkli roadmap kutusu ile ek kapsamdır. Kaynakta mor/yeşil legend yoktur; bütün alt konular learning/kod/test günlük sahibine bağlanır. Önceki bölümler Backend envanteridir; bu yeni matris onların yerine geçmez. Day 117 ara checkpoint; Day 131 yedi-roadmap final audit. Emlak 85 gün değişmez.

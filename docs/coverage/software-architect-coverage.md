@@ -14,9 +14,9 @@ Kaynak: [roadmap.sh/software-architect](https://roadmap.sh/software-architect), 
 
 Gri `roadmap.sh` navigasyonu eğitim konusu değildir. Aynı Tools label'ı iki ayrı topic'te korunur. Bu roadmap'te green/purple metadata olmadığı için zorunlu tüm language/vendor seçeneklerini birlikte kurma yükümlülüğü çıkarılmaz; her alt konu yine owner/status'a bağlıdır.
 
-**Planlandı.** Kod/case evidence henüz yok. Emlak `docs/backend-roadmap-design` HEAD `a84beefb0d8d932a01056fbd4542910856129a28` planı okunmuş, değiştirilmemiştir. Mevcut emlak backend/architecture/DevOps ve araç Day 01–98 işleri actual evidence ile yeniden kullanılabilir. Day 99 önceki beş roadmap ara checkpoint; Day 100–116 ek deneyler; Day 117 altı roadmap nihai audit.
+**Planlandı.** Kod/case evidence henüz yok. Emlak `docs/backend-roadmap-design` HEAD `a84beefb0d8d932a01056fbd4542910856129a28` planı okunmuş, değiştirilmemiştir. Mevcut emlak backend/architecture/DevOps ve araç Day 01–98 işleri gerçek kanıt ile yeniden kullanılabilir. Day 99 önceki beş roadmap ara checkpoint; Day 100–116 ek deneyler; Day 117 altı roadmap nihai audit.
 
-Teknik konunun evidence'ı gerçek implementation/runtime success/failure/recovery'dir. Communication/framework/management konusunun evidence'ı gerçek proje case artifact'ı, scenario evaluation, reviewer rubric, feedback ve revision'dır. **Case Applied ≠ teknik ürün Implemented/Verified**. Okuma veya method adı vaka uygulaması sayılmaz; teknik ürün yalnız ADR ile kapatılamaz. [Uygulama sözleşmesi](mandatory-implementation-contract.md).
+Teknik konunun evidence'ı gerçek implementation/runtime başarı/hata/toparlanma'dir. Communication/framework/management konusunun evidence'ı gerçek proje case artifact'ı, scenario evaluation, reviewer rubric, feedback ve revision'dır. **Case Applied ≠ teknik ürün Implemented/Verified**. Okuma veya method adı vaka uygulaması sayılmaz; teknik ürün yalnız ADR ile kapatılamaz. [Uygulama sözleşmesi](mandatory-implementation-contract.md).
 
 ## 18 ana topic
 
@@ -45,23 +45,23 @@ Teknik konunun evidence'ı gerçek implementation/runtime success/failure/recove
 
 | Day | Milestone | Doğrulama |
 |---|---|---|
-| [100](../roadmap/day-100.md) | Mimari seviyeler, sorumluluklar ve kalite senaryoları | Üç seviyenin kapsamı/owner'ı tutarlı; en az bir requirement→karar→kod/konfigürasyon→test trace'i çalışır. Değişen requirement'ın failure/capacity etkisi gerçek evidence'a bağlıdır. |
+| [100](../roadmap/day-100.md) | Mimari seviyeler, sorumluluklar ve kalite senaryoları | Üç seviyenin kapsamı/owner'ı tutarlı; en az bir requirement→karar→kod/konfigürasyon→test trace'i çalışır. Değişen requirement'ın failure/capacity etkisi gerçek kanıta bağlıdır. |
 | [101](../roadmap/day-101.md) | Karar verme, iletişim, coaching ve tahmin | Review rubric'ine göre requirement, anlaşılabilirlik, seçenek/risk ve ölçülebilir acceptance kontrol edilir; feedback/revision izi vardır. Küçük görev actual effort ve regression evidence'ı üretir; simplification sonrası contract korunur. |
 | [102](../roadmap/day-102.md) | Dil/paradigma seçimi ve karşılaştırmalı kod | Pure transform edge case ve API error contract Java/Kotlin fixture'ında doğrulanır. Python/Go/JS/TS mevcut runtime evidence'ı bağlıdır; C# yapılırsa version/runtime ve compatibility sınırlaması ayrı gösterilir. |
 | [103](../roadmap/day-103.md) | OOP, SOLID, DDD, TDD ve presentation pattern'leri | Aggregate invariant ve architecture dependency rule gerçek testte korunur; deliberately broken boundary gate'i kırar. TDD commit izi ve üç presentation pattern'inin gerçek kullanıcı/state davranışı kanıtlıdır. |
 | [104](../roadmap/day-104.md) | Mimari stiller ve seçim koşulları | Her seçilmiş style gerçek code/runtime fixture ve failure sınırıyla ilişkilidir. Style değiştirme/extraction sonrası API/domain invariant ve rollback/recovery korunur. |
-| [105](../roadmap/day-105.md) | Actors: Apache Pekko ile concurrency ve supervision | Mailbox overflow/deadline/supervision/restart davranışı actual runtime'da gözlenir. Duplicate iş yan etkisi durable owner'da idempotenttir; actor crash sonrası replay/result sınırı açık ve testlidir. |
-| [106](../roadmap/day-106.md) | Mimari dokümantasyon ve UML | Diagram/call/owner ilişkisi actual runtime trace ve architecture test ile uyumludur. Requirement/evidence link kontrolü ve review feedback/revision çıktıları tekrarlanabilir. |
+| [105](../roadmap/day-105.md) | Actors: Apache Pekko ile concurrency ve supervision | Mailbox overflow/deadline/supervision/restart davranışı gerçek runtime'da gözlenir. Duplicate iş yan etkisi durable owner'da idempotenttir; actor crash sonrası replay/result sınırı açık ve testlerle doğrulanmışdir. |
+| [106](../roadmap/day-106.md) | Mimari dokümantasyon ve UML | Diagram/call/owner ilişkisi gerçek runtime trace ve architecture test ile uyumludur. Requirement/evidence link kontrolü ve review feedback/revision çıktıları tekrarlanabilir. |
 | [107](../roadmap/day-107.md) | BABOK, TOGAF ve IAF ile mimari case | Need→requirement→target decision→transition/test trace'i reviewer rubric'iyle denetlenir. Gap/change senaryosu artifact ve actual teknik proof-of-concept'te tutarlı sonuç üretir; erişim sınırı saklanmaz. |
 | [108](../roadmap/day-108.md) | Yönetim yaklaşımları ve teslimat simülasyonu | WIP/dependency/blocked-item senaryosu decision/lead-time çıktısı ve improvement trace üretir. Actual küçük release ve incident evidence'ı yönetim case'ine bağlıdır; simüle/gerçek ölçüm ayrımı açıktır. |
 | [109](../roadmap/day-109.md) | Spark, ETL ve data warehouse tasarımı | Duplicate/late/malformed record ve restart sonrası aggregate doğru, load idempotenttir. Warehouse grain/lineage/source-of-truth ve schema evolution contract'ı test edilir; local Spark job evidence vardır. |
-| [110](../roadmap/day-110.md) | Hadoop, HDFS ve MapReduce lab'ı | Java MapReduce local job'u actual output üretir ve Spark fixture sonucu ile eşleşir. HDFS kullanıldı iddiası ancak daemon/file operation evidence'ıyla yapılır; failure/rerun davranışı testlidir. |
-| [111](../roadmap/day-111.md) | ESB, SOAP, BPM ve BPEL sınırları | Camel SOAP mapping/error/recovery ve Flowable BPMN process restart actual evidence üretir. Duplicate process trigger logical işi çoğaltmaz; BPEL Design Only/runtime sınırı matriste ayrı görünür. |
-| [112](../roadmap/day-112.md) | Microfrontends, reactive ve web standartları | İki UI artifact'ı bağımsız deploy/rollback ve remote failure testine sahiptir; auth/a11y boundary korunur. Reactive backpressure/cancel ve selected browser standard behavior actual evidence ile doğrulanır. |
+| [110](../roadmap/day-110.md) | Hadoop, HDFS ve MapReduce lab'ı | Java MapReduce local job'u actual output üretir ve Spark fixture sonucu ile eşleşir. HDFS kullanıldı iddiası ancak daemon/file operation evidence'ıyla yapılır; failure/rerun davranışı testlerle doğrulanmışdir. |
+| [111](../roadmap/day-111.md) | ESB, SOAP, BPM ve BPEL sınırları | Camel SOAP mapping/error/recovery ve Flowable BPMN process restart gerçek kanıt üretir. Duplicate process trigger logical işi çoğaltmaz; BPEL Design Only/runtime sınırı matriste ayrı görünür. |
+| [112](../roadmap/day-112.md) | Microfrontends, reactive ve web standartları | İki UI artifact'ı bağımsız deploy/rollback ve remote failure testine sahiptir; auth/a 11 y boundary korunur. Reactive backpressure/cancel ve selected browser standard behavior gerçek kanıt ile doğrulanır. |
 | [113](../roadmap/day-113.md) | Security, network ve operasyon mimarisi audit'i | PKI wrong trust/hostname/rotation ve firewall/authorization failure actual local runtime'da doğrulanır. Operation audit owner/evidence drift'i bulup düzeltir; provider istisnası full Verified'e karıştırılmaz. |
 | [114](../roadmap/day-114.md) | Enterprise Software ve ücretsiz entegrasyon case'i | Actual OSS reference API sync/reconciliation ve schema/auth/outage recovery evidence'ı vardır. Commercial vendor comparison/gap ve uygulanan OSS capability ayrı raporlanır; external system canonical booking owner olmaz. |
 | [115](../roadmap/day-115.md) | Mimari çalışma araçları ve collaboration | Decision→issue/ADR→commit→test/evidence trace çalışır ve broken link review'da bulunur. Permission/account sınırları açık; comparison ve actual collaboration tool kullanımı ayrı status'tadır. |
-| [116](../roadmap/day-116.md) | Architecture evaluation ve fitness function'ları | Deliberate architecture drift/contract break gate'i kırar; düzeltme sonrası regression başarılıdır. Risk/trade-off kararı gerçek evidence'a dayanır; case review ve runtime doğrulaması ayrı raporlanır. |
+| [116](../roadmap/day-116.md) | Architecture evaluation ve fitness function'ları | Deliberate architecture drift/contract break gate'i kırar; düzeltme sonrası regression başarılıdır. Risk/trade-off kararı gerçek kanıta dayanır; case review ve runtime doğrulaması ayrı raporlanır. |
 | [117](../roadmap/day-117.md) | Altı roadmap ve iki proje final audit | Altı roadmap'te required ownersız satır yok; evidence veya explicit gap/istisna ve kapanış ölçütü var. Runtime, case-validation, Comparison ve vendor access statüleri birbirine karıştırılmadan tekrar üretilebilir final rapor teslim edilir. |
 
 ## 117 düğümün tam eşleştirmesi
@@ -144,7 +144,7 @@ Day dosyaları concrete görev, aday dosya, commit sırası ve kapanış ölçü
 | `mCiYCbKIOVU34qil_q7Hg` | Tiksiz alt konu | React, Vue, Angular | Araç Day 83/91–97 | [Day 112](../roadmap/day-112.md) | Planlandı / technical runtime evidence yok |
 | `ulwgDCQi_BYx5lmll7pzU` | Tiksiz alt konu | SPA, SSR, SSG | Araç Day 83/91–97 | [Day 112](../roadmap/day-112.md) | Planlandı / technical runtime evidence yok |
 | `vpko5Kyf6BZ5MHpxXOKaf` | Tiksiz alt konu | Microfrontends | Yeni vaka/teknik spike veya açık access scope | [Day 112](../roadmap/day-112.md) | Planlandı / technical runtime evidence yok |
-| `s0RvufK2PLMXtlsn2KAUN` | Tiksiz alt konu | W3C and WHATWG | Yeni vaka/teknik spike veya açık access scope | [Day 112](../roadmap/day-112.md) | Planlandı / technical runtime evidence yok |
+| `s0RvufK2PLMXtlsn2KAUN` | Tiksiz alt konu | W 3 C and WHATWG | Yeni vaka/teknik spike veya açık access scope | [Day 112](../roadmap/day-112.md) | Planlandı / technical runtime evidence yok |
 | `C0g_kQFlte5siHMHwlHQb` | Tiksiz alt konu | Reactive Programming | Emlak Day 38; araç frontend/stream | [Day 112](../roadmap/day-112.md) | Planlandı / technical runtime evidence yok |
 | `hjlkxYZS7Zf9En3IUS-Wm` | Sarı ana topic | Frameworks | Yeni vaka/teknik spike veya açık access scope | [Day 107](../roadmap/day-107.md) | Vaka planlandı / review-revision evidence yok |
 | `LQlzVxUxM3haWRwbhYHKY` | Tiksiz alt konu | BABOK | Yeni vaka/teknik spike veya açık access scope | [Day 107](../roadmap/day-107.md) | Vaka planlandı / review-revision evidence yok |
@@ -154,7 +154,7 @@ Day dosyaları concrete görev, aday dosya, commit sırası ve kapanış ölçü
 | `UyIwiIiKaa6LTQaqzbCam` | Sarı ana topic | Management | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
 | `hRug9yJKYacB9X_2cUalR` | Tiksiz alt konu | PMI | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
 | `Rq1Wi-cHjS54SYo-Btp-e` | Tiksiz alt konu | ITIL | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
-| `SJ5lrlvyXgtAwOx4wvT2W` | Tiksiz alt konu | Prince2 | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
+| `SJ5lrlvyXgtAwOx4wvT2W` | Tiksiz alt konu | Prince 2 | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
 | `7rudOREGG-TTkCosU0hNw` | Tiksiz alt konu | RUP | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
 | `qwpsGRFgzAYstM7bJA2ZJ` | Tiksiz alt konu | LeSS | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
 | `Bg7ru1q1j6pNB43HGxnHT` | Tiksiz alt konu | SaFE | Yeni vaka/teknik spike veya açık access scope | [Day 108](../roadmap/day-108.md) | Vaka planlandı / review-revision evidence yok |
@@ -202,4 +202,9 @@ Day dosyaları concrete görev, aday dosya, commit sırası ve kapanış ölçü
 
 ## Nihai gate
 
-Day 117 altı matristeki required konuları owner, learning/case note, implementation SHA veya case revision, source/version ve anlamlı validation evidence ile denetler. Technical Verified, Case Applied, Partial, Comparison, Design Only ve Access Gap ayrı sayılır. Bütün vendor/dil ürünleri literal uygulandı veya eğitim simülasyonu gerçek enterprise tecrübesi iddiası yapılmaz.
+Day 117 altı matristeki required konuları owner, learning/case note, implementation SHA veya case revision, kaynak/sürüm ve anlamlı validation evidence ile denetler. Technical Verified, Case Applied, Partial, Comparison, Design Only ve Access Gap ayrı sayılır. Bütün vendor/dil ürünleri literal uygulandı veya eğitim simülasyonu gerçek enterprise tecrübesi iddiası yapılmaz.
+
+
+## Yeni explicit kapsam ve final gün güncellemesi — 2026-10-08
+
+[Software Design & Architecture](software-design-architecture-coverage.md) ayrıca 97 node scope'tur. Bu matristeki eski milestone/evidence owner'ları korunur. Day 48/64/78/99/117 kendi roadmap checkpoint'leridir; **[Day 131](../roadmap/day-131.md) yedi-roadmap final audit** yürürlüktedir. Emlak 85 günlük programı değişmez; yeni araç görevleri Planlandı'dır.

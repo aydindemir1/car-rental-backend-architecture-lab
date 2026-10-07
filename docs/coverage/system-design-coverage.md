@@ -60,7 +60,7 @@ Bu üç bağlantının konusu uygulanır; başka linked roadmap'in bütün alt d
 | [50](../roadmap/day-50.md) | Weak, eventual ve strong consistency deneyleri | Weak sayaç kaybı yalnız izin verilen non-critical veride görülür. Aynı araca çakışan iki kesinleşmiş booking oluşmaz; stale projection toparlanır; freshness isteyen read stale replica'ya sessiz yönlenmez. |
 | [51](../roadmap/day-51.md) | Failover, replication ve leader election | Yeni lider devralır; stale liderin fenced işi kabul edilmez. Promotion sırasında acknowledged veri kaybı/lag ve downtime ölçülür; seçilen asynchronous replication için RPO=0 varsayılmaz. |
 | [52](../roadmap/day-52.md) | DNS, pull/push CDN ve static hosting | Pull cold/hot isteklerinde origin hit sayısı değişir; push edge doğru hash'li artifact'ı sunar. TTL/NXDOMAIN ve private response testleri beklenen sonucu verir; rollout sonrası eski/yeni asset davranışı kaydedilir. |
-| [53](../roadmap/day-53.md) | L4/L7 load balancing ve horizontal scaling | Her algoritmada backend dağılımı gerçek sayımla raporlanır; eşit trafik beklentisinin koşulları yazılır. Unhealthy backend çıkarılır; session ve in-flight istek davranışı, toparlanma ve kaynak bütçesi belgelenir. |
+| [53](../roadmap/day-53.md) | L 4/L 7 load balancing ve horizontal scaling | Her algoritmada backend dağılımı gerçek sayımla raporlanır; eşit trafik beklentisinin koşulları yazılır. Unhealthy backend çıkarılır; session ve in-flight istek davranışı, toparlanma ve kaynak bütçesi belgelenir. |
 | [54](../roadmap/day-54.md) | Cache katmanları ve yazma stratejileri | Her strateji için success, cache loss, stale read ve invalidation sonucu ayrı ölçülür. Write-behind durable kabulü crash sonrası geri gelir; booking invariant cache kaybında korunur; private response sızmaz. |
 | [55](../roadmap/day-55.md) | Background jobs, back pressure ve supervisor | 202 ile kabul edilen işin durum/sonucu restart sonrası bulunur; yetkisiz polling reddedilir. Stalled agent devralınır; duplicate tetik bir logical job üretir; overload sınırsız bellek/sonsuz retry oluşturmaz. |
 | [56](../roadmap/day-56.md) | TCP/UDP, RPC ve API iletişim sözleşmeleri | TCP frame sınırları/partial read ve UDP kayıp sırası gözlenir; public port veya dış hedef gerekmez. Retry booking'i çoğaltmaz; farklı payload aynı key ile reddedilir; her API'de yetkisiz/timeout isteği doğru sonlanır. |
@@ -71,7 +71,7 @@ Bu üç bağlantının konusu uygulanır; başka linked roadmap'in bütün alt d
 | [61](../roadmap/day-61.md) | Reliability, resiliency ve gözlemlenebilirlik | Bulkhead bir dependency hatasını sınırlar; retry budget/circuit recovery ölçülür; compensation tekrarında çift yan etki yoktur. Beş monitoring türü için gerçek sinyal ve test alert'i oluşur/çözülür; probe sonucu domain invariant testiyle birlikte değerlendirilir. |
 | [62](../roadmap/day-62.md) | Availability, deployment stamps ve geodes | Bir tenant stamp hatası diğer tenant'ı etkilemez; misrouting testi veri sızıntısını engeller. İki geode read dataset'i converge eder; owner kesintisinde çakışan write kabul edilmez; RPO/RTO ve freshness sınırı ölçülür. |
 | [63](../roadmap/day-63.md) | Federated identity, Gatekeeper ve Valet Key | Federation sonunda doğru principal/scope oluşur; yanlış issuer/audience ve yetkisiz edge bypass reddedilir. Valet Key sadece izinli object/action için çalışır; expiry/tamper/size/replay testleri ve cleanup kanıtlıdır. |
-| [64](../roadmap/day-64.md) | Üç roadmap ve iki proje final audit | Her zorunlu kapsam satırının implementation/runtime kanıtı vardır ya da explicit gap'tir; gap varken tamamlama iddiası yapılmaz. E2E ve restore sonrası domain invariant korunur; deployment, versiyon ve ölçüm tekrar üretilebilir. |
+| [64](../roadmap/day-64.md) | Üç roadmap ve iki proje final audit | Her zorunlu kapsam satırının implementation/runtime kanıtı vardır ya da explicit gap'tir; gap varken tamamlama iddiası yapılmaz. E 2 E ve restore sonrası domain invariant korunur; deployment, versiyon ve ölçüm tekrar üretilebilir. |
 
 ## Düğüm bazında tam eşleştirme
 
@@ -121,7 +121,7 @@ Aşağıdaki Day bağlantısı yalnız genel bir başlık değildir: ilgili gün
 | `KFtdmmce4bRkDyvFXZzLN` | Alt konu (tik metadata yok) | Key-Value Store | Emlak Redis Day 13; araç Memcached Day 15 | [Day 57](../roadmap/day-57.md) | Planlandı |
 | `didEznSlVHqqlijtyOSr3` | Alt konu (tik metadata yok) | Document Store | Emlak MongoDB Day 11; araç CouchDB Day 22 | [Day 57](../roadmap/day-57.md) | Planlandı |
 | `WHq1AdISkcgthaugE9uY7` | Alt konu (tik metadata yok) | Wide Column Store | Emlak Cassandra Day 10/20; evidence yoksa araç Day 57 fixture | [Day 57](../roadmap/day-57.md) | Planlandı |
-| `6RLgnL8qLBzYkllHeaI-Z` | Alt konu (tik metadata yok) | Graph Databases | Araç Neo4j Day 19 | [Day 57](../roadmap/day-57.md) | Planlandı |
+| `6RLgnL8qLBzYkllHeaI-Z` | Alt konu (tik metadata yok) | Graph Databases | Araç Neo 4 j Day 19 | [Day 57](../roadmap/day-57.md) | Planlandı |
 | `-X4g8kljgVBOBcf1DDzgi` | Ana konu (topic) | Caching | Emlak Redis Day 13; araç HTTP/Memcached Day 15 | [Day 54](../roadmap/day-54.md) | Planlandı |
 | `Bgqgl67FK56ioLNFivIsc` | Alt konu (tik metadata yok) | Refresh Ahead | Mevcut temel görevler üzerinde açık System Design deneyi | [Day 54](../roadmap/day-54.md) | Planlandı |
 | `vNndJ-MWetcbaF2d-3-JP` | Alt konu (tik metadata yok) | Write-behind | Mevcut temel görevler üzerinde açık System Design deneyi | [Day 54](../roadmap/day-54.md) | Planlandı |
@@ -234,14 +234,14 @@ Aşağıdaki Day bağlantısı yalnız genel bir başlık değildir: ilgili gün
 
 - Önceki Java/Spring Boot/Spring Cloud/Docker/Kubernetes ekseni, canonical veri sahipliği ve seçilmiş alternatifler korunur. Aynı capability için yalnız ürün çeşitliliği amacıyla competing owner/controller kurulmaz.
 - Emlak Cassandra wide-column, MongoDB document, Redis key-value ve Event Sourcing/CQRS planları evidence ile karşılanır. Evidence eksikse araç Day 57/60'taki conditional gerçek implementation görevi çalıştırılır; comparison ile kapanmaz.
-- CoreDNS yerel DNS deneyi; HAProxy izole L4; mevcut Nginx L7/edge/static içerik deneyidir. Bunlar farklı responsibility profilleridir. Güncel compatibility/license uygulama sırasında kontrol edilir.
+- CoreDNS yerel DNS deneyi; HAProxy izole L 4; mevcut Nginx L 7/edge/static içerik deneyidir. Bunlar farklı responsibility profilleridir. Güncel compatibility/license uygulama sırasında kontrol edilir.
 - Cloud design pattern isimleri Azure/AWS/GCP hesabı veya ücretli ürün zorunluluğu değildir. Geodes/stamps iki local kurulum; CDN yerel origin/edge; leader seçim local Lease + durable fencing deneyidir. Aynı host/cluster, bağımsız coğrafi/fiziksel fault domain değildir.
 - Geode lab'ı shared read dataset ve tek canonical write owner kullanır; multi-region active-active güçlü tutarlı write veya production SLA/scale doğrulanmış sayılmaz.
 - Yeşil alternatif ürünler varsa requirement'a göre seçilir; Backend matrisindeki seçilmiş MariaDB/Memcached/Solr/SQLite/TimescaleDB/CouchDB uygulama görevleri korunur. Bu System Design snapshot'ında olmayan yeşil tik listesi uydurulmaz.
 
 ## Final gate
 
-Day 64 ara checkpoint ve Day 78 final audit'te 150 düğümün her biri öğrenme notu, owner, implementation commit, runtime success/failure/recovery evidence ve local sınırı ile denetlenir. Requirement/capacity değerlendirmesi gibi kavramlar gerçek proje ölçümü/deneyiyle doğrulanır; sırf kod satırı yazmak her kavramın öğrenildiğini göstermez. Açık gap varken bütün kapsam tamamlandı denmez.
+Day 64 ara checkpoint ve Day 78 final audit'te 150 düğümün her biri öğrenme notu, owner, implementation commit, runtime başarı/hata/toparlanma evidence ve local sınırı ile denetlenir. Requirement/capacity değerlendirmesi gibi kavramlar gerçek proje ölçümü/deneyiyle doğrulanır; sırf kod satırı yazmak her kavramın öğrenildiğini göstermez. Açık gap varken bütün kapsam tamamlandı denmez.
 
 
 ## DevOps genişletmesi sonrası final sahiplik
@@ -257,3 +257,8 @@ System Design günlük görevleri/150 eşleştirme korunur. [DevOps kapsamı](de
 ## Software Architect fazı sonrası nihai audit
 
 [Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.
+
+
+## Yeni explicit kapsam ve final gün güncellemesi — 2026-10-08
+
+[Software Design & Architecture](software-design-architecture-coverage.md) ayrıca 97 node scope'tur. Bu matristeki eski milestone/evidence owner'ları korunur. Day 48/64/78/99/117 kendi roadmap checkpoint'leridir; **[Day 131](../roadmap/day-131.md) yedi-roadmap final audit** yürürlüktedir. Emlak 85 günlük programı değişmez; yeni araç görevleri Planlandı'dır.

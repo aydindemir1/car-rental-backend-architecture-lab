@@ -52,7 +52,7 @@ Pattern'lerin yerel eğitim adaptasyonu, tüm cloud ürün özelliklerini veya f
 - [Emlak onaylı DevOps programı](https://github.com/aydindemir1/real-estate-backend-architecture-lab/blob/docs/backend-roadmap-design/docs/DEVOPS-ENGINEERING-PLAN.md)
 - [Python](https://docs.python.org/3/), [Go](https://go.dev/doc/), [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/)
 - [GitLab local Docker installation](https://docs.gitlab.com/install/docker/)
-- [CircleCI CLI migration](https://circleci.com/docs/guides/toolkit/cli-migration-guide/) — v1 local execute kaldırıldı; local validation actual managed pipeline değildir.
+- [CircleCI CLI migration](https://circleci.com/docs/guides/toolkit/cli-migration-guide/) — v 1 local execute kaldırıldı; local validation actual managed pipeline değildir.
 - [Artifactory OSS](https://jfrog.com/community/download-artifactory-oss/) ve [self-managed release erişimi](https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases)
 - [Consul service mesh](https://developer.hashicorp.com/consul/docs/connect)
 - [Vault ESO provider](https://external-secrets.io/latest/provider/hashicorp-vault/), [SOPS](https://getsops.io/)
@@ -98,3 +98,16 @@ Sürüm/security/license ve runtime/browser compatibility uygulama gününde do�
 - [ERPNext/Frappe REST API](https://docs.frappe.io/framework/user/en/api/rest), [Paperless-ngx REST API](https://docs.paperless-ngx.com/api/)
 
 Public kaynaktaki overview ile tüm telifli standard/yönteme erişim farklıdır. Version/licence/access/runtime uyumluluğu uygulama gününde kontrol edilir; sertifikasyon/evaluation/license agreement kullanıcı adına otomatik kabul edilmez. Teknik ürün, model/case ve access gap evidence'ı ayrı tutulur.
+
+
+## Software Design & Architecture kaynakları — 2026-10-08
+
+- [Canlı roadmap](https://roadmap.sh/software-design-architecture) — graph snapshot 97 educational occurrence; mor/yeşil tik metadata'sı yok.
+- [GoF — yayıncı kitabı](https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610) — pattern isim/kapsam kaynağı; kitap satın alma zorunluluğu veya metni repoya kopyalama yok.
+- [PoSA 2 — yazarların pattern kataloğu](https://www.dre.vanderbilt.edu/~schmidt/POSA/POSA2/) ve [event handling ayrımı](https://www.dre.vanderbilt.edu/~schmidt/POSA/POSA2/event-patterns.html) — seçilmiş pattern ailesi kapsamı; tüm volume'lar bitirildi iddiası yok.
+- [Enterprise pattern kataloğu](https://martinfowler.com/eaaCatalog/index.html), [Identity Map](https://martinfowler.com/eaaCatalog/identityMap.html), [Unit of Work](https://martinfowler.com/eaaCatalog/unitOfWork.html), [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) — primaryauthor kaynakları.
+- [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) — replay/state ve external effects sınırı.
+- [ServiceLoader Java API](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/ServiceLoader.html) — JVMplugin/SPI profili; uygulama gününde kullanılan Java sürümünün API'ı doğrulanır.
+- [Hibernate ORM User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html) — persistence context/flush/dirty checking/locking; gün başında seçilmiş Spring BOM ile uyumlu sürüm pin edilir.
+
+Kaynak öğrenme için; satın alma/ücretli eğitim/certification/trial/account/license kabulü otomatik değildir. Kaynak/sürüm scope gerçek kanıtla raporlanır.

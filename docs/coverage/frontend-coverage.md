@@ -62,13 +62,13 @@ Emlak frontend içermez; 85 günlük planı büyütülmez. Çoğu frontend sahib
 | [81](../roadmap/day-81.md) | JavaScript ve browser Web APIs | Eski/cancelled request yeni UI sonucunu ezmez; event/observer/worker unmount sonrası temizlenir. Storage quota/permission/unsupported API ve offline durumunda kontrollü fallback vardır. |
 | [82](../roadmap/day-82.md) | TypeScript ve runtime contract sınırları | Kasıtlı type error gate'i kırar; malformed API payload runtime'da reddedilir. Loading/success/error union'ları exhaustiveness kontrolüne sahiptir; browser artifact'ta server credential yoktur. |
 | [83](../roadmap/day-83.md) | React uygulama mimarisi ve route/state tasarımı | Deep link/back/forward ve hızlı filtre değişimi tutarlı state üretir. Route/error/unmount ve yetkisiz akışlarda resource cleanup ve backend authorization korunur. |
-| [84](../roadmap/day-84.md) | npm, pnpm, yarn ve Bun paket deneyleri | Dört uygun profil fixture'ı build eder veya explicit compatibility gap kaydeder; geçerli lockfile ve clean install testlidir. Hatalı lock/dependency CI gate'ini kırar; secret veya generated dependency tree Git'e taşınmaz. |
+| [84](../roadmap/day-84.md) | npm, pnpm, yarn ve Bun paket deneyleri | Dört uygun profil fixture'ı build eder veya explicit compatibility gap kaydeder; geçerli lockfile ve clean install testlerle doğrulanmışdir. Hatalı lock/dependency CI gate'ini kırar; secret veya generated dependency tree Git'e taşınmaz. |
 | [85](../roadmap/day-85.md) | Vite, esbuild ve bundler/compiler lab'ı | Her seçilmiş araç için gerçek transform/bundle artifact ve browser runtime sonucu vardır. Broken chunk/env/source-map ve incompatible config testleri kontrollü hata üretir; build ölçüm koşulları sabittir. |
 | [86](../roadmap/day-86.md) | ESLint, Prettier ve Biome kalite gate'leri | Kasıtlı bug/format ihlali doğru gate'i kırar; düzeltme sonrası gate geçer. Biome karşılaştırması gerçek output ile kaydedilir; ana repo tek formatting policy'ye sahiptir. |
-| [87](../roadmap/day-87.md) | Vitest, Playwright ve test alternatifleri | Kasıtlı validation/auth/idempotency regression testleri kırar; gerçek Java integration ayrı evidence'a sahiptir. Dört ürünün seçilmiş gerçek test koşusu kayıtlıdır; flaky retry bug'ı sessiz gizlemez. |
+| [87](../roadmap/day-87.md) | Vitest, Playwright ve test alternatifleri | Kasıtlı validation/auth/idempotency regression testleri kırar; gerçek Java integration ayrı kanıta sahiptir. Dört ürünün seçilmiş gerçek test koşusu kayıtlıdır; flaky retry bug'ı sessiz gizlemez. |
 | [88](../roadmap/day-88.md) | Design System ve Web Components | Design system component'leri keyboard/screen reader testine sahiptir. Web Component template/shadow/style/event/lifecycle davranışı gerçek React browser integration'da çalışır. |
 | [89](../roadmap/day-89.md) | Frontend authentication ve web security | Unauthorized/expired session/CSRF/origin/XSS fixture'ları beklenen 401/403/block davranışını üretir. Cross-user cache/token disclosure oluşmaz; Java backend authorization browser guard bypass'ta da çalışır. |
-| [90](../roadmap/day-90.md) | GraphQL: Apollo ve Relay Modern | Apollo pagination/cache/auth ve server error gerçek Java API'da doğrulanır. Relay compiler/read UI runtime ve schema drift gate'i actual evidence'a sahiptir. |
+| [90](../roadmap/day-90.md) | GraphQL: Apollo ve Relay Modern | Apollo pagination/cache/auth ve server error gerçek Java API'da doğrulanır. Relay compiler/read UI runtime ve schema drift gate'i actual kanıta sahiptir. |
 | [91](../roadmap/day-91.md) | Next.js ile gerçek SSR ve Node render sınırı | Java read fixture request-time değişince SSR initial HTML değişir; JS kapalıyken public veri görünür. Hydration/streaming ve SSR failure/recovery gerçek runtime'da gözlenir; cross-user credential/cache sızıntısı yoktur. |
 | [92](../roadmap/day-92.md) | TanStack Start ile SSR/streaming karşılaştırması | TanStack Start initial HTML/hydration/request-time read gerçek runtime'da çalışır. Client disconnect/upstream error sonrası renderer cleanup olur; streaming beklenen zaman/byte davranışını gösterir. |
 | [93](../roadmap/day-93.md) | Astro, SSG ve statik içerik modelleri | Astro/Next export/Eleventy/VuePress artifact'ı clean build ve local web server'da çalışır. Build sonrası API verisi değişince statik içerik otomatik güncelmiş gibi davranmaz; private veri artifact'a girmez. |
@@ -77,11 +77,11 @@ Emlak frontend içermez; 85 günlük planı büyütülmez. Çoğu frontend sahib
 | [96](../roadmap/day-96.md) | Frontend deployment ve hosting kapsamı | Local static/SSR deploy, deep link/asset/cache/rollback gerçek browser'da doğrulanır. Pages actual deploy varsa public URL evidence kaydedilir; Cloudflare local/managed ve erişim gap'leri birbirine karıştırılmaz. |
 | [97](../roadmap/day-97.md) | Yeşil frontend framework alternatifleri | Dört framework ailesinin selected UI/browser error/cancel/cleanup evidence'ı vardır. Nuxt/SvelteKit SSR initial HTML request-time değişir; Angular SSR ayrıca kanıtlanmadıysa SSR occurrence Partial kalır. |
 | [98](../roadmap/day-98.md) | Frontend AI, prompting, MCP, skills ve agents | AI task actual local tool/model çağrısı, developer review ve regression evidence'ına sahiptir. Streaming/cancel/injection/denied-tool davranışı gerçek UI/API'da gözlenir; secrets veya kullanıcı verisi modele gönderilmez. |
-| [99](../roadmap/day-99.md) | Beş roadmap ve iki proje final audit | Beş roadmap satırlarında açık ownersız required konu yoktur; actual evidence olmadan Verified yoktur. Browser E2E/recovery ve a11y/security/cache invariants doğru; Desktop/Mobile native uygulaması scope'a sızmaz. |
+| [99](../roadmap/day-99.md) | Beş roadmap ve iki proje final audit | Beş roadmap satırlarında açık ownersız required konu yoktur; gerçek kanıt olmadan Verified yoktur. Browser E 2 E/recovery ve a 11 y/security/cache invariants doğru; Desktop/Mobile native uygulaması scope'a sızmaz. |
 
 ## 119 düğümün tam eşleştirmesi
 
-Owner günü somut implementation, browser/API/runtime success/failure/recovery ve commit sırası içerir. Tekrar label aynı evidence'ı ancak ilgili capability gerçekten karşılanıyorsa paylaşabilir: React CSR routing SSR değildir; Next static export SSR değildir; Astro SSG SSR değildir.
+Owner günü somut implementation, browser/API/runtime başarı/hata/toparlanma ve commit sırası içerir. Tekrar label aynı evidence'ı ancak ilgili capability gerçekten karşılanıyorsa paylaşabilir: React CSR routing SSR değildir; Next static export SSR değildir; Astro SSG SSR değildir.
 
 | Node ID | Renk | Roadmap etiketi | Mevcut temel | Owner / görev | Status / sınır |
 |---|---|---|---|---|---|
@@ -238,3 +238,8 @@ Day 117, 72 required frontend occurrence ve altı roadmap matrisini implementati
 ## Software Architect fazı sonrası nihai audit
 
 [Software Architect kapsamı](software-architect-coverage.md) explicit kullanıcı talebiyle eklendi. Day 99 önceki beş roadmap ara checkpoint; **Day 117** Backend/Full Stack/System Design/DevOps/Frontend/Software Architect final audit'idir. Önceki actual ürün görevleri ve erişim/istisna sınırları korunur; case validation ile teknik runtime evidence ayrı raporlanır.
+
+
+## Yeni explicit kapsam ve final gün güncellemesi — 2026-10-08
+
+[Software Design & Architecture](software-design-architecture-coverage.md) ayrıca 97 node scope'tur. Bu matristeki eski milestone/evidence owner'ları korunur. Day 48/64/78/99/117 kendi roadmap checkpoint'leridir; **[Day 131](../roadmap/day-131.md) yedi-roadmap final audit** yürürlüktedir. Emlak 85 günlük programı değişmez; yeni araç görevleri Planlandı'dır.

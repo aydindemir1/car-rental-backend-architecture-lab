@@ -1,6 +1,6 @@
 # Günlük eğitim planı
 
-117 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
+131 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
 
 | Gün | Konu | Kesin plan |
 |---|---|---|
@@ -22,7 +22,7 @@
 | Day 16 | Temel ve cookie authentication | [Plan](day-16.md) |
 | Day 17 | Hashing, password ve CSP | [Plan](day-17.md) |
 | Day 18 | OWASP ve security review | [Plan](day-18.md) |
-| Day 19 | Neo4j fleet graph | [Plan](day-19.md) |
+| Day 19 | Neo 4 j fleet graph | [Plan](day-19.md) |
 | Day 20 | InfluxDB telemetri | [Plan](day-20.md) |
 | Day 21 | ClickHouse rental analytics | [Plan](day-21.md) |
 | Day 22 | Firebase Realtime Database emulator | [Plan](day-22.md) |
@@ -56,7 +56,7 @@
 | Day 50 | Weak, eventual ve strong consistency deneyleri | [Plan](day-50.md) |
 | Day 51 | Failover, replication ve leader election | [Plan](day-51.md) |
 | Day 52 | DNS, pull/push CDN ve static hosting | [Plan](day-52.md) |
-| Day 53 | L4/L7 load balancing ve horizontal scaling | [Plan](day-53.md) |
+| Day 53 | L 4/L 7 load balancing ve horizontal scaling | [Plan](day-53.md) |
 | Day 54 | Cache katmanları ve yazma stratejileri | [Plan](day-54.md) |
 | Day 55 | Background jobs, back pressure ve supervisor | [Plan](day-55.md) |
 | Day 56 | TCP/UDP, RPC ve API iletişim sözleşmeleri | [Plan](day-56.md) |
@@ -120,6 +120,21 @@
 | Day 114 | Enterprise Software ve ücretsiz entegrasyon case'i | [Plan](day-114.md) |
 | Day 115 | Mimari çalışma araçları ve collaboration | [Plan](day-115.md) |
 | Day 116 | Architecture evaluation ve fitness function'ları | [Plan](day-116.md) |
-| Day 117 | Altı roadmap ve iki proje final audit | [Plan](day-117.md) |
+| Day 117 | Altı roadmap ara kapsam checkpoint | [Plan](day-117.md) |
 
-Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 altı roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.
+| Day 118 | Clean Code ilkeleri ve davranışı koruyan refactoring | [Plan](day-118.md) |
+| Day 119 | Structured, functional ve object-oriented paradigm deneyleri | [Plan](day-119.md) |
+| Day 120 | OOP ayrıntıları ve model-driven domain tasarımı | [Plan](day-120.md) |
+| Day 121 | SOLID ve tamamlayıcı tasarım ilkeleri | [Plan](day-121.md) |
+| Day 122 | GoF — beş creational pattern | [Plan](day-122.md) |
+| Day 123 | GoF — yedi structural pattern | [Plan](day-123.md) |
+| Day 124 | GoF — on bir behavioral pattern | [Plan](day-124.md) |
+| Day 125 | Architectural principles ve component sınırları | [Plan](day-125.md) |
+| Day 126 | PoSA — yapı, event handling ve concurrency pattern lab'ı | [Plan](day-126.md) |
+| Day 127 | Distributed style — gerçek peer-to-peer deney | [Plan](day-127.md) |
+| Day 128 | Microkernel ve Blackboard architectural pattern'leri | [Plan](day-128.md) |
+| Day 129 | Enterprise patterns ve ORM davranışlarının doğrulanması | [Plan](day-129.md) |
+| Day 130 | Event Sourcing, CQRS ve messaging kapsam doğrulaması | [Plan](day-130.md) |
+| Day 131 | Yedi roadmap ve iki proje final kapsam audit'i | [Plan](day-131.md) |
+
+Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 altı roadmap ara checkpoint; Day 131 yedi roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.

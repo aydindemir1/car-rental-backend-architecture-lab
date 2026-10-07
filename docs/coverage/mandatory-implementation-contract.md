@@ -43,7 +43,7 @@ Day 49–63 eksik deneyleri uygular; Day 64 Backend/Full Stack/System Design ara
 
 Daha önce kabul edilen local/no-cloud sınırı korunur: AWS/Azure/GCP provider runtime **açık kapsam istisnası**, Cloudflare/AWS Lambda local runtime **Limited/Partial**, CircleCI ve Datadog actual hizmet kullanımı erişim yoksa **açık gap**. [İstisna belgesi](devops-cloud-exceptions.md) literal kapsamın tamamlanmadığını saklamaz. Ürün koşulları/licence/source değişirse sessiz dropping veya paid/trial'a geçiş olmaz.
 
-Day 48 Backend/Full Stack ara audit; Day 64 Backend/Full Stack/System Design ara checkpoint; **Day 78 dört roadmap ara checkpoint**'idir. Yeşil ürünlerde seçilmiş uygulama ve comparison ayrılır. Full coverage raporu actual runtime ile istisna/gap sayısını ayrı verir; bütün mor ürünlerin birebir kullanıldığı açık engeller varken iddia edilmez.
+Day 48 Backend/Full Stack ara audit; Day 64 Backend/Full Stack/System Design ara checkpoint; **Day 78 dört roadmap ara checkpoint**'idir. Yeşil ürünlerde seçilmiş uygulama ve comparison ayrılır. Full coverage raporu gerçek runtime ile istisna/gap sayısını ayrı verir; bütün mor ürünlerin birebir kullanıldığı açık engeller varken iddia edilmez.
 
 
 ## Frontend kapsamı ve yürürlükteki final gate
@@ -66,3 +66,12 @@ Day 48 iki roadmap, Day 64 üç roadmap, Day 78 dört roadmap ara checkpoint; **
 Enterprise Software ana konusu actual ücretsiz OSS reference API integration ve failure/reconciliation ile uygulanır. SAP/MS Dynamics/Salesforce/IBM/EMC exact vendor kullanımı ayrı Comparison/access gap; BPEL model validation actual engine execution değildir. [Kaynak/erişim sınırları](software-architect-access-and-scope.md) geçerlidir.
 
 Day 48/64/78/99 önceki roadmap checkpoint'leridir; **Day 117 altı roadmap final audit**. Önceki final ifadeleri kendi tarihsel scope'larıyla okunur; yürürlükte final gate Day 117'dir. Teknik evidence, Case Applied, Partial, Comparison, Design Only ve access gap sayıları final raporda ayrı yer alır.
+
+
+## Software Design & Architecture kapsamı ve yürürlükteki final gate
+
+[97 düğüm matrisi](software-design-architecture-coverage.md) explicit talep kapsamıdır:13 topic,81 subtopic ve 3 renkli roadmap bağlantısı. Mor/yeşil tik metadata'sı bulunmaz; minimap/tekrar occurrence'ları farklı node ID olarak korunur. Her teknik konu gerçek learning+kod/konfigürasyon+başarı/hata/toparlanma evidence ister; karşılaştırma/ADR/dependency adı tamamlanma değildir.
+
+GoF 23 pattern için Day 122–124 ayrı implementation/contract/anti-example; PoSA seçilmişpattern ailesi runtime ve volume/kaynak kapsamı; microkernel/blackboard/P 2 P/MDD/IdentityMap doğru davranış; ESappend/replay ile audit/outbox farkı açık görevlerdir. PoSA kitap serisinin tüm pattern'lerini sınırsız zorunlu yapmak bu broadlabel'ın temsilî scope'u değildir; kapsam açık katalogda raporlanır.
+
+Emlak mevcut doğrulanmış kanıt yeterliyse reuse; yalnız plan varsa araç görevi açık kalır. Önceki Day 117 artık altı-roadmap ara checkpoint; **Day 131 yedi-roadmap final audit** yürürlüktedir. Actualruntime/case,Comparison/Design Only/Partial/AccessGap raporu ayrı; Emlak 85 gün ve kaynakrepo değişmez.

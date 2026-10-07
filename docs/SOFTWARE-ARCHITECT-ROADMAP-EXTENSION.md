@@ -1,6 +1,6 @@
 # Araç Kiralama — Software Architect genişletmesi
 
-**Planlandı.** [Software Architect matrisi](coverage/software-architect-coverage.md) ve [snapshot](coverage/software-architect-roadmap-snapshot.json) explicit kullanıcı talebiyle scope'tur. Emlak 85 gün değişmez. Araç programı **117 milestone**: Day 99 önceki beş roadmap ara checkpoint; Day 100–116 mimari deneyler; Day 117 altı roadmap final audit. Günler takvim günü sınırı taşımaz.
+**Planlandı.** [Software Architect matrisi](coverage/software-architect-coverage.md) ve [snapshot](coverage/software-architect-roadmap-snapshot.json) explicit kullanıcı talebiyle scope'tur. Emlak 85 gün değişmez. Araç programı **117 milestone**: Day 99 önceki beş roadmap ara checkpoint; Day 100–116 mimari deneyler; Day 117 altı roadmap ara checkpoint. Günler takvim günü sınırı taşımaz.
 
 ## Hedef ve sınırlar
 
@@ -20,9 +20,9 @@ Teknik capability runtime evidence ister. Framework, stakeholder/communication, 
 | BPM | Flowable OSS BPMN | Process state; business canonical state değil; BPEL ayrı model/gap |
 | Microfrontends | React shell + ayrı Vue/Angular artifact | Versioned UI contract, remote failure/isolation |
 | Enterprise integration | ERPNext + Paperless-ngx OSS reference profile | Sahte dataset/service identity/ACL/reconciliation |
-| Architecture/framework | UML/C4/structured docs; BABOK/TOGAF/IAF public-scope case | Tailored artifact+review; proprietary/full compliance ayrı |
+| Architecture/framework | UML/C 4/structured docs; BABOK/TOGAF/IAF public-scope case | Tailored artifact+review; proprietary/full compliance ayrı |
 | Delivery/collaboration | Repo workflow ve scoped framework case | Gerçek küçük release/incident ile simüle roller ayrı |
-| Fitness/evaluation | ArchUnit/contract/owner checks ve scenario analysis | Deliberate drift fixture + actual runtime evidence |
+| Fitness/evaluation | ArchUnit/contract/owner checks ve scenario analysis | Deliberate drift fixture + gerçek runtime evidence |
 
 ## Günlük program
 
@@ -45,14 +45,17 @@ Teknik capability runtime evidence ister. Framework, stakeholder/communication, 
 | [114](roadmap/day-114.md) | Enterprise Software ve ücretsiz entegrasyon case'i |
 | [115](roadmap/day-115.md) | Mimari çalışma araçları ve collaboration |
 | [116](roadmap/day-116.md) | Architecture evaluation ve fitness function'ları |
-| [117](roadmap/day-117.md) | Altı roadmap ve iki proje final audit |
+| [117](roadmap/day-117.md) | Altı roadmap ara kapsam checkpoint |
 
 ## Uygulama çalışma modeli
 
-- Önce requirements/ADR/owner/source scope; sonra gerekli küçük code/config spike ve test; ardından actual runtime veya case review/revision; en son evidence/runbook/coverage.
+- Önce requirements/ADR/owner/kaynak kapsamı; sonra gerekli küçük kod/konfigürasyon spike ve test; ardından gerçek runtime veya case review/revision; en son evidence/runbook/coverage.
 - Ağır actor/data/ERP/DMS profilleri sırayla açılır. CPU/RAM/disk/Java/driver/engine/edition compatibility uygulama gününde doğrulanır/pin edilir.
 - Domain data/broker/controller owner'ı sırf pattern çeşitliliği için çoğaltılmaz; yeni fixture'lar isolated capability/derived state kullanır.
 - Emlakta mevcut verified capability yeniden kurulmaz; plan satırı alone evidence değildir. Eksik actual görev araçta kalır.
 - Ticari vendor ve source/license erişim engelleri [scope belgesinde](coverage/software-architect-access-and-scope.md) açık tutulur. OSS/benzetim exact product kullanımı sayılmaz.
 
 Day 117, altı roadmap'in required konuları ve selected ek profilleri teknik/case/partial/comparison/gap ayrımıyla denetler.
+
+
+Yeni explicit [Software Design & Architecture genişlemesi](SOFTWARE-DESIGN-ARCHITECTURE-ROADMAP-EXTENSION.md) ile toplam 131 milestone vardır; bu belgedeki 100–117 fazı korunur. Day 117 artık altı-roadmap ara checkpoint; Day 131 yedi-roadmap final audit'tir.
