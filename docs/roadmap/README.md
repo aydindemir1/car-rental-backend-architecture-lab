@@ -1,6 +1,6 @@
 # Günlük eğitim planı
 
-64 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
+78 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
 
 | Gün | Konu | Kesin plan |
 |---|---|---|
@@ -67,6 +67,20 @@
 | Day 61 | Reliability, resiliency ve gözlemlenebilirlik | [Plan](day-61.md) |
 | Day 62 | Availability, deployment stamps ve geodes | [Plan](day-62.md) |
 | Day 63 | Federated identity, Gatekeeper ve Valet Key | [Plan](day-63.md) |
-| Day 64 | Üç roadmap ve iki proje final audit | [Plan](day-64.md) |
+| Day 64 | Üç roadmap ara kapsam checkpoint | [Plan](day-64.md) |
+| Day 65 | Python ve Go ile operasyon araçları | [Plan](day-65.md) |
+| Day 66 | Ubuntu, RHEL türevi ve FreeBSD işletim lab'ı | [Plan](day-66.md) |
+| Day 67 | Terminal, Bash, process ve performans inceleme | [Plan](day-67.md) |
+| Day 68 | Networking, firewall, forward proxy ve TLS | [Plan](day-68.md) |
+| Day 69 | CI platformları: GitLab CI ve CircleCI kapsam sınırı | [Plan](day-69.md) |
+| Day 70 | Terraform, Ansible ve kaynak sahipliği | [Plan](day-70.md) |
+| Day 71 | Artifactory ve artifact lifecycle | [Plan](day-71.md) |
+| Day 72 | Vault, ESO ve SOPS ile secret lifecycle | [Plan](day-72.md) |
+| Day 73 | Elastic, Loki ve observability ürünleri | [Plan](day-73.md) |
+| Day 74 | Consul service mesh ve GitOps sınırları | [Plan](day-74.md) |
+| Day 75 | Serverless: Knative ve yerel provider runtime'ları | [Plan](day-75.md) |
+| Day 76 | Cloud sağlayıcıları: kavramlar ve kapsam istisnası | [Plan](day-76.md) |
+| Day 77 | Container, supply chain ve recovery uçtan uca | [Plan](day-77.md) |
+| Day 78 | Dört roadmap ve iki proje final audit | [Plan](day-78.md) |
 
-Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.
+Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.

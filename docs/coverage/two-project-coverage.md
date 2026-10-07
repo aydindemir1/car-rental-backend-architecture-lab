@@ -1,6 +1,6 @@
 # İki proje konu matrisi
 
-Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası değildir. Yeni proje sütunu bu repo milestone sahibidir. Her satır için implementation SHA ve evidence Day 48 ara audit ve Day 64 final audit sırasında eklenir. Mavi kutular linked roadmaplerin tamamını otomatik gerektirmez.
+Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası değildir. Yeni proje sütunu bu repo milestone sahibidir. Her satır için implementation SHA ve evidence Day 48 ara audit ve Day 64 ara checkpoint ve Day 78 final audit sırasında eklenir. Mavi kutular linked roadmaplerin tamamını otomatik gerektirmez.
 
 | Roadmap konusu | Renk/tik | Emlak planı | Yeni Day | Uygulama / karşılaştırma sınırı | Durum |
 |---|---|---|---|---|---|
@@ -183,3 +183,8 @@ Java seçimi Go/Python/Ruby gibi bütün dil seçeneklerini kodlamak değildir. 
 ## Zorunlu uygulama gate'i
 
 Sarı/mor/mavi konular yalnız comparison ile kapatılamaz. Öğrenme, temsilî uygulama, runtime test ve evidence gerekir; emlakta eksik olan araç kiralamada uygulanır. Birebir ürün veya kapsam engeli varsa açık gap olarak tutulur. Ayrıntılı kurallar: [uygulama sözleşmesi](mandatory-implementation-contract.md).
+
+
+## DevOps kapsam geçişi
+
+[DevOps matrisi](devops-coverage.md) yeni explicit kapsamdır. Backend required ürün/görevleri korunur; Day 78 dört roadmap final audit'i ve actual evidence/gap/istisna raporlaması yapar. Önceki “linked roadmap otomatik scope değildir” sınırı, kullanıcının DevOps'u ayrıca istemesiyle bu explicit kapsamı engellemez.

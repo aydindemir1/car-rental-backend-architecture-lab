@@ -8,7 +8,7 @@ Kaynak: [roadmap.sh/system-design](https://roadmap.sh/system-design). Canlı gra
 
 Bütün satırlar şimdilik **Planlandı / runtime evidence yok**. “Programa dahil” ile “öğrenildi/uygulandı” farklıdır. [Zorunlu uygulama sözleşmesi](mandatory-implementation-contract.md) geçerlidir: comparison, dependency veya ADR tek başına zorunlu konuyu kapatmaz.
 
-Emlak 85 günlük programında değişiklik yapılmaz. Araç Day 01–47 korunur; Day 48 Backend/Full Stack ara audit; yeni Day 49–63 System Design deneyleri; Day 64 üç roadmap'in final audit'idir. Önceki uygulama aynı sorumluluğu kanıtlı karşılıyorsa yeniden kurulmaz. Evidence yoksa araç milestone'ındaki gerçek görev kapanmadan konu Verified olmaz.
+Emlak 85 günlük programında değişiklik yapılmaz. Araç Day 01–47 korunur; Day 48 Backend/Full Stack ara audit; yeni Day 49–63 System Design deneyleri; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap'in final audit'idir. Önceki uygulama aynı sorumluluğu kanıtlı karşılıyorsa yeniden kurulmaz. Evidence yoksa araç milestone'ındaki gerçek görev kapanmadan konu Verified olmaz.
 
 ## Ana başlıklar
 
@@ -241,4 +241,9 @@ Aşağıdaki Day bağlantısı yalnız genel bir başlık değildir: ilgili gün
 
 ## Final gate
 
-Day 64'te 150 düğümün her biri öğrenme notu, owner, implementation commit, runtime success/failure/recovery evidence ve local sınırı ile denetlenir. Requirement/capacity değerlendirmesi gibi kavramlar gerçek proje ölçümü/deneyiyle doğrulanır; sırf kod satırı yazmak her kavramın öğrenildiğini göstermez. Açık gap varken bütün kapsam tamamlandı denmez.
+Day 64 ara checkpoint ve Day 78 final audit'te 150 düğümün her biri öğrenme notu, owner, implementation commit, runtime success/failure/recovery evidence ve local sınırı ile denetlenir. Requirement/capacity değerlendirmesi gibi kavramlar gerçek proje ölçümü/deneyiyle doğrulanır; sırf kod satırı yazmak her kavramın öğrenildiğini göstermez. Açık gap varken bütün kapsam tamamlandı denmez.
+
+
+## DevOps genişletmesi sonrası final sahiplik
+
+System Design günlük görevleri/150 eşleştirme korunur. [DevOps kapsamı](devops-coverage.md) eklenince Day 64 üç roadmap ara checkpoint olarak kalır; dört roadmap'in nihai audit'i Day 78'dir. DevOps paid/provider istisnaları ayrı raporlanır.

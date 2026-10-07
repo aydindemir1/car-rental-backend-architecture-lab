@@ -41,3 +41,14 @@ Kullanıcının açık talebiyle [System Design roadmap](https://roadmap.sh/syst
 Canlı graph'ta 27 topic, 120 subtopic occurrence'ı ve 3 mavi bağlantı vardır; mor/yeşil tik bilgisi yoktur. Atlamamak için tüm alt konular günlük öğrenme/uygulama/test kapsamındadır. Aynı etiketin farklı graph düğümleri ayrı ID ile eşleştirilir; aynı verified evidence paylaşılabilir.
 
 Önceden seçilmiş Java/Spring/Kubernetes ve datastore/broker ürünleri korunur. Emlak Cassandra/MongoDB/Redis/Event Sourcing/CQRS görevleri için gerçek evidence yeniden kullanılır; yalnız plan satırı yeterli değildir. Eksik evidence/görev araçta açık kalır. Yeni CoreDNS, HAProxy ve mevcut Nginx profilleri ayrı DNS/L4/L7 eğitim rollerine aittir; aynı ingress/resource için competing controller kurulmaz. Cloud pattern'leri yerel uygulamalarla öğrenilir; Azure/AWS/GCP hesabı gerekmez. Geode deneyi iki local read replica ve tek canonical write owner ile sınırlandırılır; üretim multi-region active-active write uygulanmış sayılmaz.
+
+
+## DevOps roadmap genişletmesi — 2026-10-07
+
+[roadmap.sh/devops](https://roadmap.sh/devops) kullanıcı talebiyle ayrıca scope'tur. Emlak mevcut 85 günlük programa dokunulmaz; araç 64→78 milestone'a genişler. Day 64 önceki üç roadmap ara checkpoint; Day 78 dört roadmap final audit. Eski fazlarda “final” ifadesi kendi checkpoint kapsamını belirtir; yeni nihai owner Day 78'dir.
+
+Live graph: 22 topic, 46 mor, 58 yeşil, 9 gri, 4 tiksiz subtopic; 6 mavi button occurrence'ı (Network Engineer iki kez). Başlangıç/navigasyon button'ları hariç 145 coverage satırı. Her required satırın sahibi/görevi/status'u vardır; paid/cloud istisnaları sessizce alternatifle tamamlanmış sayılmaz.
+
+Python/Go backend migration için değil ayrı operasyon CLI'larıdır. Ubuntu/RHEL türevi/FreeBSD ve GitLab CI/Artifactory/Consul mesh ayrı geçici eğitim profilleridir. Ürün-spesifik mor satırlarda gerekli farklı deneyler uygulanır; canonical runtime/registry/CI/controller seçimi değişmez. Nexus/Harbor ve Terraform/Ansible/Jenkins/Argo/Istio emlak kararları korunur. Yeşil ESO/SOPS için ayrı secret lifecycle sahipliği kullanılır.
+
+Ücretsiz local/self-hosted sınırı daha önce verilmiş karardır. Cloud Providers ve AWS/Azure/GCP gerçek provider kullanımı bu çalışma kapsamında istisna; serverless local SAM/workerd kapsamı Limited/Partial. CircleCI güncel CLI v1 local execute desteklemez; actual managed pipeline olmadan ürün Verified olmaz. Datadog local agent SaaS monitor yerine geçmez. Ücretsiz ve ücret riski olmayan ürün erişimi yoksa açık gap tutulur; paid/trial/HCP/hesap oluşturma otomatik yapılmaz. Artifactory OSS ücretsiz güncel uygun distribution erişimi uygulama gününde kontrol edilir; yoksa gap kalır.

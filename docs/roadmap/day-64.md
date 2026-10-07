@@ -1,4 +1,4 @@
-# Day 64 — Üç roadmap ve iki proje final audit
+# Day 64 — Üç roadmap ara kapsam checkpoint
 
 Durum: **Planlandı**. Bu gün eğitim milestone'ıdır; birden fazla takvim gününe yayılabilir. Çalışan kod veya doğrulanmış sonuç henüz yoktur.
 
@@ -24,7 +24,7 @@ Roadmap etiketleri: `Backend`, `Software Architect`, `DevOps`.
 
 ## Planlanan dosyalar
 
-- `docs/coverage/completion-report.md`
+- `docs/coverage/backend-full-stack-system-design-checkpoint.md`
 - `docs/coverage/capability-status.md`
 - `docs/evidence/day-64/`
 - `docs/evidence/day-64/` — exact komut, sürüm, fixture, ölçüm koşulları, expected/actual ve recovery.
@@ -51,3 +51,8 @@ Mevcut verified implementation yeterliyse aynı sorumluluk için yeni ürün/bo�
 - [ ] Coverage gerçek duruma göre güncellendi; Planlandı/Implemented/Verified ayrımı korundu.
 
 Ücretli AWS/Azure/GCP veya model API gerekmiyor. Yerel fault injection/replica/edge/namespace sonuçları production scale, coğrafi HA veya SLA kanıtı değildir.
+
+
+## DevOps fazına geçiş
+
+Bu gün önceki üç roadmap'i ara checkpoint olarak denetler. [Day 65](day-65.md) ile DevOps genişletmesi başlar; dört roadmap final audit'i [Day 78](day-78.md) olarak yapılır. Bu checkpoint DevOps mor ürünlerinin hepsinin uygulandığını iddia etmez.

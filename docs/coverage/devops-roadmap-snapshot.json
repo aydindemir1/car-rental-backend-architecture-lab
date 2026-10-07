@@ -1,0 +1,2215 @@
+{
+  "source": "https://roadmap.sh/devops",
+  "retrieved": "2026-10-07",
+  "items": [
+    {
+      "id": "v5FGKQc-_7NYEsWjmTEuq",
+      "type": "topic",
+      "label": "Learn a Programming Language",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1602.7802652868972,
+        "y": 229.3007298193524
+      }
+    },
+    {
+      "id": "TwVfCYMS9jSaJ6UyYmC-K",
+      "type": "subtopic",
+      "label": "Python",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2039.941514522558,
+        "y": 176.3007298193524
+      }
+    },
+    {
+      "id": "PuXAPYA0bsMgwcnlwJxQn",
+      "type": "subtopic",
+      "label": "Ruby",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2152.597833816051,
+        "y": 176.3007298193524
+      }
+    },
+    {
+      "id": "npnMwSDEK2aLGgnuZZ4dO",
+      "type": "subtopic",
+      "label": "Go",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2039.941514522558,
+        "y": 229.3007298193524
+      }
+    },
+    {
+      "id": "eL62bKAoJCMsu7zPlgyhy",
+      "type": "subtopic",
+      "label": "Rust",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2152.597833816051,
+        "y": 229.3007298193524
+      }
+    },
+    {
+      "id": "QCdemtWa2mE78poNXeqzr",
+      "type": "subtopic",
+      "label": "JavaScript / Node.js",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2039.941514522558,
+        "y": 285.02996643945045
+      }
+    },
+    {
+      "id": "qe84v529VbCyydl0BKFk2",
+      "type": "topic",
+      "label": "Operating System",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1353.3113390834426,
+        "y": 355.1966436651256
+      }
+    },
+    {
+      "id": "cTqVab0VbVcn3W7i0wBrX",
+      "type": "subtopic",
+      "label": "Ubuntu / Debian",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1335.5509969897735,
+        "y": 504.9832131980173
+      }
+    },
+    {
+      "id": "zhNUK953p6tjREndk3yQZ",
+      "type": "subtopic",
+      "label": "SUSE Linux",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1335.5509969897735,
+        "y": 557.9832131980173
+      }
+    },
+    {
+      "id": "7mS6Y_BOAHNgM3OjyFtZ9",
+      "type": "subtopic",
+      "label": "RHEL / Derivatives",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1335.5509969897735,
+        "y": 610.9832131980173
+      }
+    },
+    {
+      "id": "PiPHFimToormOPl1EtEe8",
+      "type": "subtopic",
+      "label": "FreeBSD",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1210.050901958697,
+        "y": 501.9832131980173
+      }
+    },
+    {
+      "id": "97cJYKqv7CPPUXkKNwM4x",
+      "type": "subtopic",
+      "label": "OpenBSD",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1210.050901958697,
+        "y": 556.9832131980173
+      }
+    },
+    {
+      "id": "haiYSwNt3rjiiwCDszPk1",
+      "type": "subtopic",
+      "label": "NetBSD",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1210.050901958697,
+        "y": 609.9832131980173
+      }
+    },
+    {
+      "id": "UOQimp7QkM3sxmFvk5d3i",
+      "type": "subtopic",
+      "label": "Windows",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1191.3528975202719,
+        "y": 355.1966436651256
+      }
+    },
+    {
+      "id": "wjJPzrFJBNYOD3SJLzW2M",
+      "type": "topic",
+      "label": "Terminal Knowledge",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1704.2802652868972,
+        "y": 536.1811226053657
+      }
+    },
+    {
+      "id": "x-JWvG1iw86ULL9KrQmRu",
+      "type": "subtopic",
+      "label": "Process Monitoring",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2008.4055424608705,
+        "y": 458.18112260536566
+      }
+    },
+    {
+      "id": "gIEQDgKOsoEnSv8mpEzGH",
+      "type": "subtopic",
+      "label": "Performance Monitoring",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2008.4055424608705,
+        "y": 511.18112260536566
+      }
+    },
+    {
+      "id": "OaqKLZe-XnngcDhDzCtRt",
+      "type": "subtopic",
+      "label": "Networking Tools",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2008.4055424608705,
+        "y": 564.1811226053657
+      }
+    },
+    {
+      "id": "cUifrP7v55psTb20IZndf",
+      "type": "subtopic",
+      "label": "Text Manipulation",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2008.4055424608705,
+        "y": 617.1811226053657
+      }
+    },
+    {
+      "id": "syBIAL1mHbJLnTBoSxXI7",
+      "type": "subtopic",
+      "label": "Bash",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1704.2802652868972,
+        "y": 387.7552314433875
+      }
+    },
+    {
+      "id": "z6IBekR8Xl-6f8WEb05Nw",
+      "type": "subtopic",
+      "label": "Power Shell",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1704.2802652868972,
+        "y": 440.7552314433875
+      }
+    },
+    {
+      "id": "Jt8BmtLUH6fHT2pGKoJs3",
+      "type": "subtopic",
+      "label": "Vim / Nano /  Emacs",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1704.2802652868972,
+        "y": 623.462338948526
+      }
+    },
+    {
+      "id": "LvhFmlxz5uIy7k_nzx2Bv",
+      "type": "topic",
+      "label": "Version Control Systems",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1347.5432844855075,
+        "y": 717.6852605686394
+      }
+    },
+    {
+      "id": "uyDm1SpOQdpHjq9zBAdck",
+      "type": "subtopic",
+      "label": "Git",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1189.9080590588455,
+        "y": 717.6852605686394
+      }
+    },
+    {
+      "id": "h10BH3OybHcIN2iDTSGkn",
+      "type": "topic",
+      "label": "VCS Hosting",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1410,
+        "y": 909.037249249727
+      }
+    },
+    {
+      "id": "ot9I_IHdnq2yAMffrSrbN",
+      "type": "subtopic",
+      "label": "GitHub",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1186.9080590588455,
+        "y": 856.037249249727
+      }
+    },
+    {
+      "id": "oQIB0KE0BibjIYmxrpPZS",
+      "type": "subtopic",
+      "label": "GitLab",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1186.9080590588455,
+        "y": 909.037249249727
+      }
+    },
+    {
+      "id": "Z7SsBWgluZWr9iWb2e9XO",
+      "type": "subtopic",
+      "label": "Bitbucket",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1186.9080590588455,
+        "y": 962.037249249727
+      }
+    },
+    {
+      "id": "jCWrnQNgjHKyhzd9dwOHz",
+      "type": "topic",
+      "label": "What is and how to setup X ?",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1976.1022029048668,
+        "y": 909.037249249727
+      }
+    },
+    {
+      "id": "F93XnRj0BLswJkzyRggLS",
+      "type": "subtopic",
+      "label": "Forward Proxy",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1923.2980619884293,
+        "y": 716.4440052182314
+      }
+    },
+    {
+      "id": "f3tM2uo6LLSOmyeFfLc7h",
+      "type": "subtopic",
+      "label": "Firewall",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2091.2980619884293,
+        "y": 769.4440052182314
+      }
+    },
+    {
+      "id": "ukOrSeyK1ElOt9tTjCkfO",
+      "type": "subtopic",
+      "label": "Nginx",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1996.770175365231,
+        "y": 1024.7608674321284
+      }
+    },
+    {
+      "id": "dF3otkMMN09tgCzci8Jyv",
+      "type": "subtopic",
+      "label": "Tomcat",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1996.770175365231,
+        "y": 1077.7608674321284
+      }
+    },
+    {
+      "id": "0_GMTcMeZv3A8dYkHRoW7",
+      "type": "subtopic",
+      "label": "Apache",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2104.711689887789,
+        "y": 1077.7608674321284
+      }
+    },
+    {
+      "id": "54UZNO2q8M5FiA_XbcU_D",
+      "type": "subtopic",
+      "label": "Caddy",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2104.711689887789,
+        "y": 1024.7608674321284
+      }
+    },
+    {
+      "id": "5iJOE1QxMvf8BQ_8ssiI8",
+      "type": "subtopic",
+      "label": "IIS",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1996.770175365231,
+        "y": 1131.7608674321284
+      }
+    },
+    {
+      "id": "R4XSY4TSjU1M7cW66zUqJ",
+      "type": "subtopic",
+      "label": "Caching Server",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1922.2980619884293,
+        "y": 769.4440052182314
+      }
+    },
+    {
+      "id": "i8Sd9maB_BeFurULrHXNq",
+      "type": "subtopic",
+      "label": "Load Balancer",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1918.5487566038344,
+        "y": 822.4440052182314
+      }
+    },
+    {
+      "id": "eGF7iyigl57myx2ejpmNC",
+      "type": "subtopic",
+      "label": "Reverse Proxy",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2090.2980619884293,
+        "y": 716.4440052182314
+      }
+    },
+    {
+      "id": "CQhUflAcv1lhBnmDY0gaz",
+      "type": "topic",
+      "label": "Containers",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1664.8844464722006,
+        "y": 909.037249249727
+      }
+    },
+    {
+      "id": "P0acFNZ413MSKElHqCxr3",
+      "type": "subtopic",
+      "label": "Docker",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1664.8844464722006,
+        "y": 772.1520720921645
+      }
+    },
+    {
+      "id": "qYRJYIZsmf-inMqKECRkI",
+      "type": "subtopic",
+      "label": "LXC",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1664.8844464722006,
+        "y": 825.1520720921645
+      }
+    },
+    {
+      "id": "2Wd9SlWGg6QtxgiUVLyZL",
+      "type": "topic",
+      "label": "Cloud Providers",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1584.5509969897735,
+        "y": 1280.9816693737002
+      }
+    },
+    {
+      "id": "1ieK6B_oqW8qOC6bdmiJe",
+      "type": "subtopic",
+      "label": "AWS",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1599.3528975202719,
+        "y": 1342
+      }
+    },
+    {
+      "id": "ctor79Vd7EXDMdrLyUcu_",
+      "type": "subtopic",
+      "label": "Azure",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1714.1818168890086,
+        "y": 1342.307095657017
+      }
+    },
+    {
+      "id": "zYrOxFQkl3KSe67fh3smD",
+      "type": "subtopic",
+      "label": "Google Cloud",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1599.3528975202719,
+        "y": 1395.307095657017
+      }
+    },
+    {
+      "id": "-h-kNVDNzZYnQAR_4lfXc",
+      "type": "subtopic",
+      "label": "Digital Ocean",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1599.3528975202719,
+        "y": 1448.307095657017
+      }
+    },
+    {
+      "id": "YUJf-6ccHvYjL_RzufQ-G",
+      "type": "subtopic",
+      "label": "Alibaba Cloud",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1599.3528975202719,
+        "y": 1554.307095657017
+      }
+    },
+    {
+      "id": "I327qPYGMcdayRR5WT0Ek",
+      "type": "subtopic",
+      "label": "Hetzner",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1599.3528975202719,
+        "y": 1501.307095657017
+      }
+    },
+    {
+      "id": "FaPf567JGRAg1MBlFj9Tk",
+      "type": "subtopic",
+      "label": "Heroku ",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1599.3528975202719,
+        "y": 1607.307095657017
+      }
+    },
+    {
+      "id": "RDLmML_HS2c8J4D_U_KYe",
+      "type": "subtopic",
+      "label": "FTP / SFTP",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.147298803803,
+        "y": 1057.495251276272
+      }
+    },
+    {
+      "id": "Vu955vdsYerCG8G6suqml",
+      "type": "subtopic",
+      "label": "DNS",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1348.147298803803,
+        "y": 1057.495251276272
+      }
+    },
+    {
+      "id": "ke-8MeuLx7AS2XjSsPhxe",
+      "type": "subtopic",
+      "label": "HTTP",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.147298803803,
+        "y": 1110.495251276272
+      }
+    },
+    {
+      "id": "AJO3jtHvIICj8YKaSXl0U",
+      "type": "subtopic",
+      "label": "HTTPS",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1348.147298803803,
+        "y": 1110.495251276272
+      }
+    },
+    {
+      "id": "0o6ejhfpmO4S8A6djVWva",
+      "type": "subtopic",
+      "label": "SSL / TLS",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1207.2914695545712,
+        "y": 1163.495251276272
+      }
+    },
+    {
+      "id": "wcIRMLVm3SdEJWF9RPfn7",
+      "type": "subtopic",
+      "label": "SSH",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1349.2914695545712,
+        "y": 1163.495251276272
+      }
+    },
+    {
+      "id": "E-lSLGzgOPrz-25ER2Hk7",
+      "type": "subtopic",
+      "label": "White / Grey Listing",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1205.5374764166006,
+        "y": 1297.964929643881
+      }
+    },
+    {
+      "id": "zJy9dOynWgLTDKI1iBluG",
+      "type": "subtopic",
+      "label": "SMTP",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.5374764166006,
+        "y": 1350.964929643881
+      }
+    },
+    {
+      "id": "5vUKHuItQfkarp7LtACvX",
+      "type": "subtopic",
+      "label": "DMARC",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1328.7306776209605,
+        "y": 1350.964929643881
+      }
+    },
+    {
+      "id": "WMuXqa4b5wyRuYAQKQJRj",
+      "type": "subtopic",
+      "label": "IMAP",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.5374764166006,
+        "y": 1403.964929643881
+      }
+    },
+    {
+      "id": "ewcJfnDFKXN8I5TLpXEaB",
+      "type": "subtopic",
+      "label": "SPF",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1328.7306776209605,
+        "y": 1403.964929643881
+      }
+    },
+    {
+      "id": "fzO6xVTBxliu24f3W5zaU",
+      "type": "subtopic",
+      "label": "POP3S",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1205.5374764166006,
+        "y": 1456.964929643881
+      }
+    },
+    {
+      "id": "RYCD78msIR2BPJoIP71aj",
+      "type": "subtopic",
+      "label": "Domain Keys",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1205.5374764166006,
+        "y": 1510.964929643881
+      }
+    },
+    {
+      "id": "QZ7bkY-MaEgxYoPDP3nma",
+      "type": "subtopic",
+      "label": "OSI Model",
+      "legend": {
+        "id": "iaNoxEXCxziVTpl7fc8Pz",
+        "label": "Order in Roadmap not Strict - Learn anytime",
+        "color": "#949494",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1205.5374764166006,
+        "y": 1219.740182887247
+      }
+    },
+    {
+      "id": "w5d24Sf8GDkLDLGUPxzS9",
+      "type": "topic",
+      "label": "Networking & Protocols",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1583.0509969897735,
+        "y": 1138.0187194026719
+      }
+    },
+    {
+      "id": "9p_ufPj6QH9gHbWBQUmGw",
+      "type": "topic",
+      "label": "Serverless",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1992.153929822237,
+        "y": 1280.9816693737002
+      }
+    },
+    {
+      "id": "LZDRgDxEZ3klp2PrrJFBX",
+      "type": "subtopic",
+      "label": "Vercel",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2010.6022029048672,
+        "y": 1500
+      }
+    },
+    {
+      "id": "l8VAewSEXzoyqYFhoplJj",
+      "type": "subtopic",
+      "label": "Cloudflare",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2010.6022029048672,
+        "y": 1394
+      }
+    },
+    {
+      "id": "mlrlf2McMI7IBhyEdq0Nf",
+      "type": "subtopic",
+      "label": "Azure Functions",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2010.6022029048672,
+        "y": 1447
+      }
+    },
+    {
+      "id": "UfQrIJ-uMNJt9H_VM_Q5q",
+      "type": "subtopic",
+      "label": "AWS Lambda",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2010.6022029048672,
+        "y": 1341
+      }
+    },
+    {
+      "id": "hCKODV2b_l2uPit0YeP1M",
+      "type": "subtopic",
+      "label": "Netlify",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2010.6022029048672,
+        "y": 1553
+      }
+    },
+    {
+      "id": "1oYvpFG8LKT1JD6a_9J0m",
+      "type": "topic",
+      "label": "Provisioning",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 2022.153929822237,
+        "y": 1749.6366924943281
+      }
+    },
+    {
+      "id": "XA__697KgofsH28coQ-ma",
+      "type": "subtopic",
+      "label": "AWS CDK",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2023.153929822237,
+        "y": 1837.2739894115864
+      }
+    },
+    {
+      "id": "TgBb4aL_9UkyU36CN4qvS",
+      "type": "subtopic",
+      "label": "CloudFormation",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2023.153929822237,
+        "y": 1890.2739894115864
+      }
+    },
+    {
+      "id": "O0xZ3dy2zIDbOetVrgna6",
+      "type": "subtopic",
+      "label": "Pulumi",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2023.153929822237,
+        "y": 1943.2739894115864
+      }
+    },
+    {
+      "id": "nUBGf1rp9GK_pbagWCP9g",
+      "type": "subtopic",
+      "label": "Terraform",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2023.153929822237,
+        "y": 1997.2739894115864
+      }
+    },
+    {
+      "id": "V9sOxlNOyRp0Mghl7zudv",
+      "type": "topic",
+      "label": "Configuration Management",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1696.6885970352912,
+        "y": 1749.6366924943281
+      }
+    },
+    {
+      "id": "h9vVPOmdUSeEGVQQaSTH5",
+      "type": "subtopic",
+      "label": "Ansible",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1521.0509969897735,
+        "y": 1720.549479432437
+      }
+    },
+    {
+      "id": "kv508kxzUj_CjZRb-TeRv",
+      "type": "subtopic",
+      "label": "Chef",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1402.0509969897735,
+        "y": 1720.549479432437
+      }
+    },
+    {
+      "id": "yP1y8U3eblpzbaLiCGliU",
+      "type": "subtopic",
+      "label": "Puppet",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1521.0509969897735,
+        "y": 1773.549479432437
+      }
+    },
+    {
+      "id": "aQJaouIaxIJChM-40M3HQ",
+      "type": "topic",
+      "label": "CI / CD Tools",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1785.8844464722006,
+        "y": 1971.2739894115864
+      }
+    },
+    {
+      "id": "JnWVCS1HbAyfCJzGt-WOH",
+      "type": "subtopic",
+      "label": "GitHub Actions",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1440.894041311382,
+        "y": 2078.0270769190474
+      }
+    },
+    {
+      "id": "2KjSLLVTvl2G2KValw7S7",
+      "type": "subtopic",
+      "label": "GitLab CI",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1439,
+        "y": 1972.0270769190477
+      }
+    },
+    {
+      "id": "dUapFp3f0Rum-rf_Vk_b-",
+      "type": "subtopic",
+      "label": "Jenkins",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1569,
+        "y": 1919.0270769190477
+      }
+    },
+    {
+      "id": "1-JneOQeGhox-CKrdiquq",
+      "type": "subtopic",
+      "label": "Circle CI",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1569,
+        "y": 1972.0270769190477
+      }
+    },
+    {
+      "id": "TsXFx1wWikVBVoFUUDAMx",
+      "type": "subtopic",
+      "label": "Octopus Deploy",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1439.894041311382,
+        "y": 2025.0270769190477
+      }
+    },
+    {
+      "id": "L000AbzF3oLcn4B1eUIYX",
+      "type": "subtopic",
+      "label": "TeamCity",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1439,
+        "y": 1919.0270769190477
+      }
+    },
+    {
+      "id": "hcrPpjFxPi_iLiMdLKJrO",
+      "type": "topic",
+      "label": "Secret Management",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1724.6885970352912,
+        "y": 2195.6542746452424
+      }
+    },
+    {
+      "id": "ZWq23Q9ZNxLNti68oltxA",
+      "type": "subtopic",
+      "label": "Sealed Secrets",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2005.6275872741135,
+        "y": 2141.6542746452424
+      }
+    },
+    {
+      "id": "yQ4d2uiROZYr950cjYnQE",
+      "type": "subtopic",
+      "label": "Cloud Specific Tools",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2005.6275872741135,
+        "y": 2249.6542746452424
+      }
+    },
+    {
+      "id": "tZzvs80KzqT8aDvEyjack",
+      "type": "subtopic",
+      "label": "Vault",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2005.6275872741135,
+        "y": 2195.6542746452424
+      }
+    },
+    {
+      "id": "GHQWHLxsO40kJ6z_YCinJ",
+      "type": "subtopic",
+      "label": "SOPs",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2127.6275872741135,
+        "y": 2195.6542746452424
+      }
+    },
+    {
+      "id": "qqRLeTpuoW64H9LvY0U_w",
+      "type": "topic",
+      "label": "Infrastructure Monitoring",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1437.7647088844683,
+        "y": 2195.6542746452424
+      }
+    },
+    {
+      "id": "W9sKEoDlR8LzocQkqSv82",
+      "type": "subtopic",
+      "label": "Zabbix",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1443.6500824678124,
+        "y": 2389.3422065391833
+      }
+    },
+    {
+      "id": "NiVvRbCOCDpVvif48poCo",
+      "type": "subtopic",
+      "label": "Prometheus",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1442.5,
+        "y": 2282.3422065391833
+      }
+    },
+    {
+      "id": "bujq_C-ejtpmk-ICALByy",
+      "type": "subtopic",
+      "label": "Datadog",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1563.6500824678124,
+        "y": 2389.3422065391833
+      }
+    },
+    {
+      "id": "niA_96yR7uQ0sc6S_OStf",
+      "type": "subtopic",
+      "label": "Grafana",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1442.5,
+        "y": 2335.3422065391833
+      }
+    },
+    {
+      "id": "gaoZjOYmU0J5aM6vtLNvN",
+      "type": "topic",
+      "label": "Logs Management",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1186.9080590588455,
+        "y": 2009.6937435857144
+      }
+    },
+    {
+      "id": "K_qLhK2kKN_uCq7iVjqph",
+      "type": "subtopic",
+      "label": "Elastic Stack",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.9080590588455,
+        "y": 1847.867646144425
+      }
+    },
+    {
+      "id": "s_kss4FJ2KyZRdcKNHK2v",
+      "type": "subtopic",
+      "label": "Graylog",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.9080590588455,
+        "y": 1900.867646144425
+      }
+    },
+    {
+      "id": "dZID_Y_uRTF8JlfDCqeqs",
+      "type": "subtopic",
+      "label": "Splunk",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.9080590588455,
+        "y": 1740.867646144425
+      }
+    },
+    {
+      "id": "cjjMZdyLgakyVkImVQTza",
+      "type": "subtopic",
+      "label": "Papertrail",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.9080590588455,
+        "y": 1687.867646144425
+      }
+    },
+    {
+      "id": "Yq8kVoRf20aL_o4VZU5--",
+      "type": "topic",
+      "label": "Container Orchestration",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1191.5919421168855,
+        "y": 2475.411508945109
+      }
+    },
+    {
+      "id": "XbrWlTyH4z8crSHkki2lp",
+      "type": "subtopic",
+      "label": "GKE / EKS / AKS",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1191.5919421168855,
+        "y": 2563.733953859971
+      }
+    },
+    {
+      "id": "FE2h-uQy6qli3rKERci1j",
+      "type": "subtopic",
+      "label": "AWS ECS / Fargate",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1191.5919421168855,
+        "y": 2616.733953859971
+      }
+    },
+    {
+      "id": "VD24HC9qJOC42lbpJ-swC",
+      "type": "subtopic",
+      "label": "Docker Swarm",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1191.5919421168855,
+        "y": 2669.733953859971
+      }
+    },
+    {
+      "id": "zuBAjrqQPjj-0DHGjCaqT",
+      "type": "topic",
+      "label": "Artifact Management",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1775.6994137533861,
+        "y": 2475.411508945109
+      }
+    },
+    {
+      "id": "C_sFyIsIIpriZlovvcbSE",
+      "type": "subtopic",
+      "label": "Artifactory",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1804.1994137533861,
+        "y": 2283.2681164764685
+      }
+    },
+    {
+      "id": "ootuLJfRXarVvm3J1Ir11",
+      "type": "subtopic",
+      "label": "Nexus",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1805.1994137533861,
+        "y": 2335.2681164764685
+      }
+    },
+    {
+      "id": "vsmE6EpCc2DFGk1YTbkHS",
+      "type": "subtopic",
+      "label": "Cloud Smith",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1805.6994137533861,
+        "y": 2387.2681164764685
+      }
+    },
+    {
+      "id": "-INN1qTMLimrZgaSPCcHj",
+      "type": "topic",
+      "label": "GitOps",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 2039.880090807097,
+        "y": 2475.411508945109
+      }
+    },
+    {
+      "id": "i-DLwNXdCUUug6lfjkPSy",
+      "type": "subtopic",
+      "label": "ArgoCD",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2039.880090807097,
+        "y": 2335.2924702992086
+      }
+    },
+    {
+      "id": "6gVV_JUgKgwJb4C8tHZn7",
+      "type": "subtopic",
+      "label": "FluxCD",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2039.880090807097,
+        "y": 2388.2924702992086
+      }
+    },
+    {
+      "id": "EeWsihH9ehbFKebYoB5i9",
+      "type": "topic",
+      "label": "Service Mesh",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 2039.941514522558,
+        "y": 2663.211912357967
+      }
+    },
+    {
+      "id": "XsSnqW6k2IzvmrMmJeU6a",
+      "type": "subtopic",
+      "label": "Istio",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1829.5489126426492,
+        "y": 2586.211912357967
+      }
+    },
+    {
+      "id": "OXOTm3nz6o44p50qd0brN",
+      "type": "subtopic",
+      "label": "Consul",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1829.5489126426492,
+        "y": 2639.211912357967
+      }
+    },
+    {
+      "id": "hhoSe4q1u850PgK62Ubau",
+      "type": "subtopic",
+      "label": "Linkerd",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1829.5489126426492,
+        "y": 2692.211912357967
+      }
+    },
+    {
+      "id": "epLLYArR16HlhAS4c33b4",
+      "type": "subtopic",
+      "label": "Envoy",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1829.5489126426492,
+        "y": 2745.211912357967
+      }
+    },
+    {
+      "id": "Qc0MGR5bMG9eeM5Zb9PMk",
+      "type": "topic",
+      "label": "Cloud Design Patterns",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1584.5509969897735,
+        "y": 2965.227757915361
+      }
+    },
+    {
+      "id": "JCe3fcOf-sokTJURyX1oI",
+      "type": "subtopic",
+      "label": "Availability",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1193,
+        "y": 2890
+      }
+    },
+    {
+      "id": "5FN7iva4DW_lv-r1tijd8",
+      "type": "subtopic",
+      "label": "Data Management",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1193,
+        "y": 2942
+      }
+    },
+    {
+      "id": "1_NRXjckZ0F8EtEmgixqz",
+      "type": "subtopic",
+      "label": "Design and Implementation",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1193,
+        "y": 2994
+      }
+    },
+    {
+      "id": "8kby89epyullS9W7uKDrs",
+      "type": "subtopic",
+      "label": "Management and Monitoring",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1193,
+        "y": 3046
+      }
+    },
+    {
+      "id": "wKYrZhmdNsv1Dw74-oAjR",
+      "type": "button",
+      "label": "Backend",
+      "legend": null,
+      "background": "#4136D4",
+      "position": {
+        "x": 1229.1022029048668,
+        "y": 3183.486197134392
+      }
+    },
+    {
+      "id": "IjRWRJtJqhSsf67kh5YE6",
+      "type": "button",
+      "label": "Docker",
+      "legend": null,
+      "background": "#4136D4",
+      "position": {
+        "x": 1416.1022029048668,
+        "y": 3183.486197134392
+      }
+    },
+    {
+      "id": "0iBhYESSf5f6WHvs_QqC5",
+      "type": "button",
+      "label": "Kubernetes",
+      "legend": null,
+      "background": "#4136D4",
+      "position": {
+        "x": 1603.1022029048668,
+        "y": 3183.486197134392
+      }
+    },
+    {
+      "id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "Linux",
+      "legend": null,
+      "background": "#4136D4",
+      "position": {
+        "x": 1790.1022029048668,
+        "y": 3183.486197134392
+      }
+    },
+    {
+      "id": "MfErpYwkJ0wiWJZEUVfrb",
+      "type": "button",
+      "label": "Visit the Beginner Version",
+      "legend": null,
+      "background": "#232323",
+      "position": {
+        "x": 1195.6220092352162,
+        "y": 115.7961259304779
+      }
+    },
+    {
+      "id": "w2eCgBC-ydMHSxh7LMti8",
+      "type": "subtopic",
+      "label": "Loki",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1206.9080590588455,
+        "y": 1794.867646144425
+      }
+    },
+    {
+      "id": "hIBeTUiAI3zwUY6NgAO-A",
+      "type": "subtopic",
+      "label": "Kubernetes",
+      "legend": {
+        "id": "RkcQf9vafpvjAVpo02XhQ",
+        "color": "#874efe",
+        "label": "Personal Recommendation / Opinion",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1191.5919421168855,
+        "y": 2722.733953859971
+      }
+    },
+    {
+      "id": "JXsctlXUUS1ie8nNEgIk9",
+      "type": "subtopic",
+      "label": "GCP Functions",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2010.6022029048672,
+        "y": 1606
+      }
+    },
+    {
+      "id": "wNguM6-YEznduz3MgBCYo",
+      "type": "topic",
+      "label": "Observability",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 1491.8528975202719,
+        "y": 2475.411508945109
+      }
+    },
+    {
+      "id": "8rd7T5ahK2I_zh5co-IF-",
+      "type": "subtopic",
+      "label": "Jaeger",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1510.8528975202719,
+        "y": 2562.733953859971
+      }
+    },
+    {
+      "id": "pk76Us6z8LoX3f0mhnCyR",
+      "type": "subtopic",
+      "label": "New Relic",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1510.8528975202719,
+        "y": 2615.733953859971
+      }
+    },
+    {
+      "id": "BHny2Emf96suhAlltiEro",
+      "type": "subtopic",
+      "label": "Datadog",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1510.8528975202719,
+        "y": 2668.733953859971
+      }
+    },
+    {
+      "id": "eOyu4wmKOrcMlhD8pUGGh",
+      "type": "subtopic",
+      "label": "Prometheus",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1510.8528975202719,
+        "y": 2721.733953859971
+      }
+    },
+    {
+      "id": "K81bmtgnB1gfhYdi3TB5a",
+      "type": "subtopic",
+      "label": "OpenTelemetry",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1510.8528975202719,
+        "y": 2774.733953859971
+      }
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "legend": null,
+      "background": "#e3e3e3",
+      "position": {
+        "x": 1902.8534153255607,
+        "y": 59.2037917234712
+      }
+    },
+    {
+      "id": "lUUJAEBrGJvL8dRs2n1GD",
+      "type": "subtopic",
+      "label": "ESO",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 2173.6275872741135,
+        "y": 2141.6542746452424
+      }
+    },
+    {
+      "id": "4aJVaimsuvGIPXMZ_WjaA",
+      "type": "subtopic",
+      "label": "Dynatrace",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1510.8528975202719,
+        "y": 2827.733953859971
+      }
+    },
+    {
+      "id": "Kumwd6XOlEMeDohDH0q9P",
+      "type": "subtopic",
+      "label": "Salt",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1402.0509969897735,
+        "y": 1773.549479432437
+      }
+    },
+    {
+      "id": "3GryoQuI67JTHg9r3xUHO",
+      "type": "subtopic",
+      "label": "OpenShift",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1191.5919421168855,
+        "y": 2775.733953859971
+      }
+    },
+    {
+      "id": "YeWQnKPIWti6sfYT51WT1",
+      "type": "button",
+      "label": "Network Engineer",
+      "legend": null,
+      "background": "#2a79e4",
+      "position": {
+        "x": 1583.0509969897735,
+        "y": 1191.0187194026719
+      }
+    },
+    {
+      "id": "hBrlgoiP-eRsxVf8xYmJZ",
+      "type": "button",
+      "label": "Network Engineer",
+      "legend": null,
+      "background": "#4136D4",
+      "position": {
+        "x": 1977.1022029048668,
+        "y": 3183.486197134392
+      }
+    },
+    {
+      "id": "DjDR8Yn5Q55NvoihElj7m",
+      "type": "subtopic",
+      "label": "Render",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1713.3528975202719,
+        "y": 1501.307095657017
+      }
+    },
+    {
+      "id": "e0CIteRMxc0DydKEJnMhp",
+      "type": "subtopic",
+      "label": "Railway",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1439,
+        "y": 1866.0270769190477
+      }
+    },
+    {
+      "id": "1du8Q2pRZM82ri6jBy5T7",
+      "type": "subtopic",
+      "label": "Buildkite",
+      "legend": {
+        "id": "fsxYh49oVbysjbXYBdL0J",
+        "label": "Alternative Option - Pick this or Purple",
+        "color": "#667113",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 1569,
+        "y": 1866.0270769190477
+      }
+    }
+  ],
+  "baseline": {
+    "estate_branch": "docs/backend-roadmap-design",
+    "estate_head": "a84beefb0d8d932a01056fbd4542910856129a28",
+    "car_parent": "e9d33d9be5f77553f461ac8fc9a5d8ddab8a7879"
+  },
+  "scope": {
+    "main_topics": 22,
+    "purple_subtopics": 46,
+    "green_subtopics": 58,
+    "gray_subtopics": 9,
+    "unticked_subtopics": 4,
+    "blue_occurrences": 6,
+    "total_coverage_nodes": 145,
+    "required_occurrences": 74,
+    "excluded_navigation": [
+      "Visit the Beginner Version",
+      "roadmap.sh"
+    ],
+    "blue_labels": [
+      "Backend",
+      "Docker",
+      "Kubernetes",
+      "Linux",
+      "Network Engineer"
+    ],
+    "note": "Raw labels/legend preserved; same labels can occur in different nodes. Cloud/provider and SaaS access limits are explicit, not equivalent verified local products."
+  }
+}

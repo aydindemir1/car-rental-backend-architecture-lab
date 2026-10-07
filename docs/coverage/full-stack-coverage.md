@@ -68,4 +68,7 @@ Bütün satırlar bugün **Planlandı** kapsamındadır. Konu yalnız belgede ge
 
 ## System Design fazı sonrası final audit
 
-Day 48 bu Full Stack kapsamının ara kontrolü olarak korunur; araç programına eklenen [System Design kapsamı](system-design-coverage.md) sonrasında **Day 64** Backend/Full Stack/System Design final audit'idir. Full Stack istisnaları ve önceki günlük görevler değişmez.
+Day 48 bu Full Stack kapsamının ara kontrolü olarak korunur; araç programına eklenen [System Design kapsamı](system-design-coverage.md) sonrasında **Day 64** Backend/Full Stack/System Design ara checkpoint; **Day 78** dört roadmap final audit'idir. Full Stack istisnaları ve önceki günlük görevler değişmez.
+
+
+[DevOps kapsamı](devops-coverage.md) eklenmiştir; önceki Node.js backend/Basic AWS istisnaları ve Full Stack uygulama görevleri korunur.

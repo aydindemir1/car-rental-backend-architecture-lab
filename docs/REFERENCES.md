@@ -44,3 +44,21 @@ Exact version/license/support, ilgili uygulama gününde doğrulanır. Paid M/Mo
 - [Valet Key](https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key)
 
 Pattern'lerin yerel eğitim adaptasyonu, tüm cloud ürün özelliklerini veya fiziksel fault-domain garantilerini sağlamaz. Ürün/version/support/license doğrulaması uygulama gününde yapılır.
+
+
+## DevOps genişletme kaynakları
+
+- [DevOps roadmap](https://roadmap.sh/devops) — 2026-10-07 canlı graph, renk/legend ve node ID snapshot.
+- [Emlak onaylı DevOps programı](https://github.com/aydindemir1/real-estate-backend-architecture-lab/blob/docs/backend-roadmap-design/docs/DEVOPS-ENGINEERING-PLAN.md)
+- [Python](https://docs.python.org/3/), [Go](https://go.dev/doc/), [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/)
+- [GitLab local Docker installation](https://docs.gitlab.com/install/docker/)
+- [CircleCI CLI migration](https://circleci.com/docs/guides/toolkit/cli-migration-guide/) — v1 local execute kaldırıldı; local validation actual managed pipeline değildir.
+- [Artifactory OSS](https://jfrog.com/community/download-artifactory-oss/) ve [self-managed release erişimi](https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases)
+- [Consul service mesh](https://developer.hashicorp.com/consul/docs/connect)
+- [Vault ESO provider](https://external-secrets.io/latest/provider/hashicorp-vault/), [SOPS](https://getsops.io/)
+- [Elastic](https://www.elastic.co/docs), [OpenTelemetry](https://opentelemetry.io/docs/), [Jaeger](https://www.jaegertracing.io/docs/)
+- [Cloudflare Workers local development](https://developers.cloudflare.com/workers/local-development/)
+- [AWS SAM local](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/using-sam-cli-local.html)
+- [Datadog plan/usage](https://docs.datadoghq.com/account_management/plan_and_usage/) — post-trial kullanımın ücretli olabileceği nedeniyle trial zorunlu değildir.
+
+Exact version/license/compatibility ve ücretsiz edition sınırları uygulama gününde yeniden doğrulanır. Resmi kaynağın bulunması erişim lisansını, free service hakkını veya actual integration'ı kanıtlamaz.
