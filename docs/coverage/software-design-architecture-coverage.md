@@ -28,7 +28,7 @@ Emlak Clean/Onion/Hexagonal/Vertical Slice/DDD/CQRS/Event Sourcing/messaging/SOA
 | `gyQw885dvupmkohzJPg3a` | Design Patterns | Alt konu | Araç / [Day 122](../roadmap/day-122.md) | Day 122–124:23 GoF pattern ayrı role/kod/test; product'a zorunlu taşıma yok | Planlandı |
 | `XBCxWdpvQyK2iIG2eEA1K` | Architectural Principles | Alt konu | Araç / [Day 125](../roadmap/day-125.md) | REP/CCP/CRP/ADP/SDP/SAP; dependency/change/release ve ArchUnit deliberate violation | Planlandı |
 | `En_hvwRvY6k_itsNCQBYE` | Architectural Styles | Alt konu | Araç / [Day 126](../roadmap/day-126.md) | Day 09/104 mevcut code; Day 125–126 layers/component/PoSA runtime scope ve test | Planlandı |
-| `jq916t7svaMw5sFOcqZSi` | Architectural Patterns | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `jq916t7svaMw5sFOcqZSi` | Architectural Patterns | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
 | `WrzsvLgo7cf2KjvJhtJEC` | Enterprise Patterns | Alt konu | Araç / [Day 129](../roadmap/day-129.md) | 11 enterprise alt konusu; Hibernate Identity Map/UoW/SQL/rollback ve domain/application sınırı | Planlandı |
 | `pd0_ffU8fTHcg_nLPae6W` | Backend Developer Roadmap | Roadmap bağlantısı | Araç / [Day 131](../roadmap/day-131.md) | Backend/System Design mevcut explicit matrisleri + Day 131 cross-roadmap gerçek kanıt denetimi | Planlandı |
 | `08qKtgnhJ3tlb5JKfTDf5` | Clean Code Principles | Ana/grup konusu | Araç / [Day 118](../roadmap/day-118.md) | Refactoring fixture, karakterizasyon/regression; CQS ve effect/dependency sınırı | Planlandı |
@@ -83,9 +83,9 @@ Emlak Clean/Onion/Hexagonal/Vertical Slice/DDD/CQRS/Event Sourcing/messaging/SOA
 | `TXus3R5vVQDBeBag6B5qs` | Coupling and Cohesion | Alt konu | Araç / [Day 125](../roadmap/day-125.md) | REP/CCP/CRP/ADP/SDP/SAP; dependency/change/release ve ArchUnit deliberate violation | Planlandı |
 | `-Kw8hJhgQH2qInUFj2TUe` | Boundaries | Alt konu | Araç / [Day 125](../roadmap/day-125.md) | REP/CCP/CRP/ADP/SDP/SAP; dependency/change/release ve ArchUnit deliberate violation | Planlandı |
 | `37xWxG2D9lVuDsHUgLfzP` | Architectural Styles | Ana/grup konusu | Araç / [Day 126](../roadmap/day-126.md) | Day 09/104 mevcut code; Day 125–126 layers/component/PoSA runtime scope ve test | Planlandı |
-| `j9j45Auf60kIskyEMUGE3` | Messaging | Ana/grup konusu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `KtzcJBb6-EcIoXnwYvE7a` | Event-Driven | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `SX4vOVJY9slOXGwX_q1au` | Publish-Subscribe | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `j9j45Auf60kIskyEMUGE3` | Messaging | Ana/grup konusu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `KtzcJBb6-EcIoXnwYvE7a` | Event-Driven | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `SX4vOVJY9slOXGwX_q1au` | Publish-Subscribe | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
 | `3V74lLPlcOXFB-QRTUA5j` | Distributed | Ana/grup konusu | Araç / [Day 127](../roadmap/day-127.md) | Day 08/104 client-server; Day 127 üç local peer direct message/partition/rejoin | Planlandı |
 | `ZGIMUaNfBwE5b6O1yexSz` | Client-Server | Alt konu | Araç / [Day 127](../roadmap/day-127.md) | Day 08/104 client-server; Day 127 üç local peer direct message/partition/rejoin | Planlandı |
 | `Cf9Z2wxBcbnNg_q9PA6xA` | Peer-to-Peer | Alt konu | Araç / [Day 127](../roadmap/day-127.md) | Day 08/104 client-server; Day 127 üç local peer direct message/partition/rejoin | Planlandı |
@@ -93,17 +93,17 @@ Emlak Clean/Onion/Hexagonal/Vertical Slice/DDD/CQRS/Event Sourcing/messaging/SOA
 | `a0geFJWl-vi3mYytTjYdb` | Component-Based | Alt konu | Araç / [Day 126](../roadmap/day-126.md) | Day 09/104 mevcut code; Day 125–126 layers/component/PoSA runtime scope ve test | Planlandı |
 | `xYPR_X1KhBwdpqYzNJiuT` | Monolithic | Alt konu | Araç / [Day 126](../roadmap/day-126.md) | Day 09/104 mevcut code; Day 125–126 layers/component/PoSA runtime scope ve test | Planlandı |
 | `IELEJcKYdZ6VN-UIq-Wln` | Layered | Alt konu | Araç / [Day 126](../roadmap/day-126.md) | Day 09/104 mevcut code; Day 125–126 layers/component/PoSA runtime scope ve test | Planlandı |
-| `gJYff_qD6XS3dg3I-jJFK` | Architectural Patterns | Ana/grup konusu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `CD20zA6k9FxUpMgHnNYRJ` | Domain-Driven Design | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `-arChRC9zG2DBmuSTHW0J` | Model-View Controller | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `eJsCCURZAURCKnOK-XeQe` | Microservices | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `gJYff_qD6XS3dg3I-jJFK` | Architectural Patterns | Ana/grup konusu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `CD20zA6k9FxUpMgHnNYRJ` | Domain-Driven Design | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `-arChRC9zG2DBmuSTHW0J` | Model-View Controller | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `eJsCCURZAURCKnOK-XeQe` | Microservices | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
 | `Kk7u2B67Fdg2sU8E_PGqr` | Blackboard Pattern | Alt konu | Araç / [Day 128](../roadmap/day-128.md) | Java plugin JAR/SPI ve shared blackboard knowledge source/control ayrı gerçek lab | Planlandı |
 | `r-Yeca-gpdFM8iq7f0lYQ` | Microkernel | Alt konu | Araç / [Day 128](../roadmap/day-128.md) | Java plugin JAR/SPI ve shared blackboard knowledge source/control ayrı gerçek lab | Planlandı |
-| `5WSvAA3h3lmelL53UJSMy` | Serverless Architecture | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `GAs6NHBkUgxan3hyPvVs7` | Message Queues / Streams | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `K8X_-bsiy7gboInPzbiEb` | Event Sourcing | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `FysFru2FJN4d4gj11gv--` | SOA | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
-| `IU86cGkLPMXUJKvTBywPu` | CQRS | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 reuse; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `5WSvAA3h3lmelL53UJSMy` | Serverless Architecture | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `GAs6NHBkUgxan3hyPvVs7` | Message Queues / Streams | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `K8X_-bsiy7gboInPzbiEb` | Event Sourcing | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `FysFru2FJN4d4gj11gv--` | SOA | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
+| `IU86cGkLPMXUJKvTBywPu` | CQRS | Alt konu | Araç / [Day 130](../roadmap/day-130.md) | Day 12/24/27/33/103 yeniden kullanılır; Day 130 ES/CQRS append/replay/concurrency/projection audit | Planlandı |
 | `h0aeBhQRkDxNeFwDxT4Tf` | Enterprise Patterns | Ana/grup konusu | Araç / [Day 129](../roadmap/day-129.md) | 11 enterprise alt konusu; Hibernate Identity Map/UoW/SQL/rollback ve domain/application sınırı | Planlandı |
 | `y_Qj7KITSB8aUWHwiZ2It` | DTOs | Alt konu | Araç / [Day 129](../roadmap/day-129.md) | 11 enterprise alt konusu; Hibernate Identity Map/UoW/SQL/rollback ve domain/application sınırı | Planlandı |
 | `tb0X1HtuiGwz7YhQ5xPsV` | Identity Maps | Alt konu | Araç / [Day 129](../roadmap/day-129.md) | 11 enterprise alt konusu; Hibernate Identity Map/UoW/SQL/rollback ve domain/application sınırı | Planlandı |
@@ -129,3 +129,8 @@ Emlak Clean/Onion/Hexagonal/Vertical Slice/DDD/CQRS/Event Sourcing/messaging/SOA
 - Architectural Patterns: Event Sourcing append/replay/optimistic concurrency; CQRS read projection; EDA/pub-sub durable publication farklı semantiklerle doğrulanır. Emlak doğrulanmış kanıt'ı yeterliyse tekrar uygulama şartı yoktur.
 
 Comparison/Design Only zorunlu teknik konuyu kapatmaz. Bu kaynakta yeşil ürün listesi yoktur; başka roadmap'te seçilen yaygın alternatifler mevcut kapsamlarıyla korunur. Yeni isim çeşitliliği için canonical state veya controller owner'ı çoğaltılmaz.
+
+
+## Design System explicit genişlemesi ve güncel final gate
+
+[Design System127düğüm kapsamı](design-system-coverage.md) ayrıca kullanıcı talebidir. Day 88 foundation korunur; Day 132–142 eksik gerçek görevler; Day 131 yedi-roadmap ara checkpoint; [Day143](../roadmap/day-143.md) sekiz-roadmap final audit. Önceki final ifadeleri tarihsel kapsamıyla okunur; Emlak 85 gün değişmez. Linked UX Design kutusu representative pilot kapsamıdır; UX roadmap'in bütünü otomatik scope değildir.

@@ -127,3 +127,8 @@ Bu envanter yalnız not listesi değildir. Her zorunlu konu için [uygulama söz
 ## Ek explicit roadmap — Software Design & Architecture
 
 [Software Design & Architecture matrisi](software-design-architecture-coverage.md)13 topic/81 subtopic/3 renkli roadmap kutusu ile ek kapsamdır. Kaynakta mor/yeşil legend yoktur; bütün alt konular learning/kod/test günlük sahibine bağlanır. Önceki bölümler Backend envanteridir; bu yeni matris onların yerine geçmez. Day 117 ara checkpoint; Day 131 yedi-roadmap final audit. Emlak 85 gün değişmez.
+
+
+## Ek explicit roadmap — Design System
+
+[Design System matrisi](design-system-coverage.md)9 sarı/topic,115 alt ve 3 renkli roadmap kutusu ile scope'tur;14 grup label context olarak izlenir. Mor/yeşil tik metadata'sı olmadığı için bütün alt konular gerçek görev sahibi taşır. Day 131 ara checkpoint; Day 143 sekiz-roadmap final audit. Emlak 85 gün ve repository değişmez.

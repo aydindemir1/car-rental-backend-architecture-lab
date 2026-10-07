@@ -105,9 +105,22 @@ Public kaynaktaki overview ile tüm telifli standard/yönteme erişim farklıdı
 - [Canlı roadmap](https://roadmap.sh/software-design-architecture) — graph snapshot 97 educational occurrence; mor/yeşil tik metadata'sı yok.
 - [GoF — yayıncı kitabı](https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-9780201633610) — pattern isim/kapsam kaynağı; kitap satın alma zorunluluğu veya metni repoya kopyalama yok.
 - [PoSA 2 — yazarların pattern kataloğu](https://www.dre.vanderbilt.edu/~schmidt/POSA/POSA2/) ve [event handling ayrımı](https://www.dre.vanderbilt.edu/~schmidt/POSA/POSA2/event-patterns.html) — seçilmiş pattern ailesi kapsamı; tüm volume'lar bitirildi iddiası yok.
-- [Enterprise pattern kataloğu](https://martinfowler.com/eaaCatalog/index.html), [Identity Map](https://martinfowler.com/eaaCatalog/identityMap.html), [Unit of Work](https://martinfowler.com/eaaCatalog/unitOfWork.html), [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) — primaryauthor kaynakları.
+- [Enterprise pattern kataloğu](https://martinfowler.com/eaaCatalog/index.html), [Identity Map](https://martinfowler.com/eaaCatalog/identityMap.html), [Unit of Work](https://martinfowler.com/eaaCatalog/unitOfWork.html), [Transaction Script](https://martinfowler.com/eaaCatalog/transactionScript.html) — primary author kaynakları.
 - [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) — replay/state ve external effects sınırı.
 - [ServiceLoader Java API](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/ServiceLoader.html) — JVMplugin/SPI profili; uygulama gününde kullanılan Java sürümünün API'ı doğrulanır.
 - [Hibernate ORM User Guide](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html) — persistence context/flush/dirty checking/locking; gün başında seçilmiş Spring BOM ile uyumlu sürüm pin edilir.
 
 Kaynak öğrenme için; satın alma/ücretli eğitim/certification/trial/account/license kabulü otomatik değildir. Kaynak/sürüm scope gerçek kanıtla raporlanır.
+
+
+## Design System kaynakları — 2026-10-08
+
+- [Canlı Design System roadmap](https://roadmap.sh/design-system) —9 topic/115 subtopic/3 roadmap link; kaynak screenshot değil serialized graph node ID snapshot.
+- [Storybook](https://storybook.js.org/docs) ve [a11y testleri](https://storybook.js.org/docs/writing-tests/accessibility-testing) — local catalog/browser test entegrasyonu; gün başında supported framework/addon sürümü pin edilir.
+- [Style Dictionary](https://styledictionary.com/) ve [DTCG Format2025.10](https://www.designtokens.org/tr/2025.10/format/) — token exchange/build; Community Group raporu ile W3C Recommendation statüsü farklıdır.
+- [Penpot self-host guide](https://help.penpot.app/technical-guide/getting-started/), [design tokens](https://help.penpot.app/user-guide/design-systems/design-tokens/), [plugin oluşturma](https://help.penpot.app/plugins/create-a-plugin/) — local editor/export/plugin/API support uygulama gününde doğrulanır.
+- [WAI APG](https://www.w3.org/WAI/ARIA/apg/) ve [WCAG2.2](https://www.w3.org/TR/WCAG22/) — widget semantic/keyboard/accessible-name ve testable criteria; automated scanner tam compliance sertifikası değildir.
+- [MaterialDesign](https://m3.material.io/), [Carbon](https://carbondesignsystem.com/), [GOV.UKDesignSystem](https://design-system.service.gov.uk/) — seçilmiş design-example karşılaştırma; tüm library'lerin kurulması zorunlu değil.
+- [Atomic Design — primaryauthor](https://atomicdesign.bradfrost.com/) ve [Lucide](https://lucide.dev/) — composition/icon örnekleri; kaynak/asset lisansı, trademark ve destek kapsamı gün başında incelenir.
+
+Kesin sürüm/API/license/resource şartı uygulama günündedir; paid plugin/editor/SaaS/trial/account/billing otomatik değildir. Bugünkü kaynak/plan belgesi gerçek runtime kanıtı değildir.

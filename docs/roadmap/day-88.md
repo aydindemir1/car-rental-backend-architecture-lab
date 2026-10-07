@@ -45,6 +45,11 @@ Mevcut verified uygulama yeterliyse aynı sorumluluğu tekrar kurma/boş feat co
 - [ ] Accessibility, auth/privacy, cancellation/cleanup ve bounded resource davranışı ilgili use-case'te test edildi.
 - [ ] Sürüm/lisans/compatibility gün başında doğrulanıp pin edildi; source maps/env/artifact secret sızdırmıyor.
 - [ ] Local/managed provider, mock/real API ve CSR/SSR/SSG/PWA kanıtları ayrı raporlandı.
-- [ ] Coverage actual duruma güncellendi; yalnız comparison veya static export SSR implementation sayılmadı.
+- [ ] Coverage gerçek duruma güncellendi; yalnız comparison veya static export SSR implementation sayılmadı.
 
 Ücretli cloud/model API/hosting zorunluluğu yoktur; hesap/billing/remote deployment bugün yapılmaz. Local lab production SLA/scale, arama sıralaması veya mesleki unvan kanıtı değildir.
+
+
+## Design System explicit genişleme ile ilişki
+
+Bu gün token/temel component/Web Components foundation'ıdır; [Design System kapsamının](../coverage/design-system-coverage.md) tamamını tek başına bitirmez. Yeni [Day132–143 programı](../DESIGN-SYSTEM-ROADMAP-EXTENSION.md) visual audit, design language/brand/microcopy, geniş token/typography/iconography,20 core component, Storybook/test/release, local Penpot editor/plugin, pilot/UX/regional/A-B ve governance/adoption/communication çalışmalarını tamamlar. Bu gün doğrulanmış kanıt üretirse sonraki günler aynı component'i yeniden kurmak yerine SHA/test/browser kanıtını bağlar. Canonical token kaynağı ve artifact/version sınırı korunur; native app veya Node business backend scope'u yeniden açılmaz.

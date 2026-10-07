@@ -15,3 +15,8 @@ Zorunlu sarı/mor/mavi bir konu Comparison veya Design Only ile tamamlanmış sa
 ## Yürürlükteki final audit
 
 Day 48/64/78/99/117 tarihsel kapsam checkpoint'leridir; [Day 131](../roadmap/day-131.md) yedi explicit roadmap için final audit'tir. [Software Design & Architecture97 node matrisi](software-design-architecture-coverage.md) ayrıca **Planlandı**.23 GoF/seçilmişPoSA/peer/plugin/blackboard/ORM/ES tasks bugün çalıştırılmış değildir; runtime ve case-validation kanıtları ayrı sayılır.
+
+
+## Design System ile yeni nihai audit
+
+[Day143](../roadmap/day-143.md) sekiz explicit roadmap için yürürlükteki final audit'tir; Day 131 artık yedi-roadmap ara checkpoint. [Design System matrisi](design-system-coverage.md)127 eğitim node+14 context label ile ayrıca Planlandı'dır. Yeni component/editor/token/plugin/pilot işleri bugün uygulanmış veya Verified değildir. Teknikruntime/vakareview/simulation/Comparison/Partial/AccessGap sayıları ayrı tutulur.

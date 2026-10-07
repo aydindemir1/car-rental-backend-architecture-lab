@@ -1,6 +1,6 @@
 # Günlük eğitim planı
 
-131 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
+143 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
 
 | Gün | Konu | Kesin plan |
 |---|---|---|
@@ -135,6 +135,19 @@
 | Day 128 | Microkernel ve Blackboard architectural pattern'leri | [Plan](day-128.md) |
 | Day 129 | Enterprise patterns ve ORM davranışlarının doğrulanması | [Plan](day-129.md) |
 | Day 130 | Event Sourcing, CQRS ve messaging kapsam doğrulaması | [Plan](day-130.md) |
-| Day 131 | Yedi roadmap ve iki proje final kapsam audit'i | [Plan](day-131.md) |
+| Day 131 | Yedi roadmap ara kapsam checkpoint | [Plan](day-131.md) |
 
-Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 altı roadmap ara checkpoint; Day 131 yedi roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.
+| Day 132 | Design System temelleri, terminoloji ve görsel audit | [Plan](day-132.md) |
+| Day 133 | Tasarım dili, marka, logo ve içerik kuralları | [Plan](day-133.md) |
+| Day 134 | Design token'ları: renk, dark mode ve layout | [Plan](day-134.md) |
+| Day 135 | Typography ve iconography sistemi | [Plan](day-135.md) |
+| Day 136 | Core components — görünüm, eylem ve metin girdileri | [Plan](day-136.md) |
+| Day 137 | Core components — seçim ve form etkileşimleri | [Plan](day-137.md) |
+| Day 138 | Core components — navigation, overlay ve feedback | [Plan](day-138.md) |
+| Day 139 | Storybook, testler, sürümleme ve katkı süreci | [Plan](day-139.md) |
+| Day 140 | Ücretsiz local design editor, plugin ve design-code traceability | [Plan](day-140.md) |
+| Day 141 | Pilot uygulama, UX, bölgesel gereksinimler ve A/B deneyi | [Plan](day-141.md) |
+| Day 142 | Design System proje yönetimi, adoption ve gözlemlenebilirlik | [Plan](day-142.md) |
+| Day 143 | Sekiz roadmap ve iki proje final kapsam audit'i | [Plan](day-143.md) |
+
+Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap ara checkpoint; Day 117 altı roadmap ara checkpoint; Day 131 yedi roadmap ara checkpoint; Day 143 sekiz roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.

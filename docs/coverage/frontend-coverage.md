@@ -243,3 +243,8 @@ Day 117, 72 required frontend occurrence ve altı roadmap matrisini implementati
 ## Yeni explicit kapsam ve final gün güncellemesi — 2026-10-08
 
 [Software Design & Architecture](software-design-architecture-coverage.md) ayrıca 97 node scope'tur. Bu matristeki eski milestone/evidence owner'ları korunur. Day 48/64/78/99/117 kendi roadmap checkpoint'leridir; **[Day 131](../roadmap/day-131.md) yedi-roadmap final audit** yürürlüktedir. Emlak 85 günlük programı değişmez; yeni araç görevleri Planlandı'dır.
+
+
+## Design System explicit genişlemesi ve güncel final gate
+
+[Design System127düğüm kapsamı](design-system-coverage.md) ayrıca kullanıcı talebidir. Day 88 foundation korunur; Day 132–142 eksik gerçek görevler; Day 131 yedi-roadmap ara checkpoint; [Day143](../roadmap/day-143.md) sekiz-roadmap final audit. Önceki final ifadeleri tarihsel kapsamıyla okunur; Emlak 85 gün değişmez. Linked UX Design kutusu representative pilot kapsamıdır; UX roadmap'in bütünü otomatik scope değildir.

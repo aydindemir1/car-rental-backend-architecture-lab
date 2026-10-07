@@ -88,4 +88,15 @@ Kaynak 13 topic (9 ana+4 highlighted grup),81 subtopic (9 minimap+72 ayrıntıl�
 
 Yeni ürün yarışı yerine Java ve mevcut Spring/DB/broker araçlarıyla bounded fixture'lar:23 GoF, seçilmiş PoSA structure/event/concurrency,6 component principle,3 local peer,ServiceLoader plugin microkernel,blackboard,ORMidentitymap/UoW ve ES/CQRS audit. İzole eğitim örneği production default değildir. PoSA bütün kitap serisinin tüm pattern'leri değil explicit seçilmiş pattern ailesi code+kaynak kapsamı katalog kapsamıdır.
 
-Mevcut verified implementation exact SHA/evidence ile iki projeden birinde reuse edilir; emlak plan satırı tek başına tamamlanmış sayılmaz. Eksik gerçek test/evidence için araç görevleri açıktır. Java/Spring core, ücretsiz local,self-hosted ve tek canonical owner,Node business-backend/native Desktop-Mobile ve provider istisnaları aynen korunur. Bütün yeni işler şu an Planlandı'dır.
+Mevcut verified implementation kesin SHA/evidence ile iki projeden birinde yeniden kullanılır; emlak plan satırı tek başına tamamlanmış sayılmaz. Eksik gerçek test/evidence için araç görevleri açıktır. Java/Spring core, ücretsiz local,self-hosted ve tek canonical owner,Node business-backend/native Desktop-Mobile ve provider istisnaları aynen korunur. Bütün yeni işler şu an Planlandı'dır.
+
+
+## Design System kapsam kararı — 2026-10-08
+
+[roadmap.sh/design-system](https://roadmap.sh/design-system) explicit iki proje kapsamıdır. Emlak 85 gün ve repo/branch/kod/doküman değişmez. Araç 131→**143 milestone**; Day 131 yedi-roadmap ara checkpoint; Day 132–142 eksik tasarım deneyleri; Day 143 sekiz-roadmap final audit. Önceki final ifadeleri tarihsel kapsamıyla okunur; yürürlükteki nihai gate Day 143'tür.
+
+Kaynak 9 topic+115 subtopic+3 renkli roadmap bağlantısı=127 eğitim occurrence;14 context label ayrıca bağlı. Mor/yeşil tik metadata'sı yok; tekrar Accessibility/Documentation/Guidelines/Avatar vb node ID'leri bağlamıyla ayrı tutulur. UX Design mavi bağlantısı representative journey/prototype/task/review/revision kapsamıdır; tüm UX roadmap otomatik yeni kapsam değildir.
+
+Mevcut Day 88 ve React/TS/Java/Spring/CI/telemetry/test kararları korunur. Storybook local catalog; Style Dictionary canonical Git JSON→CSS/TS; ücretsiz local design editor için self-hosted Penpot ve gerçek bounded TypeScript plugin. Figma/Sketch karşılaştırma, ücretli editor/plugin/Chromatic/model API/managed cloud zorunlu değil. Kesin sürüm/API/license/resource uyumluluğu gün başında pin edilir; erişim engeli varsa açık gap, sessiz paid/hosted fallback yok.
+
+20 core component state/keyboard/focus/role/error/test; design language/logo/microcopy; scratch+existing pilot/regional/local A/B; governance/release/contribution/adoption/metrics/communication gerçek teknik veya vaka görevleridir. Design System sadece component library değildir. Automated a11y pass tam WCAG certification; sentetik A/B gerçek conversion; solo simulation gerçek participant/enterprise ekip tecrübesi sayılmaz. Yeni görevlerin tamamı **Planlandı**.

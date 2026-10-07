@@ -72,6 +72,15 @@ Day 48/64/78/99 önceki roadmap checkpoint'leridir; **Day 117 altı roadmap fina
 
 [97 düğüm matrisi](software-design-architecture-coverage.md) explicit talep kapsamıdır:13 topic,81 subtopic ve 3 renkli roadmap bağlantısı. Mor/yeşil tik metadata'sı bulunmaz; minimap/tekrar occurrence'ları farklı node ID olarak korunur. Her teknik konu gerçek learning+kod/konfigürasyon+başarı/hata/toparlanma evidence ister; karşılaştırma/ADR/dependency adı tamamlanma değildir.
 
-GoF 23 pattern için Day 122–124 ayrı implementation/contract/anti-example; PoSA seçilmişpattern ailesi runtime ve volume/kaynak kapsamı; microkernel/blackboard/P 2 P/MDD/IdentityMap doğru davranış; ESappend/replay ile audit/outbox farkı açık görevlerdir. PoSA kitap serisinin tüm pattern'lerini sınırsız zorunlu yapmak bu broadlabel'ın temsilî scope'u değildir; kapsam açık katalogda raporlanır.
+GoF 23 pattern için Day 122–124 ayrı implementation/contract/anti-example; PoSA seçilmişpattern ailesi runtime ve volume/kaynak kapsamı; microkernel/blackboard/P2P/MDD/IdentityMap doğru davranış; ESappend/replay ile audit/outbox farkı açık görevlerdir. PoSA kitap serisinin tüm pattern'lerini sınırsız zorunlu yapmak bu broadlabel'ın temsilî scope'u değildir; kapsam açık katalogda raporlanır.
 
-Emlak mevcut doğrulanmış kanıt yeterliyse reuse; yalnız plan varsa araç görevi açık kalır. Önceki Day 117 artık altı-roadmap ara checkpoint; **Day 131 yedi-roadmap final audit** yürürlüktedir. Actualruntime/case,Comparison/Design Only/Partial/AccessGap raporu ayrı; Emlak 85 gün ve kaynakrepo değişmez.
+Emlak mevcut doğrulanmış kanıt yeterliyse yeniden kullanılır; yalnız plan varsa araç görevi açık kalır. Önceki Day 117 artık altı-roadmap ara checkpoint; **Day 131 yedi-roadmap final audit** yürürlüktedir. Actualruntime/case,Comparison/Design Only/Partial/AccessGap raporu ayrı; Emlak 85 gün ve kaynakrepo değişmez.
+
+
+## Design System kapsamı ve yürürlükteki final gate
+
+[127 eğitim düğümü matrisi](design-system-coverage.md):9 topic,115 alt konu,3 renkli roadmap kutusu;14 grup label bağlamıyla ayrıca kayıtlı. Snapshot mor/yeşil tik metadata'sı taşımaz; tüm alt konular açık günlük owner/göreve bağlıdır.
+
+Teknik token/component/editor/plugin/tool/test/analytics capability code/design asset/config ve local browser/runtime başarı/hata/recovery evidence ister. Vision/governance/stakeholder/communication konusu proje artifact+senaryo+review+revision ile kapanır. Salt component dependency/screenshot veya okunmuş glossary bütün capability'yi tamamlamaz. Solo workshops ve synthetic A/B/metrics sınırları açık raporlanır.
+
+Önceki Day 131 artık yedi-roadmap ara checkpoint; **Day 143 sekiz-roadmap final audit** yürürlüktedir. Mevcut Day 88 veya iki projede yeterli doğrulanmış kanıt yeniden kullanılır; eksik gerçek kanıt araçta açık iş kalır. Emlak 85 gün değişmez. Free/local/native/Node business-backend/cloud-SaaS sınırları sürer; unsupported plugin API veya editor erişimi Comparison ile sessiz kapanmaz, açık gap sahibi vardır.

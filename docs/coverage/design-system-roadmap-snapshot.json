@@ -1,0 +1,2780 @@
+{
+  "source": "https://roadmap.sh/design-system",
+  "retrievedLocalDate": "2026-10-08",
+  "timezone": "Europe/Istanbul",
+  "graphId": "6867ba865c499280169f327b",
+  "graphUpdatedAt": "2025-11-19T08:40:14.512Z",
+  "htmlSha256": "e5a95225495d9c87b0d0b8e125a7402d15a7c92f8689b0b09bae17b34ee40e5f",
+  "carBaseRef": "43c1b1e7a3c8a93bf1d8a549e234bbc7f875d53b",
+  "estateRef": "a84beefb0d8d932a01056fbd4542910856129a28",
+  "counts": {
+    "topic": 9,
+    "subtopic": 115,
+    "roadmapLink": 3,
+    "educationNodes": 127,
+    "contextLabels": 14,
+    "purpleTicks": 0,
+    "greenTicks": 0,
+    "excludedNavigation": 1
+  },
+  "legendNote": "Topic/subtopic data içinde mor/yeşil recommendation tick metadata yoktur. Renkli roadmap button'ları tik değildir. Aynı Accessibility/Guidelines/Documentation vb etiketler farklı node ID ve bağlamla korunur.",
+  "nodes": [
+    {
+      "id": "uvnV1IjE8RV-FKDxHntUU",
+      "type": "topic",
+      "label": "Understand the Basics",
+      "area": "Understand the Basics",
+      "sourceData": {
+        "label": "Understand the Basics",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "4PrkkoZ5fY-oow0O-bVhu",
+      "type": "subtopic",
+      "label": "What is a Design System?",
+      "area": "Understand the Basics",
+      "sourceData": {
+        "label": "What is a Design System?",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "2rlmLn_yQQV-7DpX1qT98",
+      "type": "subtopic",
+      "label": "Need of Design System",
+      "area": "Understand the Basics",
+      "sourceData": {
+        "label": "Need of Design System",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "VhSEH_RoWFt1z2lial7xZ"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "J5mU0v491qrm-mr1W3Msd",
+      "type": "subtopic",
+      "label": "Design System vs Component Library",
+      "area": "Understand the Basics",
+      "sourceData": {
+        "label": "Design System vs Component Library",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "6AIUtChWC_gK8Ax0UuBjd",
+      "type": "button",
+      "label": "Frontend",
+      "area": "Roadmap bağlantısı",
+      "sourceData": {
+        "label": "Frontend",
+        "href": "https://roadmap.sh/frontend",
+        "color": "#FFf",
+        "backgroundColor": "#4136D6",
+        "style": {
+          "fontSize": 17
+        },
+        "borderColor": "#4136D6",
+        "oldId": "f5WRewBlpeYMf71cPcXs-"
+      },
+      "plannedDay": 143,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Frontend/Backend mevcut matris evidence ve UX Day141 representative capability; sekiz-roadmap audit"
+    },
+    {
+      "id": "6r9XbwlBtHmJrhviG2cTD",
+      "type": "subtopic",
+      "label": "What is Atomic Design",
+      "area": "Understand the Basics",
+      "sourceData": {
+        "label": "What is Atomic Design",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "_3_tFOpQisx6DSP4Yc2E2",
+      "type": "subtopic",
+      "label": "Stakeholders Involved in Building",
+      "area": "Understand the Basics",
+      "sourceData": {
+        "label": "Stakeholders Involved in Building",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "UZq7Aq3nhidsXdsKeEnNF",
+      "type": "button",
+      "label": "Backend",
+      "area": "Roadmap bağlantısı",
+      "sourceData": {
+        "label": "Backend",
+        "href": "https://roadmap.sh/backend",
+        "color": "#FFf",
+        "backgroundColor": "#4136D6",
+        "style": {
+          "fontSize": 17
+        },
+        "borderColor": "#4136D6",
+        "oldId": "f5WRewBlpeYMf71cPcXs-"
+      },
+      "plannedDay": 143,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Frontend/Backend mevcut matris evidence ve UX Day141 representative capability; sekiz-roadmap audit"
+    },
+    {
+      "id": "hauTvrBOAHgrUnO_m_kDM",
+      "type": "subtopic",
+      "label": "Design System Examples",
+      "area": "Understand the Basics",
+      "sourceData": {
+        "label": "Design System Examples",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "de0TKvmFTDmKGZc5X7iFq",
+      "type": "topic",
+      "label": "Terminology",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Terminology",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "97cpJyKBKNAq1P_pQZH-t",
+      "type": "subtopic",
+      "label": "Component",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Component",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "vJ4WytrzY7j10mo8S3O1u",
+      "type": "subtopic",
+      "label": "Component Library",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Component Library",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "fPUuXrlchna3K00KcY4O6",
+      "type": "subtopic",
+      "label": "Design Language",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Design Language",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "kifE3JE2immnU1O3-toZf",
+      "type": "subtopic",
+      "label": "Governance",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Governance",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "mlBzJ2YvBr9QuOthKdj0p",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "7xPT8rUX3hjSWbxH_FfQs",
+      "type": "subtopic",
+      "label": "Pattern",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Pattern",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "4dzoZmkNHPedgLqLy93t8",
+      "type": "subtopic",
+      "label": "Pilot",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Pilot",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "jETJVuS_EczJiQASLqaQr",
+      "type": "subtopic",
+      "label": "Token",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "Token",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "lUObv2N7eH3Jdnwwd5vmI",
+      "type": "subtopic",
+      "label": "UI Kit",
+      "area": "Terminology",
+      "sourceData": {
+        "label": "UI Kit",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "dUaoMARPabiD4DRqdkaer",
+      "type": "topic",
+      "label": "Making a Design System",
+      "area": "Making a Design System",
+      "sourceData": {
+        "label": "Making a Design System",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 141,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Scratch+existing iki pilot; UX journey/review/revision, locale/RTL ve local A/B assignment/event tests"
+    },
+    {
+      "id": "-9I3fTpnQlmcZmIIuQiPe",
+      "type": "subtopic",
+      "label": "Making it from Scratch",
+      "area": "Making a Design System",
+      "sourceData": {
+        "label": "Making it from Scratch",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 141,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Scratch+existing iki pilot; UX journey/review/revision, locale/RTL ve local A/B assignment/event tests"
+    },
+    {
+      "id": "z5gBy7BjlBKwbYbxXtoDA",
+      "type": "subtopic",
+      "label": "Making it from Existing Design",
+      "area": "Making a Design System",
+      "sourceData": {
+        "label": "Making it from Existing Design",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 141,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Scratch+existing iki pilot; UX journey/review/revision, locale/RTL ve local A/B assignment/event tests"
+    },
+    {
+      "id": "8eWhvW2zDIxMGHaXl0Y9i",
+      "type": "topic",
+      "label": "Existing Design Analysis",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Existing Design Analysis",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "NKm-gXbt5Y7dDwKVkPHjX",
+      "type": "subtopic",
+      "label": "Performing a Visual Audit",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Performing a Visual Audit",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "CnsDoZ3gIaPeNbwHuZXYJ",
+      "type": "subtopic",
+      "label": "Identify Existing Design Process",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Identify Existing Design Process",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "aak3227IDDJMh0MquQX6m",
+      "type": "subtopic",
+      "label": "Icons",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Icons",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2prUeRYbSJTYjo2quJIKs"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "-MrrapoyFWKhSeE2PZ9mb",
+      "type": "subtopic",
+      "label": "Visual Forms",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Visual Forms",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "78RsPhsWpl00AbkwKXUxL",
+      "type": "subtopic",
+      "label": "Sizing",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Sizing",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2prUeRYbSJTYjo2quJIKs"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "GtLYBPJjdZwG0qgA7erk7",
+      "type": "subtopic",
+      "label": "Spaces",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Spaces",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "2prUeRYbSJTYjo2quJIKs",
+      "type": "subtopic",
+      "label": "Color",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Color",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "ODQ8zrHc2rsc8PN-APKvz",
+      "type": "subtopic",
+      "label": "Typography",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Typography",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "VhSEH_RoWFt1z2lial7xZ"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "_dIMuXWI73ogboGjnLIpT",
+      "type": "subtopic",
+      "label": "Avatar",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Avatar",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "aak3227IDDJMh0MquQX6m"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "UG4AIgJBfZpuhia4Y1K5v",
+      "type": "subtopic",
+      "label": "Badges",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Badges",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "-MrrapoyFWKhSeE2PZ9mb"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "5DUobzueMZbScyTZTHpCS",
+      "type": "subtopic",
+      "label": "Banners",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Banners",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "78RsPhsWpl00AbkwKXUxL"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "s6oqvHgwK4Cwyx-JENBbY",
+      "type": "subtopic",
+      "label": "Buttons",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Buttons",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "GtLYBPJjdZwG0qgA7erk7"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "yLLAUGbGUHBTEDkZNK0fm",
+      "type": "subtopic",
+      "label": "Cards",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Cards",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "5LCMzBnnS206t5EtgaUx8"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "hzVwLVzAij6TgPTcNHyhv",
+      "type": "subtopic",
+      "label": "Dropdowns",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Dropdowns",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "Ia1gYzepJOTvTro961eSj"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "5LCMzBnnS206t5EtgaUx8",
+      "type": "subtopic",
+      "label": "Forms",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Forms",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2prUeRYbSJTYjo2quJIKs"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "Ia1gYzepJOTvTro961eSj",
+      "type": "subtopic",
+      "label": "...other",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "...other",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ODQ8zrHc2rsc8PN-APKvz"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "ILRDAnpfGHCZq-FBlbfDO",
+      "type": "subtopic",
+      "label": "A/B Tests & Experiments",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "A/B Tests & Experiments",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "pRJ9wEPNfFx_6EYB501vk",
+      "type": "subtopic",
+      "label": "Regional Requirements",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Regional Requirements",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "-b4GjLpL_ppDMJSiChTef",
+      "type": "subtopic",
+      "label": "Documentation",
+      "area": "Existing Design Analysis",
+      "sourceData": {
+        "label": "Documentation",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 132,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Day88 baseline audit; terim/artifact sözlüğü, UI/token/process inventory ve gerçek before/after fixture"
+    },
+    {
+      "id": "JnaNZ9MfMrXQrjW2wABzB",
+      "type": "topic",
+      "label": "Creating Design Language",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Creating Design Language",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "toyNbBB5tbyiJZkzuklIv",
+      "type": "subtopic",
+      "label": "Writing Guidelines",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Writing Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "fnlVIgsmyxj2UVCCjM-8g",
+      "type": "subtopic",
+      "label": "Tone of Voice",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Tone of Voice",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "Zspu1SsuTE34PVmYePcs4",
+      "type": "subtopic",
+      "label": "Terminology",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Terminology",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "1RJrMVJf_3clM7E5OML-f",
+      "type": "subtopic",
+      "label": "Design Principles",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Design Principles",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "cMfsRtvzvDZZJ0TqeUOxm",
+      "type": "subtopic",
+      "label": "Vision",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Vision",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "W4gEPRYmk5Y7y3PjI6fR7"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "Wn8CylBz-hyl9-iXcUVTO",
+      "type": "subtopic",
+      "label": "Monochrome Version",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Monochrome Version",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "toyNbBB5tbyiJZkzuklIv"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "FA3JsZgNhKrgNHVtVreol",
+      "type": "subtopic",
+      "label": "Small Use Guidance",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Small Use Guidance",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "fnlVIgsmyxj2UVCCjM-8g"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "7n61402xwhIgJ7dPHg8q7",
+      "type": "subtopic",
+      "label": "Placement Guidance",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Placement Guidance",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "Zspu1SsuTE34PVmYePcs4"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "RmSFwKqL9yXXxGKZusKWX",
+      "type": "subtopic",
+      "label": "Usage Guidance",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Usage Guidance",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "1RJrMVJf_3clM7E5OML-f"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "-6LPUMRm-SqvRVEWPDFl8",
+      "type": "subtopic",
+      "label": "File Formats",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "File Formats",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cMfsRtvzvDZZJ0TqeUOxm"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "aLtOGjNFxaRzg0PI-ed99",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Accessibility",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "Wn8CylBz-hyl9-iXcUVTO"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "PlW8mHnOTyYnbtl0zUSG9",
+      "type": "subtopic",
+      "label": "User Onboarding",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "User Onboarding",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "FA3JsZgNhKrgNHVtVreol"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "bD-DjUbAA6l2eK1R9ITcK",
+      "type": "subtopic",
+      "label": "Microcopy Guidelines",
+      "area": "Creating Design Language",
+      "sourceData": {
+        "label": "Microcopy Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "TiCNCRpMPgZUhn7JdaIZA"
+      },
+      "plannedDay": 133,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Vision/design language/brand-logo/microcopy/onboarding; actual UI artifact ve review/revision"
+    },
+    {
+      "id": "a53cl6ZKvYXxG25Ii2_zu",
+      "type": "topic",
+      "label": "Defining Design Tokens",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Defining Design Tokens",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "fW0cEy2SB0HDbiF7QA7Ev",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Accessibility",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "toyNbBB5tbyiJZkzuklIv"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "__Pv19gRr2SFknVnfm0Mr",
+      "type": "subtopic",
+      "label": "Functional Colors",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Functional Colors",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "fnlVIgsmyxj2UVCCjM-8g"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "kxUnqpydDwB73IwrCPZM0",
+      "type": "subtopic",
+      "label": "Dark Mode",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Dark Mode",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "Zspu1SsuTE34PVmYePcs4"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "XDfxs5cgjSuTEprZi2Z5b",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "1RJrMVJf_3clM7E5OML-f"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "wQbMhC7q3qdKYf_pX5qL4",
+      "type": "subtopic",
+      "label": "Units",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Units",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "fW0cEy2SB0HDbiF7QA7Ev"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "8f2V-rM7soorTTvNo5Vcx",
+      "type": "subtopic",
+      "label": "Grid",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Grid",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "__Pv19gRr2SFknVnfm0Mr"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "djwnJq9Y_Hx1Ynw01wr_u",
+      "type": "subtopic",
+      "label": "Breakpoints",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Breakpoints",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "kxUnqpydDwB73IwrCPZM0"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "dXaYOwTAnYSlipNEBSV9l",
+      "type": "subtopic",
+      "label": "Spacking",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Spacking",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "XDfxs5cgjSuTEprZi2Z5b"
+      },
+      "plannedDay": 134,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Canonical JSON→Style Dictionary→CSS/TS; functional color/dark/theme/grid/units/breakpoint/spacing failure tests"
+    },
+    {
+      "id": "8YVCtgYRHR3VcpUJXMVwP",
+      "type": "subtopic",
+      "label": "Responsiveness",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Responsiveness",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "fW0cEy2SB0HDbiF7QA7Ev"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "Zl7MVllzJgObruYtlibKf",
+      "type": "subtopic",
+      "label": "Grid Relation",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Grid Relation",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "__Pv19gRr2SFknVnfm0Mr"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "L2NHddsv5RGR_BW0I3f4T",
+      "type": "subtopic",
+      "label": "Readability",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Readability",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "HDf2L4F1f8uUGpVaf7Y7z"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "wFL9axjaPcVvI8XWduxgz",
+      "type": "subtopic",
+      "label": "Performance",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Performance",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "Jab5LO0mGhTy1cU61Catu"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "Jab5LO0mGhTy1cU61Catu",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "XDfxs5cgjSuTEprZi2Z5b"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "DhrnZwQODG0P7D-27_3ec",
+      "type": "subtopic",
+      "label": "Accessibility",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Accessibility",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "hjiJJg4KNr8lyktFQd868"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "SPK1i0XuHpNEWyi1iIxrV",
+      "type": "subtopic",
+      "label": "Style",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Style",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "HDf2L4F1f8uUGpVaf7Y7z"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "wiclAEEYioRgLmXFcKQ4E",
+      "type": "subtopic",
+      "label": "Naming",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Naming",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "HDf2L4F1f8uUGpVaf7Y7z"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "6Hmj_TeQ563jshqAAl__I",
+      "type": "subtopic",
+      "label": "Grid Relation",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Grid Relation",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "eTxhpC3AQIMcUax6WFU9U"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "w3LS85eFerscaxb2Xp-dP",
+      "type": "subtopic",
+      "label": "Sizes",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Sizes",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "HDf2L4F1f8uUGpVaf7Y7z"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "HDf2L4F1f8uUGpVaf7Y7z",
+      "type": "subtopic",
+      "label": "Keywords",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Keywords",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "kxUnqpydDwB73IwrCPZM0"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "Y0KxHVrcNGHDao-38Oz3w",
+      "type": "subtopic",
+      "label": "Reserved Icons",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Reserved Icons",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "eTxhpC3AQIMcUax6WFU9U"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "eTxhpC3AQIMcUax6WFU9U",
+      "type": "subtopic",
+      "label": "Guidelines",
+      "area": "Defining Design Tokens",
+      "sourceData": {
+        "label": "Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "HDf2L4F1f8uUGpVaf7Y7z"
+      },
+      "plannedDay": 135,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Typography/font performance/readability; icon registry/grid/name/meaning/a11y gerçek browser tests"
+    },
+    {
+      "id": "Hw_LQInG6OtSwDXch3Lvg",
+      "type": "topic",
+      "label": "Creating Core Components",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Creating Core Components",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "h3TZY1yBkzLYUK6W7K7xs",
+      "type": "subtopic",
+      "label": "Avatar",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Avatar",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "hjiJJg4KNr8lyktFQd868",
+      "type": "subtopic",
+      "label": "Input Text",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Input Text",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "HDf2L4F1f8uUGpVaf7Y7z"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "kkqRIgdXWaJbX9CjLpwha",
+      "type": "subtopic",
+      "label": "Banner",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Banner",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "LNsXQI8sE_5kzSD_iMLJA",
+      "type": "subtopic",
+      "label": "Badge",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Badge",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "LWihkf4q5UawjLd84KQxN",
+      "type": "subtopic",
+      "label": "Button",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Button",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "rZ7d1C9swiqlRTbdJLZ0R",
+      "type": "subtopic",
+      "label": "Card",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Card",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2oCAzsk_y2Y2oHUi467dp"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "yWEXfjzuzk99dxjZlG4Cq",
+      "type": "subtopic",
+      "label": "Carousel",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Carousel",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 138,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Carousel/List/Loading/Modal/Tabs/Toast/Tooltip focus/motion/feedback/lifecycle gerçek browser contract"
+    },
+    {
+      "id": "MtBSvKoyjdLd6DIdolLRi",
+      "type": "subtopic",
+      "label": "Dropdown",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Dropdown",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 137,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Checkbox/Radio/Switch/Select/Dropdown value/role/keyboard/focus/validation gerçek browser contract"
+    },
+    {
+      "id": "bzY_iXRnotct_WnNRTlbd",
+      "type": "subtopic",
+      "label": "Icon",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Icon",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "iusI39fxcu2rbMXiosaM6"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "F5_sxUnnGEdgF6BkA5T5x",
+      "type": "subtopic",
+      "label": "Input Checkbox",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Input Checkbox",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 137,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Checkbox/Radio/Switch/Select/Dropdown value/role/keyboard/focus/validation gerçek browser contract"
+    },
+    {
+      "id": "rN-_plAA5FkcQl03wsL18",
+      "type": "subtopic",
+      "label": "Input Radio",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Input Radio",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 137,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Checkbox/Radio/Switch/Select/Dropdown value/role/keyboard/focus/validation gerçek browser contract"
+    },
+    {
+      "id": "NISeaJUlDtQ0kSuyxmrOT",
+      "type": "subtopic",
+      "label": "Input Switch",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Input Switch",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "hjiJJg4KNr8lyktFQd868"
+      },
+      "plannedDay": 137,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Checkbox/Radio/Switch/Select/Dropdown value/role/keyboard/focus/validation gerçek browser contract"
+    },
+    {
+      "id": "n1nUkMqGtPobZPJHCvPsk",
+      "type": "subtopic",
+      "label": "Select",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Select",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "iusI39fxcu2rbMXiosaM6"
+      },
+      "plannedDay": 137,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Checkbox/Radio/Switch/Select/Dropdown value/role/keyboard/focus/validation gerçek browser contract"
+    },
+    {
+      "id": "iusI39fxcu2rbMXiosaM6",
+      "type": "subtopic",
+      "label": "Textarea",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Textarea",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 136,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Avatar/Banner/Badge/Button/Card/Icon/TextInput/Textarea code+state stories+form/browser integration"
+    },
+    {
+      "id": "2T7tiM3Ew3H1U5iJR2TDb",
+      "type": "subtopic",
+      "label": "List",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "List",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2oCAzsk_y2Y2oHUi467dp"
+      },
+      "plannedDay": 138,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Carousel/List/Loading/Modal/Tabs/Toast/Tooltip focus/motion/feedback/lifecycle gerçek browser contract"
+    },
+    {
+      "id": "JhnHOMIlU6mQcwvIpErUY",
+      "type": "subtopic",
+      "label": "Loading Indicator",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Loading Indicator",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2oCAzsk_y2Y2oHUi467dp"
+      },
+      "plannedDay": 138,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Carousel/List/Loading/Modal/Tabs/Toast/Tooltip focus/motion/feedback/lifecycle gerçek browser contract"
+    },
+    {
+      "id": "IjNitkG25vNo30rB4ckNV",
+      "type": "subtopic",
+      "label": "Modal",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Modal",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2oCAzsk_y2Y2oHUi467dp"
+      },
+      "plannedDay": 138,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Carousel/List/Loading/Modal/Tabs/Toast/Tooltip focus/motion/feedback/lifecycle gerçek browser contract"
+    },
+    {
+      "id": "1vYR1EMyZhJA-znxnFBBb",
+      "type": "subtopic",
+      "label": "Tabs",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Tabs",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2oCAzsk_y2Y2oHUi467dp"
+      },
+      "plannedDay": 138,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Carousel/List/Loading/Modal/Tabs/Toast/Tooltip focus/motion/feedback/lifecycle gerçek browser contract"
+    },
+    {
+      "id": "-T7uL6a3lJ5-IIcDaG6IN",
+      "type": "subtopic",
+      "label": "Toast",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Toast",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "2oCAzsk_y2Y2oHUi467dp"
+      },
+      "plannedDay": 138,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Carousel/List/Loading/Modal/Tabs/Toast/Tooltip focus/motion/feedback/lifecycle gerçek browser contract"
+    },
+    {
+      "id": "2oCAzsk_y2Y2oHUi467dp",
+      "type": "subtopic",
+      "label": "Tooltip",
+      "area": "Creating Core Components",
+      "sourceData": {
+        "label": "Tooltip",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "NISeaJUlDtQ0kSuyxmrOT"
+      },
+      "plannedDay": 138,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Carousel/List/Loading/Modal/Tabs/Toast/Tooltip focus/motion/feedback/lifecycle gerçek browser contract"
+    },
+    {
+      "id": "jggrr5nZOe6FY3ZrZJTOw",
+      "type": "topic",
+      "label": "Tooling",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Tooling",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "JfXwzkN29UGz17FYHHE3A"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "ccpT9MPFbc3Ewjm1tFMsZ",
+      "type": "subtopic",
+      "label": "Design Editor",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Design Editor",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "TiCNCRpMPgZUhn7JdaIZA"
+      },
+      "plannedDay": 140,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Local Penpot editor + gerçek bounded plugin; design/version/export→code trace ve compatibility gap"
+    },
+    {
+      "id": "uO-2O0Jwh_DxrMAB9wxp1",
+      "type": "subtopic",
+      "label": "Plugins",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Plugins",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "TiCNCRpMPgZUhn7JdaIZA"
+      },
+      "plannedDay": 140,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Local Penpot editor + gerçek bounded plugin; design/version/export→code trace ve compatibility gap"
+    },
+    {
+      "id": "CYY6nbQiC2pu5ATWmO6wA",
+      "type": "subtopic",
+      "label": "Version Control",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Version Control",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "TiCNCRpMPgZUhn7JdaIZA"
+      },
+      "plannedDay": 140,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Local Penpot editor + gerçek bounded plugin; design/version/export→code trace ve compatibility gap"
+    },
+    {
+      "id": "TiCNCRpMPgZUhn7JdaIZA",
+      "type": "subtopic",
+      "label": "Contribution Guidelines",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Contribution Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "7n61402xwhIgJ7dPHg8q7"
+      },
+      "plannedDay": 140,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Local Penpot editor + gerçek bounded plugin; design/version/export→code trace ve compatibility gap"
+    },
+    {
+      "id": "VeLiPzbGr22_Mh_8T2Gnf",
+      "type": "subtopic",
+      "label": "Component Catalog",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Component Catalog",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ccpT9MPFbc3Ewjm1tFMsZ"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "k1Lwk_b6cLIeyQwc4RUh1",
+      "type": "subtopic",
+      "label": "Documentation",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Documentation",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "uO-2O0Jwh_DxrMAB9wxp1"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "zEqFAuH9zmKTLwwgx54pW",
+      "type": "subtopic",
+      "label": "Code Style",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Code Style",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "CYY6nbQiC2pu5ATWmO6wA"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "y8No8I0MltA91j4Q2toT0",
+      "type": "subtopic",
+      "label": "Unit Testing",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Unit Testing",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xJ1LAAhiZvbZOLRVc1HZa"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "yhP8EhyCWWRBLkYPyOFeg",
+      "type": "subtopic",
+      "label": "Accessibility Testing",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Accessibility Testing",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xJ1LAAhiZvbZOLRVc1HZa"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "ZLt1yJqinC8OSpqucC2dV",
+      "type": "subtopic",
+      "label": "Semantic Versioning",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Semantic Versioning",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xJ1LAAhiZvbZOLRVc1HZa"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "CfWCQNaCJGL-egRhFhc4B",
+      "type": "subtopic",
+      "label": "Release Strategy",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Release Strategy",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xJ1LAAhiZvbZOLRVc1HZa"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "IVYe8oh1IWbUbxMZRxVQA",
+      "type": "subtopic",
+      "label": "Commit Guidelines",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Commit Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xJ1LAAhiZvbZOLRVc1HZa"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "wd9ZHZmqV7wbLN-9V4EQy",
+      "type": "subtopic",
+      "label": "PR Templates",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "PR Templates",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xJ1LAAhiZvbZOLRVc1HZa"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "xJ1LAAhiZvbZOLRVc1HZa",
+      "type": "subtopic",
+      "label": "Contribution Guidelines",
+      "area": "Tooling",
+      "sourceData": {
+        "label": "Contribution Guidelines",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "TiCNCRpMPgZUhn7JdaIZA"
+      },
+      "plannedDay": 139,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Storybook catalog/docs; style/unit/a11y/visual tests; SemVer/release/contribution/consumer upgrade"
+    },
+    {
+      "id": "JfXwzkN29UGz17FYHHE3A",
+      "type": "topic",
+      "label": "Project Management",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Project Management",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "4U-HZQGH7kaWCB94Xy8Mh"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "gMrX5600JqFDplriq-eU3",
+      "type": "subtopic",
+      "label": "Roadmap",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Roadmap",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xYqDmDpjwkShtL86nt-vY"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "ruPXxVwmD9vSlS7rBZmA-",
+      "type": "subtopic",
+      "label": "Milestones",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Milestones",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "uO-2O0Jwh_DxrMAB9wxp1"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "i39J0fk4DaPeNFIMbH0ap",
+      "type": "subtopic",
+      "label": "Ticketing",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Ticketing",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "CYY6nbQiC2pu5ATWmO6wA"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "G8dOkM_4hP7wPF3QJ8y4g",
+      "type": "subtopic",
+      "label": "Component Analytics",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Component Analytics",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "5znnOkpf9G9tdiMWB6Rut"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "xYqDmDpjwkShtL86nt-vY",
+      "type": "subtopic",
+      "label": "Logging",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Logging",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "ccpT9MPFbc3Ewjm1tFMsZ"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "qiJGYYWL4naJX-MgZA9Ms",
+      "type": "subtopic",
+      "label": "Tooling Analytics",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Tooling Analytics",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cpAeotBxN8BCsU9RqTEue"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "5znnOkpf9G9tdiMWB6Rut",
+      "type": "subtopic",
+      "label": "Service and Health Metrics",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Service and Health Metrics",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "xYqDmDpjwkShtL86nt-vY"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "eG8ranXuINtcqWfeMH5GW",
+      "type": "subtopic",
+      "label": "Community Meetings",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Community Meetings",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cpAeotBxN8BCsU9RqTEue"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "LWrrKrhwXfMDKgbFW5DuO",
+      "type": "subtopic",
+      "label": "Communication Channel",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Communication Channel",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cpAeotBxN8BCsU9RqTEue"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "YWoPoO9IW3vLZyxLL2fnT",
+      "type": "subtopic",
+      "label": "Open Hours",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "Open Hours",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "cpAeotBxN8BCsU9RqTEue"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "cpAeotBxN8BCsU9RqTEue",
+      "type": "subtopic",
+      "label": "FAQs",
+      "area": "Project Management",
+      "sourceData": {
+        "label": "FAQs",
+        "style": {
+          "fontSize": 17,
+          "justifyContent": "flex-start",
+          "textAlign": "center"
+        },
+        "oldId": "5znnOkpf9G9tdiMWB6Rut"
+      },
+      "plannedDay": 142,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Backlog/RFC/milestone/ticket; adoption/tool/build/service metrics; communication vaka+review/revision"
+    },
+    {
+      "id": "f5WRewBlpeYMf71cPcXs-",
+      "type": "button",
+      "label": "UX Design",
+      "area": "Roadmap bağlantısı",
+      "sourceData": {
+        "label": "UX Design",
+        "href": "https://roadmap.sh/ux-design",
+        "color": "#FFf",
+        "backgroundColor": "#4136D6",
+        "style": {
+          "fontSize": 17
+        },
+        "borderColor": "#4136D6",
+        "oldId": "StxLh1r3qXqyRSqfJGird"
+      },
+      "plannedDay": 141,
+      "owner": "car-rental-backend-architecture-lab",
+      "status": "Planlandı",
+      "evidenceRequirement": "Scratch+existing iki pilot; UX journey/review/revision, locale/RTL ve local A/B assignment/event tests"
+    }
+  ],
+  "contextLabels": [
+    {
+      "id": "jtjlvmiYtYGZtWJITn92P",
+      "label": "Identify Design Elements",
+      "area": "Existing Design Analysis",
+      "plannedDay": 132,
+      "sourceData": {
+        "label": "Identify Design Elements",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000"
+      }
+    },
+    {
+      "id": "uMvaS418F2pxiJ4tYtLJ2",
+      "label": "Identify Components",
+      "area": "Existing Design Analysis",
+      "plannedDay": 132,
+      "sourceData": {
+        "label": "Identify Components",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "jtjlvmiYtYGZtWJITn92P"
+      }
+    },
+    {
+      "id": "03t80lsT2te9B0rYpIB9v",
+      "label": "Brand",
+      "area": "Creating Design Language",
+      "plannedDay": 133,
+      "sourceData": {
+        "label": "Brand",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000"
+      }
+    },
+    {
+      "id": "82Due7XFcIKGY5I8cp9yr",
+      "label": "Logo",
+      "area": "Creating Design Language",
+      "plannedDay": 133,
+      "sourceData": {
+        "label": "Logo",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "03t80lsT2te9B0rYpIB9v"
+      }
+    },
+    {
+      "id": "6-o1viBIrvHaefbcMIJMW",
+      "label": "Guidelines",
+      "area": "Creating Design Language",
+      "plannedDay": 133,
+      "sourceData": {
+        "label": "Guidelines",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "82Due7XFcIKGY5I8cp9yr"
+      }
+    },
+    {
+      "id": "sKui9mF1oCOZq5DJkAqyP",
+      "label": "Colors",
+      "area": "Defining Design Tokens",
+      "plannedDay": 134,
+      "sourceData": {
+        "label": "Colors",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "03t80lsT2te9B0rYpIB9v"
+      }
+    },
+    {
+      "id": "z5RKq0GcdXMMTO4CZD4LP",
+      "label": "Layout",
+      "area": "Defining Design Tokens",
+      "plannedDay": 134,
+      "sourceData": {
+        "label": "Layout",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "sKui9mF1oCOZq5DJkAqyP"
+      }
+    },
+    {
+      "id": "lKmaeG9BWlaKFVrVEFuYQ",
+      "label": "Typography",
+      "area": "Defining Design Tokens",
+      "plannedDay": 135,
+      "sourceData": {
+        "label": "Typography",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "ObM6oFLLQxiF6acWJA-tb"
+      }
+    },
+    {
+      "id": "ObM6oFLLQxiF6acWJA-tb",
+      "label": "Iconography",
+      "area": "Defining Design Tokens",
+      "plannedDay": 135,
+      "sourceData": {
+        "label": "Iconography",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "sKui9mF1oCOZq5DJkAqyP"
+      }
+    },
+    {
+      "id": "NC75JWJMKXeQB2fTo0ZQJ",
+      "label": "Design",
+      "area": "Tooling",
+      "plannedDay": 140,
+      "sourceData": {
+        "label": "Design",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000"
+      }
+    },
+    {
+      "id": "sD6J4uY0G7YNLCVoQkxmg",
+      "label": "Development",
+      "area": "Tooling",
+      "plannedDay": 139,
+      "sourceData": {
+        "label": "Development",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "NC75JWJMKXeQB2fTo0ZQJ"
+      }
+    },
+    {
+      "id": "POeLL32wtfV3SmBcVWzy6",
+      "label": "Task Management",
+      "area": "Project Management",
+      "plannedDay": 142,
+      "sourceData": {
+        "label": "Task Management",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "TM0coCBRbsUVXRNb--KnY"
+      }
+    },
+    {
+      "id": "ZnwVo1kqK9awZCwFd2Vti",
+      "label": "Analytics",
+      "area": "Project Management",
+      "plannedDay": 142,
+      "sourceData": {
+        "label": "Analytics",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "TM0coCBRbsUVXRNb--KnY"
+      }
+    },
+    {
+      "id": "TM0coCBRbsUVXRNb--KnY",
+      "label": "Communications",
+      "area": "Project Management",
+      "plannedDay": 142,
+      "sourceData": {
+        "label": "Communications",
+        "style": {
+          "fontSize": 17
+        },
+        "href": "",
+        "color": "#000000",
+        "oldId": "NC75JWJMKXeQB2fTo0ZQJ"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "id": "ktU7bNX3hu-_hTFE1CjrM",
+      "label": "roadmap.sh",
+      "reason": "Site navigasyonu"
+    }
+  ],
+  "coreComponentInventory": [
+    {
+      "nodeId": "h3TZY1yBkzLYUK6W7K7xs",
+      "label": "Avatar",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "hjiJJg4KNr8lyktFQd868",
+      "label": "Input Text",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "kkqRIgdXWaJbX9CjLpwha",
+      "label": "Banner",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "LNsXQI8sE_5kzSD_iMLJA",
+      "label": "Badge",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "LWihkf4q5UawjLd84KQxN",
+      "label": "Button",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "rZ7d1C9swiqlRTbdJLZ0R",
+      "label": "Card",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "yWEXfjzuzk99dxjZlG4Cq",
+      "label": "Carousel",
+      "plannedDay": 138,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "MtBSvKoyjdLd6DIdolLRi",
+      "label": "Dropdown",
+      "plannedDay": 137,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "bzY_iXRnotct_WnNRTlbd",
+      "label": "Icon",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "F5_sxUnnGEdgF6BkA5T5x",
+      "label": "Input Checkbox",
+      "plannedDay": 137,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "rN-_plAA5FkcQl03wsL18",
+      "label": "Input Radio",
+      "plannedDay": 137,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "NISeaJUlDtQ0kSuyxmrOT",
+      "label": "Input Switch",
+      "plannedDay": 137,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "n1nUkMqGtPobZPJHCvPsk",
+      "label": "Select",
+      "plannedDay": 137,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "iusI39fxcu2rbMXiosaM6",
+      "label": "Textarea",
+      "plannedDay": 136,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "2T7tiM3Ew3H1U5iJR2TDb",
+      "label": "List",
+      "plannedDay": 138,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "JhnHOMIlU6mQcwvIpErUY",
+      "label": "Loading Indicator",
+      "plannedDay": 138,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "IjNitkG25vNo30rB4ckNV",
+      "label": "Modal",
+      "plannedDay": 138,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "1vYR1EMyZhJA-znxnFBBb",
+      "label": "Tabs",
+      "plannedDay": 138,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "-T7uL6a3lJ5-IIcDaG6IN",
+      "label": "Toast",
+      "plannedDay": 138,
+      "status": "Planlandı"
+    },
+    {
+      "nodeId": "2oCAzsk_y2Y2oHUi467dp",
+      "label": "Tooltip",
+      "plannedDay": 138,
+      "status": "Planlandı"
+    }
+  ]
+}
