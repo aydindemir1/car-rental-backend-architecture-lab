@@ -22,7 +22,7 @@ Karar: 2026-10-07. Hedef farklı mimari, yaklaşım, prensip, pattern ve teknolo
 
 ## Kapanış
 
-Day 48 Backend/Full Stack ara audit'idir; Day 78, her zorunlu konunun iki projenin en az birinde uygulama+test kanıtını kontrol eder. Comparison veya Design Only, zorunlu konu satırını tamamlandı yapmaz. Bu karar günlük programın kapsam yükümlülüğüdür; yeni konular bugün çalıştırıldı anlamına gelmez.
+Day 48 Backend/Full Stack ara audit'idir; Day 99, her zorunlu konunun iki projenin en az birinde uygulama+test kanıtını kontrol eder. Comparison veya Design Only, zorunlu konu satırını tamamlandı yapmaz. Bu karar günlük programın kapsam yükümlülüğüdür; yeni konular bugün çalıştırıldı anlamına gelmez.
 
 
 ## Full Stack roadmap kapsamı
@@ -34,7 +34,7 @@ Aynı öğrenme+gerçek uygulama+test yükümlülüğü [Full Stack matrisine](f
 
 [System Design matrisi](system-design-coverage.md) kullanıcı talebiyle ayrıca kapsamdır. 27 ana konu + 120 alt konu occurrence'ı + Backend/Software Architect/DevOps mavi konuları görev sahibine bağlanır. Snapshot mor/yeşil tik taşımadığı için tikler uydurulmaz; bütün alt konular öğrenme, uygulama ve runtime test kapsamındadır. Node ID bazında kapsama denetimi yapılır; tekrar etiketlerde ortak evidence kullanılabilir.
 
-Day 49–63 eksik deneyleri uygular; Day 64 Backend/Full Stack/System Design ara checkpoint; Day 78 dört roadmap final audit'idir. Emlak mevcut uygulamaları evidence ile karşılar; karşılanmayan zorunlu konu araçta açık görev kalır. Geodes/stamps/CDN/leader seçim deneylerinin yerel sınırları ve correctness/failure sözleşmeleri saklanır; cloud sağlayıcı kullanılması zorunlu değildir.
+Day 49–63 eksik deneyleri uygular; Day 64 Backend/Full Stack/System Design ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap final audit'idir. Emlak mevcut uygulamaları evidence ile karşılar; karşılanmayan zorunlu konu araçta açık görev kalır. Geodes/stamps/CDN/leader seçim deneylerinin yerel sınırları ve correctness/failure sözleşmeleri saklanır; cloud sağlayıcı kullanılması zorunlu değildir.
 
 
 ## DevOps kapsamı ve yeni final gate
@@ -43,4 +43,15 @@ Day 49–63 eksik deneyleri uygular; Day 64 Backend/Full Stack/System Design ara
 
 Daha önce kabul edilen local/no-cloud sınırı korunur: AWS/Azure/GCP provider runtime **açık kapsam istisnası**, Cloudflare/AWS Lambda local runtime **Limited/Partial**, CircleCI ve Datadog actual hizmet kullanımı erişim yoksa **açık gap**. [İstisna belgesi](devops-cloud-exceptions.md) literal kapsamın tamamlanmadığını saklamaz. Ürün koşulları/licence/source değişirse sessiz dropping veya paid/trial'a geçiş olmaz.
 
-Day 48 Backend/Full Stack ara audit; Day 64 Backend/Full Stack/System Design ara checkpoint; **Day 78 dört roadmap final audit**'idir. Yeşil ürünlerde seçilmiş uygulama ve comparison ayrılır. Full coverage raporu actual runtime ile istisna/gap sayısını ayrı verir; bütün mor ürünlerin birebir kullanıldığı açık engeller varken iddia edilmez.
+Day 48 Backend/Full Stack ara audit; Day 64 Backend/Full Stack/System Design ara checkpoint; **Day 78 dört roadmap ara checkpoint**'idir. Yeşil ürünlerde seçilmiş uygulama ve comparison ayrılır. Full coverage raporu actual runtime ile istisna/gap sayısını ayrı verir; bütün mor ürünlerin birebir kullanıldığı açık engeller varken iddia edilmez.
+
+
+## Frontend kapsamı ve yürürlükteki final gate
+
+[Frontend matrisi](frontend-coverage.md) explicit kullanıcı talebidir. Desktop/Mobile parent/child occurrence'ları hariç; 30 sarı + 35 mor + 7 mavi = 72 required occurrence gerçek günlük owner/göreve bağlanır. PWA web kapsamıdır; native mobile/desktop framework'leri uygulanmaz.
+
+Mor product'lar literal öğrenme/temsilî uygulama/runtime test ister: Next.js SSR, TanStack Start SSR, Astro SSG, esbuild direct build, Apollo client, Vitest/Playwright ve local Claude Code bunlar arasındadır. Dependency adı, static export veya comparison yanlış capability'nin uygulaması sayılmaz.
+
+Node business-backend eğitim istisnası korunur; Frontend mavi Nodejs ve SSR explicit talebi için yalnız frontend rendering/lifecycle role'ü Day 91–92/97'de gerçek runtime görevidir. Java business owner/authorization/persistence canonical kalır. Önceki CSR fazının “tooling only” sınırı artık bu ayrı frontend rendering role'ü ile birlikte okunur.
+
+Day 48 iki roadmap, Day 64 üç roadmap, Day 78 dört roadmap ara checkpoint; **Day 99 beş roadmap final audit**. Önceki bölümlerdeki final gate ifadeleri kendi tarihsel checkpoint kapsamıdır; yürürlükte nihai gate Day 99'dur. Required ve seçilmiş green satırlar implementation/browser/runtime evidence ile kapanır; Cloudflare/Pages/Claude Code erişim engelleri açık gap/Partial olarak raporlanır.

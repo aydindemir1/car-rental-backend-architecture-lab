@@ -17,27 +17,39 @@ Bu program emlak lab'ının 85 günlük planını değiştirmez. Java/Spring Boo
 | 64 | Backend + Full Stack + System Design ara kapsam checkpoint |
 | 65–70 | Operasyon dilleri, OS/terminal/network, CI ve IaC |
 | 71–76 | Artifact/secrets/logging/mesh/serverless; cloud kapsam sınırları |
-| 77–78 | Uçtan uca DevOps tatbikatı ve dört roadmap final audit |
+| 77–78 | Uçtan uca DevOps tatbikatı ve dört roadmap ara checkpoint |
+| 79–90 | HTML/CSS/JS/TS/React, build/test, design system ve güvenli API UI |
+| 91–98 | SSR/SSG/performance/PWA/deployment, framework alternatifleri ve frontend AI |
+| 99 | Beş roadmap ve iki proje final audit |
 
 Her gün için [görev/dosya/commit/kanıt planı](docs/roadmap/README.md) vardır. Tek gün birden fazla takvim gününe yayılabilir. Yeni repo uygulama kodu henüz içermez; bütün capabilities Planlandı durumundadır.
 
 
 ## Full Stack roadmap eşleştirmesi
 
-[Full Stack kapsam matrisi](docs/coverage/full-stack-coverage.md) Node.js backend ve Basic AWS Services istisnalarıyla programa dahildir. Day 05 Tailwind, Day 06 npm/React, Day 07 collaborative Git/Java CLI, Day 14 frontend deployment, Day 45 complete app ve Day 46 Monit görevleri ayrıntılı plana eklenmiştir. Emlak programı korunur; 78 milestone gerektiğinde birden fazla takvim gününe yayılır.
+[Full Stack kapsam matrisi](docs/coverage/full-stack-coverage.md) Node.js backend ve Basic AWS Services istisnalarıyla programa dahildir. Day 05 Tailwind, Day 06 npm/React, Day 07 collaborative Git/Java CLI, Day 14 frontend deployment, Day 45 complete app ve Day 46 Monit görevleri ayrıntılı plana eklenmiştir. Emlak programı korunur; 99 milestone gerektiğinde birden fazla takvim gününe yayılır.
 
 
 ## System Design roadmap eşleştirmesi
 
 [System Design kapsam matrisi](docs/coverage/system-design-coverage.md) ve [snapshot](docs/coverage/system-design-roadmap-snapshot.json) programa eklenmiştir. 2026-10-07 canlı diyagramındaki **27 ana konu, 120 alt konu occurrence'ı ve 3 mavi bağlantı** eşleştirilir. Bu snapshot mor/yeşil tik metadata'sı içermediğinden bu renkler varmış gibi sınıflandırılmaz; alt konuların tamamı öğrenme/uygulama/test kapsamına alınır.
 
-Önceki Day 01–47 korunur; Day 48 Backend/Full Stack ara kontrolüdür. Yeni Day 49–63 eksik System Design deneylerini mevcut uygulamalar üzerinde veya izole local profillerde işler; Day 64 bu üç roadmap için ara checkpoint; Day 78 genişletilmiş programın final audit'idir. Emlakta mevcut datastore/pattern için evidence yeniden kullanılır; kanıtı olmayan plan tamamlanmış sayılmaz. Her eksik zorunlu konu araç kiralamada gerçek görev olarak kalır.
+Önceki Day 01–47 korunur; Day 48 Backend/Full Stack ara kontrolüdür. Yeni Day 49–63 eksik System Design deneylerini mevcut uygulamalar üzerinde veya izole local profillerde işler; Day 64 bu üç roadmap için ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 genişletilmiş programın final audit'idir. Emlakta mevcut datastore/pattern için evidence yeniden kullanılır; kanıtı olmayan plan tamamlanmış sayılmaz. Her eksik zorunlu konu araç kiralamada gerçek görev olarak kalır.
 
 
 ## DevOps roadmap eşleştirmesi
 
 [DevOps ortak planı](docs/DEVOPS-ROADMAP-EXTENSION.md), [145 düğümün kapsam matrisi](docs/coverage/devops-coverage.md) ve [canlı snapshot](docs/coverage/devops-roadmap-snapshot.json) programa eklenmiştir. **22 ana başlık, 46 mor tikli alt başlık ve 6 mavi düğüm occurrence'ı** explicit görev/status sahibine bağlıdır. 58 yeşil seçenek ve 13 gri/tiksiz alt konu da envanterde korunur.
 
-Araç programı 78 milestone'dır. Day 65–77 mevcut emlak/araç görevlerinin karşılamadığı deneyleri işler; Day 78 dört roadmap'i birlikte denetler. Emlak 85 gün değişmez; önceki Terraform/Ansible/Jenkins/Nexus/Harbor/Argo CD/Istio kararları yeniden yazılmaz.
+Araç programı 99 milestone'dır. Day 65–77 mevcut emlak/araç görevlerinin karşılamadığı deneyleri işler; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap'i birlikte denetler. Emlak 85 gün değişmez; önceki Terraform/Ansible/Jenkins/Nexus/Harbor/Argo CD/Istio kararları yeniden yazılmaz.
 
 **Tam literal ürün uygulaması iddiası yoktur:** Cloud Providers/AWS/Azure/GCP önceki local/no-cloud sınırıyla açık istisnadır. Lambda SAM ve Cloudflare Workers sadece local runtime lab'ıdır. CircleCI/Datadog ürün runtime evidence'ı erişime bağlı açık gap'tir; ücretli/trial zorunluluğu yoktur. Ayrıntılar [kapsam istisnalarında](docs/coverage/devops-cloud-exceptions.md) izlenir.
+
+
+## Frontend roadmap eşleştirmesi
+
+[Frontend ortak planı](docs/FRONTEND-ROADMAP-EXTENSION.md), [119 düğüm matrisi](docs/coverage/frontend-coverage.md) ve [snapshot](docs/coverage/frontend-roadmap-snapshot.json) eklendi. **30 sarı ana konu, 35 mor occurrence ve 7 mavi konu = 72 required occurrence** günlük görev sahibine bağlıdır. Ayrıca 31 yeşil, 4 gri ve 12 tiksiz düğüm envantere alınmıştır. Desktop Apps/Mobile Apps ve bunlara bağlı 6 native ürün occurrence'ı kapsam dışıdır.
+
+Araç Day 01–77 kapsamı korunur; Day 78 önceki dört roadmap ara checkpoint. Day 79–98 frontend deneyleri, Day 99 beş roadmap final audit'idir. Emlak 85 gün değişmez. Program eğitim milestone'larıdır; 99 takvim gününde bitme şartı yoktur.
+
+Java/Spring business backend korunur. Day 91–92/97 Node.js yalnız ayrı SSR frontend rendering profillerinde kullanılır; önceki Full Stack Node business-backend eğitim istisnası devam eder. CSR/SSG portal Nginx üzerinde korunur; yeni frontend talebindeki SSR, mavi Nodejs ve framework ürünleri gerçek runtime deneyine sahiptir. Cloudflare local/managed ve Pages erişim sınırları matriste açık tutulur.

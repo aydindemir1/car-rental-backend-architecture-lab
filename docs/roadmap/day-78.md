@@ -1,4 +1,4 @@
-# Day 78 — Dört roadmap ve iki proje final audit
+# Day 78 — Dört roadmap ara kapsam checkpoint
 
 Durum: **Planlandı**. Bu gün eğitim milestone'ıdır; tek takvim günü sınırı yoktur. Plan belgesi çalışan ürün/evidence değildir.
 
@@ -17,7 +17,7 @@ Durum: **Planlandı**. Bu gün eğitim milestone'ıdır; tek takvim günü sın�
 
 ## Planlanan dosyalar
 
-- `docs/coverage/completion-report.md`
+- `docs/coverage/backend-full-stack-system-design-devops-checkpoint.md`
 - `docs/coverage/capability-status.md`
 - `docs/evidence/day-78/`
 - `docs/evidence/day-78/` — exact komut, sürüm/edition, donanım, fixture, expected/actual sonuç ve recovery.
@@ -45,3 +45,8 @@ Var olan verified uygulama yeterliyse tekrar ürün veya boş feat commit oluşt
 - [ ] Matris gerçek duruma güncellendi; plan veya local emulator sonucu managed-service Verified yapılmadı.
 
 Ücretli AWS/Azure/GCP/HCP/SaaS/trial şartı yoktur; cloud hesap/kaynakları otomatik oluşturulmaz. Yerel lab gerçek production SLA, coğrafi HA veya mesleki unvan kanıtı değildir.
+
+
+## Frontend fazına geçiş
+
+Bu gün önceki dört roadmap kapsamını ara checkpoint olarak kapatır. [Day 79](day-79.md) Frontend genişletmesidir; [Day 99](day-99.md) beş roadmap final audit'idir. Day 78'de kapsamın Frontend ürünlerinin tamamını içerdiği veya bunların uygulandığı iddia edilmez.

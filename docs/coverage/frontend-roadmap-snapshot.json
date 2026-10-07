@@ -1,0 +1,1871 @@
+{
+  "source": "https://roadmap.sh/frontend",
+  "retrieved": "2026-10-07",
+  "items": [
+    {
+      "id": "VlNNwIEDWqQXtqkHWJYzC",
+      "type": "topic",
+      "label": "Internet",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 68.27030742190215
+      }
+    },
+    {
+      "id": "yCnn-NfSxIybUQ2iTuUGq",
+      "type": "subtopic",
+      "label": "How does the internet work?",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 86.2410268116243,
+        "y": -94.72969257809785
+      }
+    },
+    {
+      "id": "R12sArWVpbIs_PHxBqVaR",
+      "type": "subtopic",
+      "label": "What is HTTP?",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 86.2410268116243,
+        "y": -40.729692578097854
+      }
+    },
+    {
+      "id": "ZhSuu2VArnzPDp6dPQQSC",
+      "type": "subtopic",
+      "label": "What is Domain Name?",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 86.2410268116243,
+        "y": 13.270307421902146
+      }
+    },
+    {
+      "id": "aqMaEY8gkKMikiqleV5EP",
+      "type": "subtopic",
+      "label": "What is hosting?",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 86.2410268116243,
+        "y": 67.27030742190215
+      }
+    },
+    {
+      "id": "hkxw9jPGYphmjhTjw8766",
+      "type": "subtopic",
+      "label": "DNS and how it works?",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 86.2410268116243,
+        "y": 121.27030742190215
+      }
+    },
+    {
+      "id": "P82WFaTPgQEPNp5IIuZ1Y",
+      "type": "subtopic",
+      "label": "Browsers and how they work?",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 86.2410268116243,
+        "y": 175.27030742190215
+      }
+    },
+    {
+      "id": "yWG2VUkaF5IJVVut6AiSy",
+      "type": "topic",
+      "label": "HTML",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 178.27030742190215
+      }
+    },
+    {
+      "id": "ZhJhf1M2OphYbEmduFq-9",
+      "type": "topic",
+      "label": "CSS",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 231.27030742190215
+      }
+    },
+    {
+      "id": "ODcfFEorkfJNupoQygM53",
+      "type": "topic",
+      "label": "JavaScript",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 284.27030742190215
+      }
+    },
+    {
+      "id": "MXnFhZlNB1zTsBFDyni9H",
+      "type": "topic",
+      "label": "VCS Hosting",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 437.49093274179154
+      }
+    },
+    {
+      "id": "NIY7c4TQEEHx0hATu-k5C",
+      "type": "topic",
+      "label": "Version Control ",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 384.49093274179154
+      }
+    },
+    {
+      "id": "R_I4SGYqLk5zze5I1zS_E",
+      "type": "subtopic",
+      "label": "Git",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -530.0903733522699,
+        "y": 384.49093274179154
+      }
+    },
+    {
+      "id": "IqvS1V-98cxko3e9sBQgP",
+      "type": "topic",
+      "label": "Package Managers",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 162.17959517325755,
+        "y": 437.49093274179154
+      }
+    },
+    {
+      "id": "qmTVMJDsEhNIkiwE_UTYu",
+      "type": "subtopic",
+      "label": "GitHub",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -530.0903733522699,
+        "y": 437.49093274179154
+      }
+    },
+    {
+      "id": "zIoSJMX3cuzCgDYHjgbEh",
+      "type": "subtopic",
+      "label": "GitLab",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 437.49093274179154
+      }
+    },
+    {
+      "id": "yrq3nOwFREzl-9EKnpU-e",
+      "type": "subtopic",
+      "label": "yarn",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 284.17959517325755,
+        "y": 293.7248298360628
+      }
+    },
+    {
+      "id": "SLxA5qJFp_28TRzr1BjxZ",
+      "type": "subtopic",
+      "label": "pnpm",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 162.17959517325752,
+        "y": 346.7248298360628
+      }
+    },
+    {
+      "id": "ib_FHinhrw8VuSet-xMF7",
+      "type": "subtopic",
+      "label": "npm",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 162.17959517325755,
+        "y": 293.7248298360628
+      }
+    },
+    {
+      "id": "eXezX7CVNyC1RuyU_I4yP",
+      "type": "topic",
+      "label": "Learn a Framework",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 739.064831207322
+      }
+    },
+    {
+      "id": "-bHFIiXnoUQSov64WI9yo",
+      "type": "subtopic",
+      "label": "Angular",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 635.3267930432964
+      }
+    },
+    {
+      "id": "ERAdwL1G9M1bnx-fOm5ZA",
+      "type": "subtopic",
+      "label": "Vue.js",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 582.3267930432964
+      }
+    },
+    {
+      "id": "tG5v3O4lNIFc2uCnacPak",
+      "type": "subtopic",
+      "label": "React",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 529.3267930432964
+      }
+    },
+    {
+      "id": "ZR-qZ2Lcbu3FtqaMd3wM4",
+      "type": "subtopic",
+      "label": "Svelte",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 688.3267930432964
+      }
+    },
+    {
+      "id": "DxOSKnqAjZOPP-dq_U7oP",
+      "type": "subtopic",
+      "label": "Solid JS",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 741.3267930432964
+      }
+    },
+    {
+      "id": "XDTD8el6OwuQ55wC-X4iV",
+      "type": "topic",
+      "label": "CSS Frameworks",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 162.17959517325755,
+        "y": 547.7248298360628
+      }
+    },
+    {
+      "id": "eghnfG4p7i-EDWfp3CQXC",
+      "type": "subtopic",
+      "label": "Tailwind",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 162.17959517325755,
+        "y": 633.2703074219021
+      }
+    },
+    {
+      "id": "9VcGfDBBD8YcKatj4VcH1",
+      "type": "topic",
+      "label": "Linters & Formatters",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.4971847919508,
+        "y": 1484.5557520139007
+      }
+    },
+    {
+      "id": "hkSc_1x09m7-7BO7WzlDT",
+      "type": "topic",
+      "label": "Module Bundlers",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 1484.5557520139007
+      }
+    },
+    {
+      "id": "NS-hwaWa5ebSmNNRoxFDp",
+      "type": "subtopic",
+      "label": "Parcel",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 1739.0966308599275
+      }
+    },
+    {
+      "id": "sCjErk7rfWAUvhl8Kfm3n",
+      "type": "subtopic",
+      "label": "Rollup",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 1686.0966308599275
+      }
+    },
+    {
+      "id": "4W7UXfdKIUsm1bUrjdTVT",
+      "type": "subtopic",
+      "label": "esbuild",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -111.70798467806267,
+        "y": 1633.0966308599275
+      }
+    },
+    {
+      "id": "0Awx3zEI5_gYEIrD7IVX6",
+      "type": "subtopic",
+      "label": "Vite",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 1580.0966308599275
+      }
+    },
+    {
+      "id": "zbkpu_gvQ4mgCiZKzS1xv",
+      "type": "subtopic",
+      "label": "Prettier",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 1636.5557520139007
+      }
+    },
+    {
+      "id": "NFjsI712_qP0IOmjuqXar",
+      "type": "subtopic",
+      "label": "ESLint",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 1689.5557520139007
+      }
+    },
+    {
+      "id": "igg4_hb3XE3vuvY8ufV-4",
+      "type": "topic",
+      "label": "Testing",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1852.7118525728308
+      }
+    },
+    {
+      "id": "hVQ89f6G0LXEgHIOKHDYq",
+      "type": "subtopic",
+      "label": "Vitest",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1938.5878153769438
+      }
+    },
+    {
+      "id": "g5itUjgRXd9vs9ujHezFl",
+      "type": "subtopic",
+      "label": "Jest",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2097.5878153769436
+      }
+    },
+    {
+      "id": "jramLk8FGuaEH4YpHIyZT",
+      "type": "subtopic",
+      "label": "Playwright",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1991.5878153769438
+      }
+    },
+    {
+      "id": "DaynCz5RR26gjT6N6gTDL",
+      "type": "subtopic",
+      "label": "Cypress",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2044.5878153769438
+      }
+    },
+    {
+      "id": "U5mD5FmVx7VWeKxDpQxB5",
+      "type": "topic",
+      "label": "Auth Strategies",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1484.5557520139007
+      }
+    },
+    {
+      "id": "RDWbG3Iui6IPgp0shvXtg",
+      "type": "topic",
+      "label": "Web Security",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2077.114686047012
+      }
+    },
+    {
+      "id": "AfH2zCbqzw0Nisg1yyISS",
+      "type": "subtopic",
+      "label": "CORS",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 1801.731167038745
+      }
+    },
+    {
+      "id": "uum7vOhOUR38vLuGZy8Oa",
+      "type": "subtopic",
+      "label": "HTTPS",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 1854.731167038745
+      }
+    },
+    {
+      "id": "rmcm0CZbtNVC9LZ14-H6h",
+      "type": "subtopic",
+      "label": "CSP",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 1907.731167038745
+      }
+    },
+    {
+      "id": "JanR7I_lNnUCXhCMGLdn-",
+      "type": "subtopic",
+      "label": "OWASP Risks",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 1960.731167038745
+      }
+    },
+    {
+      "id": "ruoFa3M4bUE3Dg6GXSiUI",
+      "type": "topic",
+      "label": "Web Components",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2969.724470475211
+      }
+    },
+    {
+      "id": "NQ95TJCe3E1IwEuBa__D6",
+      "type": "topic",
+      "label": "Type Checkers",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 2496.977359844878
+      }
+    },
+    {
+      "id": "VxiQPgcYDFAT6WgSRWpIA",
+      "type": "subtopic",
+      "label": "Custom Elements",
+      "legend": {
+        "id": "R9WLhURhPdVNXP7AUTDvR",
+        "label": "Order not strict on roadmap",
+        "color": "#929292",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 3125.2412376796533
+      }
+    },
+    {
+      "id": "Hk8AVonOd693_y1sykPqd",
+      "type": "subtopic",
+      "label": "HTML Templates",
+      "legend": {
+        "id": "R9WLhURhPdVNXP7AUTDvR",
+        "label": "Order not strict on roadmap",
+        "color": "#929292",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 3071.2412376796533
+      }
+    },
+    {
+      "id": "-SpsNeOZBkQfDA-rwzgPg",
+      "type": "subtopic",
+      "label": "Shadow DOM",
+      "legend": {
+        "id": "R9WLhURhPdVNXP7AUTDvR",
+        "label": "Order not strict on roadmap",
+        "color": "#929292",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 3179.2412376796533
+      }
+    },
+    {
+      "id": "Cxspmb14_0i1tfw-ZLxEu",
+      "type": "topic",
+      "label": "SSR",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2299.092572515148
+      }
+    },
+    {
+      "id": "OL8I6nOZ8hGGWmtxg_Mv8",
+      "type": "subtopic",
+      "label": "Svelte",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -284.7732599307554,
+        "y": 2401.4954727616373
+      }
+    },
+    {
+      "id": "3TE_iYvbklXK0be-5f2M7",
+      "type": "topic",
+      "label": "Vue.js",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -305.27325993075533,
+        "y": 2215.940441305402
+      }
+    },
+    {
+      "id": "k6rp6Ua9qUEW_DA_fOg5u",
+      "type": "subtopic",
+      "label": "Angular",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -305.27325993075533,
+        "y": 2160.092572515148
+      }
+    },
+    {
+      "id": "SGDf_rbfmFSHlxI-Czzlz",
+      "type": "topic",
+      "label": "React",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -115.72194919784626,
+        "y": 2160.092572515148
+      }
+    },
+    {
+      "id": "KJRkrFZIihCUBrOf579EU",
+      "type": "subtopic",
+      "label": "react-router",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -92.72194919784626,
+        "y": 2389.9889354540032
+      }
+    },
+    {
+      "id": "zNFYAJaSq0YZXL5Rpx1NX",
+      "type": "subtopic",
+      "label": "Next.js",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -92.72194919784626,
+        "y": 2230.9889354540032
+      }
+    },
+    {
+      "id": "BBsXxkbbEG-gnbM1xXKrj",
+      "type": "subtopic",
+      "label": "Nuxt.js",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -284.7732599307554,
+        "y": 2277.940441305402
+      }
+    },
+    {
+      "id": "P4st_telfCwKLSAU2WsQP",
+      "type": "topic",
+      "label": "SvelteKit",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -305.27325993075533,
+        "y": 2344.4954727616373
+      }
+    },
+    {
+      "id": "L7AllJfKvClaam3y-u6DP",
+      "type": "topic",
+      "label": "GraphQL",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -234.66572340335313,
+        "y": 2969.724470475211
+      }
+    },
+    {
+      "id": "5eUbDdOTOfaOhUlZAmmXW",
+      "type": "subtopic",
+      "label": "Apollo",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -234.66572340335313,
+        "y": 3069.570561379165
+      }
+    },
+    {
+      "id": "0moPO23ol33WsjVXSpTGf",
+      "type": "subtopic",
+      "label": "Relay Modern",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -234.66572340335313,
+        "y": 3122.570561379165
+      }
+    },
+    {
+      "id": "n0q32YhWEIAUwbGXexoqV",
+      "type": "topic",
+      "label": "SSG",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2496.977359844878
+      }
+    },
+    {
+      "id": "CMrss8E2W0eA6DVEqtPjT",
+      "type": "subtopic",
+      "label": "Vuepress",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2715.778229592709
+      }
+    },
+    {
+      "id": "XWJxV42Dpu2D3xDK10Pn3",
+      "type": "subtopic",
+      "label": "Nuxt.js",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2821.778229592709
+      }
+    },
+    {
+      "id": "iUxXq7beg55y76dkwhM13",
+      "type": "subtopic",
+      "label": "Astro",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2609.778229592709
+      }
+    },
+    {
+      "id": "io0RHJWIcVxDhcYkV9d38",
+      "type": "subtopic",
+      "label": "Eleventy",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2768.778229592709
+      }
+    },
+    {
+      "id": "V70884VcuXkfrfHyLGtUg",
+      "type": "subtopic",
+      "label": "Next.js",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2662.778229592709
+      }
+    },
+    {
+      "id": "PoM77O2OtxPELxfrW1wtl",
+      "type": "topic",
+      "label": "PWAs",
+      "legend": {
+        "id": "R9WLhURhPdVNXP7AUTDvR",
+        "label": "Order not strict on roadmap",
+        "color": "#929292",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 3117.347585709834
+      }
+    },
+    {
+      "id": "VOGKiG2EZVfCBAaa7Df0W",
+      "type": "topic",
+      "label": "Mobile Apps",
+      "legend": {
+        "id": "R9WLhURhPdVNXP7AUTDvR",
+        "label": "Order not strict on roadmap",
+        "color": "#929292",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 3250.75758313553
+      }
+    },
+    {
+      "id": "dsTegXTyupjS8iU6I7Xiv",
+      "type": "subtopic",
+      "label": "React Native",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 3345.1015325696467
+      }
+    },
+    {
+      "id": "dIQXjFEUAJAGxxfAYceHU",
+      "type": "subtopic",
+      "label": "Flutter",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 3398.1015325696467
+      }
+    },
+    {
+      "id": "Pxyk3nBlWbgmMjsA93E70",
+      "type": "subtopic",
+      "label": "Ionic",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 3451.1015325696467
+      }
+    },
+    {
+      "id": "KMA7NkxFbPoUDtFnGBFnj",
+      "type": "topic",
+      "label": "Desktop Apps",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 3250.75758313553
+      }
+    },
+    {
+      "id": "qXKNK_IsGS8-JgLK-Q9oU",
+      "type": "button",
+      "label": "Nodejs",
+      "legend": null,
+      "background": "#4136D6",
+      "position": {
+        "x": -504.74001036972845,
+        "y": 3510.957229150764
+      }
+    },
+    {
+      "id": "mQHpSyMR4Rra4mqAslgiS",
+      "type": "subtopic",
+      "label": "Electron",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -650.1697166803284,
+        "y": 3250.75758313553
+      }
+    },
+    {
+      "id": "GJctl0tVXe4B70s35RkLT",
+      "type": "subtopic",
+      "label": "Tauri",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -650.1697166803284,
+        "y": 3303.75758313553
+      }
+    },
+    {
+      "id": "2MRvAK9G9RGM_auWytcKh",
+      "type": "subtopic",
+      "label": "Flutter",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -650.1697166803284,
+        "y": 3356.75758313553
+      }
+    },
+    {
+      "id": "h26uS3muFCabe6ekElZcI",
+      "type": "subtopic",
+      "label": "SWC",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 1633.0966308599275
+      }
+    },
+    {
+      "id": "wA2fSYsbBYU02VJXAvUz8",
+      "type": "subtopic",
+      "label": "Astro",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -92.72194919784626,
+        "y": 2336.9889354540032
+      }
+    },
+    {
+      "id": "slf6jmim4p9ti6ZRHOZe_",
+      "type": "button",
+      "label": "Fullstack",
+      "legend": null,
+      "background": "#4136D6",
+      "position": {
+        "x": -380.7400103697285,
+        "y": 3510.957229150764
+      }
+    },
+    {
+      "id": "MfErpYwkJ0wiWJZEUVfrb",
+      "type": "button",
+      "label": "Visit Beginner Friendly Version",
+      "legend": null,
+      "background": "#232323",
+      "position": {
+        "x": -654.8814218617622,
+        "y": -153.72969257809785
+      }
+    },
+    {
+      "id": "w4AronIkLVW4DiB8BB_cE",
+      "type": "button",
+      "label": "Beginner Project Ideas",
+      "legend": null,
+      "background": "#dedede",
+      "position": {
+        "x": -631.9418542150819,
+        "y": 280.27030742190215
+      }
+    },
+    {
+      "id": "j2H1qGosbveayviOCVkUs",
+      "type": "subtopic",
+      "label": "Bun",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 284.17959517325755,
+        "y": 346.7248298360628
+      }
+    },
+    {
+      "id": "cSn0Mp45AKmj-bn-b-j_I",
+      "type": "button",
+      "label": "Intermediate Project Ideas",
+      "legend": null,
+      "background": "#DEDEDE",
+      "position": {
+        "x": -277.4565506483883,
+        "y": 597.2703074219021
+      }
+    },
+    {
+      "id": "UvCVChB6NZ_yUg0RdIJ2o",
+      "type": "subtopic",
+      "label": "Biome",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": 159.49718479195073,
+        "y": 1583.5557520139007
+      }
+    },
+    {
+      "id": "hE-DbpBpYrfB8tmBEjTnG",
+      "type": "subtopic",
+      "label": "Rolldown",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -111.70798467806267,
+        "y": 1686.0966308599275
+      }
+    },
+    {
+      "id": "YFhTAvoRXc8aIa9FVZgtb",
+      "type": "button",
+      "label": "Advanced Project Ideas",
+      "legend": null,
+      "background": "#DEDEDE",
+      "position": {
+        "x": -314.4565506483883,
+        "y": 1942.7326143468124
+      }
+    },
+    {
+      "id": "f9zlP6lGhfe6HBHVYiySu",
+      "type": "subtopic",
+      "label": "Tanstack Start",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -92.72194919784626,
+        "y": 2283.9889354540032
+      }
+    },
+    {
+      "id": "A1ZUy16cVRYqmHxoCtUb0",
+      "type": "topic",
+      "label": "Deployment",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2496.977359844878
+      }
+    },
+    {
+      "id": "vpzh9bNXCxgdDFQLsot2_",
+      "type": "subtopic",
+      "label": "GitHub Pages",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2223.396572653209
+      }
+    },
+    {
+      "id": "kPJ0jZo5AbOzvZgv0zwp0",
+      "type": "subtopic",
+      "label": "Vercel",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2276.396572653209
+      }
+    },
+    {
+      "id": "_Uh-UFNe2wP2TV0x2lKY_",
+      "type": "subtopic",
+      "label": "Cloudflare",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2329.396572653209
+      }
+    },
+    {
+      "id": "o8GstE5gxcGByh-D7lwqT",
+      "type": "subtopic",
+      "label": "Netlify",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -530.0903733522699,
+        "y": 2276.396572653209
+      }
+    },
+    {
+      "id": "PJRsqg5Vx9gQTodxaeZfz",
+      "type": "subtopic",
+      "label": "Railway",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2382.396572653209
+      }
+    },
+    {
+      "id": "wfGz8pshGQARZ7qStGoSD",
+      "type": "subtopic",
+      "label": "Render",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -530.0903733522699,
+        "y": 2382.396572653209
+      }
+    },
+    {
+      "id": "6d8cjWZ4BuUjwT0seiuzJ",
+      "type": "topic",
+      "label": "Performance",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2775.7125572601244
+      }
+    },
+    {
+      "id": "dz7_QXoO7X0WmS5xuAhhJ",
+      "type": "subtopic",
+      "label": "Lighthouse",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 2671.7125572601244
+      }
+    },
+    {
+      "id": "JWU9jc12_ewaIKt3qWLcp",
+      "type": "subtopic",
+      "label": "DevTools Usage",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 2724.7125572601244
+      }
+    },
+    {
+      "id": "66ya3WdtlkjQyBTc3Lein",
+      "type": "subtopic",
+      "label": "Service Workers",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 2777.7125572601244
+      }
+    },
+    {
+      "id": "FyNXhHq1VIASNq-LI7JIu",
+      "type": "subtopic",
+      "label": "Streamed Responses",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 2883.7125572601244
+      }
+    },
+    {
+      "id": "ap4h4v5Sr4jBH3GwWSH8x",
+      "type": "topic",
+      "label": "Design Systems",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 2626.778229592709
+      }
+    },
+    {
+      "id": "3HgiMfqihjWceSxd6ei8s",
+      "type": "topic",
+      "label": "Web APIs",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 2077.114686047012
+      }
+    },
+    {
+      "id": "e-k6EhoxYG9h0x6vWOrDh",
+      "type": "topic",
+      "label": "Accessibility",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 2969.724470475211
+      }
+    },
+    {
+      "id": "Df3nTlTvSQkMGzpufRo9q",
+      "type": "button",
+      "label": "Backend",
+      "legend": null,
+      "background": "#4136D6",
+      "position": {
+        "x": -256.7400103697284,
+        "y": 3510.957229150764
+      }
+    },
+    {
+      "id": "-sFboM4eFUMVq1tlPl-fV",
+      "type": "button",
+      "label": "Design System",
+      "legend": null,
+      "background": "#4136D6",
+      "position": {
+        "x": -132.74001036972842,
+        "y": 3510.957229150764
+      }
+    },
+    {
+      "id": "6kWlgayUZQnr9z88fUOkk",
+      "type": "button",
+      "label": "TypeScript",
+      "legend": null,
+      "background": "#2a79e4",
+      "position": {
+        "x": -233.70798467806267,
+        "y": 2589.778229592709
+      }
+    },
+    {
+      "id": "tWDmeXItfQDxB8Jij_V4L",
+      "type": "subtopic",
+      "label": "Cache-Control",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "right-center"
+      },
+      "background": null,
+      "position": {
+        "x": -233.70798467806267,
+        "y": 2830.7125572601244
+      }
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "legend": null,
+      "background": "#e3e3e3",
+      "position": {
+        "x": 57.7005592047509,
+        "y": -204.1655035777258
+      }
+    },
+    {
+      "id": "RcC1fVuePQZ59AsJfeTdR",
+      "type": "subtopic",
+      "label": "Claude Code",
+      "legend": {
+        "id": "NJhQIvMyMD1Cu-JA1UCmJ",
+        "color": "#874efe",
+        "label": "Personal Recommendation",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -653.1786501592425,
+        "y": 822.4210937030621
+      }
+    },
+    {
+      "id": "HQrxxDxKN8gizvXRU5psW",
+      "type": "subtopic",
+      "label": "Copilot",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -653.1786501592425,
+        "y": 928.4210937030621
+      }
+    },
+    {
+      "id": "CKlkVK_7GZ7xzIUHJqZr8",
+      "type": "subtopic",
+      "label": "Cursor",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -653.1786501592425,
+        "y": 875.4210937030621
+      }
+    },
+    {
+      "id": "E7-LveK7jO2npxVTLUDfw",
+      "type": "subtopic",
+      "label": "Antigravity",
+      "legend": {
+        "id": "DMx7rAjVBWMbzjSde-tvp",
+        "label": "Alternative Option",
+        "color": "#4f7a28",
+        "position": "left-center"
+      },
+      "background": null,
+      "position": {
+        "x": -653.1786501592425,
+        "y": 981.4210937030621
+      }
+    },
+    {
+      "id": "yKNdBbahm_h81xdMDT-qx",
+      "type": "subtopic",
+      "label": "How LLMs work",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 961.573788906631
+      }
+    },
+    {
+      "id": "IZKl6PxbvgNkryAkdy3-p",
+      "type": "subtopic",
+      "label": "AI vs Traditional Coding",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 1014.573788906631
+      }
+    },
+    {
+      "id": "0TMdly8yiqnNR8sx36iqc",
+      "type": "subtopic",
+      "label": "Code Reviews",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 1169.8137243924068
+      }
+    },
+    {
+      "id": "q7NpwqQXUp4wt2to-yFiP",
+      "type": "subtopic",
+      "label": "Docs Generation",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 1275.8137243924068
+      }
+    },
+    {
+      "id": "UTupdqjOyLh7-56_0SXJ8",
+      "type": "topic",
+      "label": "Learn the Basics",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 862.573788906631
+      }
+    },
+    {
+      "id": "ipcNHz8KbfpE57kNP15hP",
+      "type": "topic",
+      "label": "AI Assisted Coding",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 900.3429110844087
+      }
+    },
+    {
+      "id": "Gv_g4gK6pZK6l_0xAn34X",
+      "type": "topic",
+      "label": "Prompting Techniques",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 1063.7123796484323
+      }
+    },
+    {
+      "id": "Bic4PHhz-YqzPWRimJO83",
+      "type": "subtopic",
+      "label": "Gemini",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1258.7123796484323
+      }
+    },
+    {
+      "id": "-ye5ZtYFDoYGpj-UJaBP8",
+      "type": "subtopic",
+      "label": "OpenAI",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1311.7123796484323
+      }
+    },
+    {
+      "id": "Lw2nR7x8PYgq1P5CxPAxi",
+      "type": "subtopic",
+      "label": "Anthropic",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1364.7123796484323
+      }
+    },
+    {
+      "id": "MdYPIf_9ezbIp6Dm5Fyme",
+      "type": "topic",
+      "label": "Implementing AI",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 1364.7123796484323
+      }
+    },
+    {
+      "id": "EYT2rTLZ8tUW2u8DOnAWF",
+      "type": "subtopic",
+      "label": "Refactoring",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 1222.8137243924068
+      }
+    },
+    {
+      "id": "Nx7mjvYgqLpmJ0_iSx5of",
+      "type": "subtopic",
+      "label": "Applications",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": 159.49718479195076,
+        "y": 1067.5737889066309
+      }
+    },
+    {
+      "id": "k4hMVVBMatedUq5EKiMo4",
+      "type": "button",
+      "label": "Prompt Engineering",
+      "legend": null,
+      "background": "#2a79e4",
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1061.7123796484323
+      }
+    },
+    {
+      "id": "vpimgXt10UQFBDVHR21IU",
+      "type": "button",
+      "label": "AI Agents Roadmap",
+      "legend": null,
+      "background": "#2a79e4",
+      "position": {
+        "x": -652.0903733522699,
+        "y": 1154.7123796484323
+      }
+    },
+    {
+      "id": "e4j6u0e_WqK1vfrUwJJ4M",
+      "type": "topic",
+      "label": "Agents",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 1156.7123796484323
+      }
+    },
+    {
+      "id": "XFy2gj7DmXeaCoc6MZo_j",
+      "type": "topic",
+      "label": "MCP",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 1209.7123796484323
+      }
+    },
+    {
+      "id": "xL8d-uHMpJKwUvT8z-Jia",
+      "type": "topic",
+      "label": "Skills",
+      "legend": null,
+      "background": null,
+      "position": {
+        "x": -236.95655064838832,
+        "y": 1262.7123796484323
+      }
+    }
+  ],
+  "baseline": {
+    "car_parent": "b59959b604d1abf47a90eea41304beb0ab0358de",
+    "estate_branch": "docs/backend-roadmap-design",
+    "estate_head": "a84beefb0d8d932a01056fbd4542910856129a28"
+  },
+  "scope": {
+    "yellow": 30,
+    "purple_occurrences": 35,
+    "blue": 7,
+    "green": 31,
+    "gray": 4,
+    "unticked": 12,
+    "applicable": 119,
+    "required": 72,
+    "excluded_nodes": [
+      "VOGKiG2EZVfCBAaa7Df0W",
+      "dsTegXTyupjS8iU6I7Xiv",
+      "dIQXjFEUAJAGxxfAYceHU",
+      "Pxyk3nBlWbgmMjsA93E70",
+      "KMA7NkxFbPoUDtFnGBFnj",
+      "mQHpSyMR4Rra4mqAslgiS",
+      "GJctl0tVXe4B70s35RkLT",
+      "2MRvAK9G9RGM_auWytcKh"
+    ],
+    "excluded_desktop_mobile_occurrences": 8,
+    "navigation_buttons": 5,
+    "note": "Topic type does not mean yellow when legend is purple/green/gray. Duplicate labels preserve branch occurrences. Nodejs scoped to frontend rendering; Java business backend retained."
+  }
+}

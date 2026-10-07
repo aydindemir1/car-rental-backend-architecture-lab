@@ -1,6 +1,6 @@
 # Günlük eğitim planı
 
-78 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
+99 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
 
 | Gün | Konu | Kesin plan |
 |---|---|---|
@@ -81,6 +81,27 @@
 | Day 75 | Serverless: Knative ve yerel provider runtime'ları | [Plan](day-75.md) |
 | Day 76 | Cloud sağlayıcıları: kavramlar ve kapsam istisnası | [Plan](day-76.md) |
 | Day 77 | Container, supply chain ve recovery uçtan uca | [Plan](day-77.md) |
-| Day 78 | Dört roadmap ve iki proje final audit | [Plan](day-78.md) |
+| Day 78 | Dört roadmap ara kapsam checkpoint | [Plan](day-78.md) |
+| Day 79 | Internet, semantic HTML ve erişilebilirlik temeli | [Plan](day-79.md) |
+| Day 80 | CSS, responsive layout ve Tailwind | [Plan](day-80.md) |
+| Day 81 | JavaScript ve browser Web APIs | [Plan](day-81.md) |
+| Day 82 | TypeScript ve runtime contract sınırları | [Plan](day-82.md) |
+| Day 83 | React uygulama mimarisi ve route/state tasarımı | [Plan](day-83.md) |
+| Day 84 | npm, pnpm, yarn ve Bun paket deneyleri | [Plan](day-84.md) |
+| Day 85 | Vite, esbuild ve bundler/compiler lab'ı | [Plan](day-85.md) |
+| Day 86 | ESLint, Prettier ve Biome kalite gate'leri | [Plan](day-86.md) |
+| Day 87 | Vitest, Playwright ve test alternatifleri | [Plan](day-87.md) |
+| Day 88 | Design System ve Web Components | [Plan](day-88.md) |
+| Day 89 | Frontend authentication ve web security | [Plan](day-89.md) |
+| Day 90 | GraphQL: Apollo ve Relay Modern | [Plan](day-90.md) |
+| Day 91 | Next.js ile gerçek SSR ve Node render sınırı | [Plan](day-91.md) |
+| Day 92 | TanStack Start ile SSR/streaming karşılaştırması | [Plan](day-92.md) |
+| Day 93 | Astro, SSG ve statik içerik modelleri | [Plan](day-93.md) |
+| Day 94 | Frontend performance, cache ve Lighthouse | [Plan](day-94.md) |
+| Day 95 | PWA, service worker ve offline taslaklar | [Plan](day-95.md) |
+| Day 96 | Frontend deployment ve hosting kapsamı | [Plan](day-96.md) |
+| Day 97 | Yeşil frontend framework alternatifleri | [Plan](day-97.md) |
+| Day 98 | Frontend AI, prompting, MCP, skills ve agents | [Plan](day-98.md) |
+| Day 99 | Beş roadmap ve iki proje final audit | [Plan](day-99.md) |
 
-Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.
+Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap ara checkpoint; Day 78 dört roadmap ara checkpoint; Day 99 beş roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.

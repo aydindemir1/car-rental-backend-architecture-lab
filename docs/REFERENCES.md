@@ -62,3 +62,22 @@ Pattern'lerin yerel eğitim adaptasyonu, tüm cloud ürün özelliklerini veya f
 - [Datadog plan/usage](https://docs.datadoghq.com/account_management/plan_and_usage/) — post-trial kullanımın ücretli olabileceği nedeniyle trial zorunlu değildir.
 
 Exact version/license/compatibility ve ücretsiz edition sınırları uygulama gününde yeniden doğrulanır. Resmi kaynağın bulunması erişim lisansını, free service hakkını veya actual integration'ı kanıtlamaz.
+
+
+## Frontend genişletme kaynakları
+
+- [Frontend roadmap](https://roadmap.sh/frontend) — 2026-10-07 canlı renk/legend/node ID snapshot.
+- [MDN Web platform](https://developer.mozilla.org/en-US/docs/Web), [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
+- [WAI ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/), [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [TypeScript](https://www.typescriptlang.org/docs/), [React](https://react.dev/learn), [React Router](https://reactrouter.com/)
+- [Vite migration](https://vite.dev/guide/migration) — Vite 8 Rolldown/Oxc; esbuild/Rollup kullanımı sessiz varsayılmaz.
+- [esbuild](https://esbuild.github.io/), [Rollup](https://rollupjs.org/), [SWC](https://swc.rs/docs/getting-started)
+- [ESLint](https://eslint.org/docs/latest/), [Prettier](https://prettier.io/docs/), [Biome](https://biomejs.dev/)
+- [Vitest](https://vitest.dev/guide/), [Playwright](https://playwright.dev/docs/intro), [Cypress](https://docs.cypress.io/), [Jest](https://jestjs.io/docs/getting-started)
+- [Next self-hosting](https://nextjs.org/docs/app/guides/self-hosting), [TanStack Start](https://tanstack.com/start/latest/docs/framework/react/overview), [Astro](https://docs.astro.build/)
+- [Apollo Client](https://www.apollographql.com/docs/react/), [Relay](https://relay.dev/docs/)
+- [Angular](https://angular.dev/), [Vue](https://vuejs.org/guide/), [Nuxt](https://nuxt.com/docs), [SvelteKit](https://svelte.dev/docs/kit), [Solid](https://docs.solidjs.com/)
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse), [Web Vitals](https://web.dev/articles/vitals)
+- [GitHub Pages](https://docs.github.com/en/pages), [Cloudflare Pages local](https://developers.cloudflare.com/pages/functions/local-development/)
+
+Sürüm/security/license ve runtime/browser compatibility uygulama gününde doğrulanıp pin edilir. Local validation gerçek provider deployment veya field performance ölçümü değildir.

@@ -18,7 +18,7 @@ Kaynak: [roadmap.sh/devops](https://roadmap.sh/devops), canlı graph **2026-10-0
 
 **Durum Planlandı'dır.** Kapsam matrisi uygulama kanıtı değildir. Ücretsiz local/self-hosted kararımızla bazı mor ürünlerin gerçek managed kullanımını tamamlayamayız; [istisna ve gap belgesi](devops-cloud-exceptions.md) bu farkı açık tutar. Dolayısıyla “bütün mor ürünler literal kullanıldı/kullanılacak, hiçbir engel yok” iddiası yapılmaz.
 
-Emlak 85 gün **değişmez**. Baseline okuma branch'i `docs/backend-roadmap-design`, HEAD `a84beefb0d8d932a01056fbd4542910856129a28`. [Onaylı DevOps ortak kararları](https://github.com/aydindemir1/real-estate-backend-architecture-lab/blob/docs/backend-roadmap-design/docs/DEVOPS-ENGINEERING-PLAN.md) ve ROADMAP.md Day 46–85 kaynak olarak okunmuştur. Araç Day 01–63 kapsamı korunur; Day 64 önceki üç roadmap checkpoint; Day 65–77 ek deneyler; Day 78 dört roadmap final audit.
+Emlak 85 gün **değişmez**. Baseline okuma branch'i `docs/backend-roadmap-design`, HEAD `a84beefb0d8d932a01056fbd4542910856129a28`. [Onaylı DevOps ortak kararları](https://github.com/aydindemir1/real-estate-backend-architecture-lab/blob/docs/backend-roadmap-design/docs/DEVOPS-ENGINEERING-PLAN.md) ve ROADMAP.md Day 46–85 kaynak olarak okunmuştur. Araç Day 01–63 kapsamı korunur; Day 64 önceki üç roadmap checkpoint; Day 65–77 ek deneyler; Day 78 dört roadmap ara checkpoint.
 
 ## 22 ana başlığın sahibi
 
@@ -64,7 +64,7 @@ Emlak 85 gün **değişmez**. Baseline okuma branch'i `docs/backend-roadmap-desi
 | [75](../roadmap/day-75.md) | Serverless: Knative ve yerel provider runtime'ları | Java Knative scale-to-zero/restart ve function failure gözlenir; local Java SAM input/error testi çalışır. Workers local request/validation ve cleanup doğrulanır; iki provider satırı managed-cloud Verified diye kapanmaz. |
 | [76](../roadmap/day-76.md) | Cloud sağlayıcıları: kavramlar ve kapsam istisnası | Local network/identity/restore sözleşmeleri gerçek test evidence'ına bağlıdır; provider tasarımının uygulanmadığı açıkça yazılır. Cloud Providers/AWS/Azure/GCP status'ları full coverage hesabında istisna olarak görünür; ücretli kaynak oluşturulmaz. |
 | [77](../roadmap/day-77.md) | Container, supply chain ve recovery uçtan uca | Release zinciri digest/commit ile izlenebilir; failed gate deploy'u durdurur; uygulama E2E başarılıdır. Restore sonrası canonical booking ve projection invariant'ları doğrulanır; resource budget ve fiziksel HA sınırı raporlanır. |
-| [78](../roadmap/day-78.md) | Dört roadmap ve iki proje final audit | Dört matrisin bütün required satırları Verified, açık gap veya açık istisna olarak evidence/reason sahibine bağlıdır. Literal 'roadmap'teki her mor ürün uygulandı' iddiası cloud/SaaS gap'leri varken yapılmaz; iki projenin final raporu tekrar üretilebilir. |
+| [78](../roadmap/day-78.md) | Dört roadmap ara kapsam checkpoint | Dört matrisin bütün required satırları Verified, açık gap veya açık istisna olarak evidence/reason sahibine bağlıdır. Literal 'roadmap'teki her mor ürün uygulandı' iddiası cloud/SaaS gap'leri varken yapılmaz; iki projenin final raporu tekrar üretilebilir. |
 
 ## Düğüm bazında tam coverage
 
@@ -228,4 +228,9 @@ Day bağlantılarında somut görevler, başarı/hata/toparlanma kriterleri ve c
 
 ## Final gate ve istisnalar
 
-Day 78, Backend/Full Stack/System Design/DevOps matrislerini birlikte denetler. 74 required occurrence için implementation SHA, öğrenme notu, version/edition ve başarı/hata/recovery evidence veya açık gap/istisna sahibi bulunur. AWS/Azure/GCP gerçek provider, local Lambda/Cloudflare ve CircleCI/Datadog erişim satırları full literal implementation sayısına karıştırılmaz. Tüm ürünler uygulandı iddiası yerine verified/gap/istisna/partial sayıları ayrı raporlanır.
+Day 99, Backend/Full Stack/System Design/DevOps/Frontend matrislerini birlikte denetler. 74 required occurrence için implementation SHA, öğrenme notu, version/edition ve başarı/hata/recovery evidence veya açık gap/istisna sahibi bulunur. AWS/Azure/GCP gerçek provider, local Lambda/Cloudflare ve CircleCI/Datadog erişim satırları full literal implementation sayısına karıştırılmaz. Tüm ürünler uygulandı iddiası yerine verified/gap/istisna/partial sayıları ayrı raporlanır.
+
+
+## Frontend genişletmesi sonrası nihai audit
+
+[Frontend kapsamı](frontend-coverage.md) ayrıca kullanıcı talebiyle eklendi. Day 78 önceki dört roadmap için ara checkpoint olarak korunur; **Day 99** Backend/Full Stack/System Design/DevOps/Frontend final audit'idir. Önceki ürün görevleri ve cloud/SaaS erişim sınırları değişmez. Desktop/Mobile frontend branch'leri kapsam dışıdır; Node business backend hariç kalırken yalnız yeni frontend SSR render role'ü uygulanır.

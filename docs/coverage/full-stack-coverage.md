@@ -72,3 +72,8 @@ Day 48 bu Full Stack kapsamının ara kontrolü olarak korunur; araç programın
 
 
 [DevOps kapsamı](devops-coverage.md) eklenmiştir; önceki Node.js backend/Basic AWS istisnaları ve Full Stack uygulama görevleri korunur.
+
+
+## Frontend genişletmesi sonrası nihai audit
+
+[Frontend kapsamı](frontend-coverage.md) ayrıca kullanıcı talebiyle eklendi. Day 78 önceki dört roadmap için ara checkpoint olarak korunur; **Day 99** Backend/Full Stack/System Design/DevOps/Frontend final audit'idir. Önceki ürün görevleri ve cloud/SaaS erişim sınırları değişmez. Desktop/Mobile frontend branch'leri kapsam dışıdır; Node business backend hariç kalırken yalnız yeni frontend SSR render role'ü uygulanır.

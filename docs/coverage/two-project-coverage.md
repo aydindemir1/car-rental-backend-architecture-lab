@@ -187,4 +187,9 @@ Sarı/mor/mavi konular yalnız comparison ile kapatılamaz. Öğrenme, temsilî 
 
 ## DevOps kapsam geçişi
 
-[DevOps matrisi](devops-coverage.md) yeni explicit kapsamdır. Backend required ürün/görevleri korunur; Day 78 dört roadmap final audit'i ve actual evidence/gap/istisna raporlaması yapar. Önceki “linked roadmap otomatik scope değildir” sınırı, kullanıcının DevOps'u ayrıca istemesiyle bu explicit kapsamı engellemez.
+[DevOps matrisi](devops-coverage.md) yeni explicit kapsamdır. Backend required ürün/görevleri korunur; Day 78 dört roadmap ara checkpoint'i ve actual evidence/gap/istisna raporlaması yapar. Önceki “linked roadmap otomatik scope değildir” sınırı, kullanıcının DevOps'u ayrıca istemesiyle bu explicit kapsamı engellemez.
+
+
+## Frontend genişletmesi sonrası nihai audit
+
+[Frontend kapsamı](frontend-coverage.md) ayrıca kullanıcı talebiyle eklendi. Day 78 önceki dört roadmap için ara checkpoint olarak korunur; **Day 99** Backend/Full Stack/System Design/DevOps/Frontend final audit'idir. Önceki ürün görevleri ve cloud/SaaS erişim sınırları değişmez. Desktop/Mobile frontend branch'leri kapsam dışıdır; Node business backend hariç kalırken yalnız yeni frontend SSR render role'ü uygulanır.

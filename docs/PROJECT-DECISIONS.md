@@ -52,3 +52,16 @@ Live graph: 22 topic, 46 mor, 58 yeşil, 9 gri, 4 tiksiz subtopic; 6 mavi button
 Python/Go backend migration için değil ayrı operasyon CLI'larıdır. Ubuntu/RHEL türevi/FreeBSD ve GitLab CI/Artifactory/Consul mesh ayrı geçici eğitim profilleridir. Ürün-spesifik mor satırlarda gerekli farklı deneyler uygulanır; canonical runtime/registry/CI/controller seçimi değişmez. Nexus/Harbor ve Terraform/Ansible/Jenkins/Argo/Istio emlak kararları korunur. Yeşil ESO/SOPS için ayrı secret lifecycle sahipliği kullanılır.
 
 Ücretsiz local/self-hosted sınırı daha önce verilmiş karardır. Cloud Providers ve AWS/Azure/GCP gerçek provider kullanımı bu çalışma kapsamında istisna; serverless local SAM/workerd kapsamı Limited/Partial. CircleCI güncel CLI v1 local execute desteklemez; actual managed pipeline olmadan ürün Verified olmaz. Datadog local agent SaaS monitor yerine geçmez. Ücretsiz ve ücret riski olmayan ürün erişimi yoksa açık gap tutulur; paid/trial/HCP/hesap oluşturma otomatik yapılmaz. Artifactory OSS ücretsiz güncel uygun distribution erişimi uygulama gününde kontrol edilir; yoksa gap kalır.
+
+
+## Frontend kapsam kararı — 2026-10-07
+
+[roadmap.sh/frontend](https://roadmap.sh/frontend) ayrıca kullanıcı talebiyle scope'tur. **Desktop Apps ve Mobile Apps**, React Native/Flutter/Ionic/Electron/Tauri child occurrence'larıyla hariçtir. PWA responsive web uygulaması olarak kapsamda kalır. Emlak 85 gün değişmez; araç 78→99 milestone'a genişler. Day 78 önceki dört roadmap ara checkpoint; Day 99 beş roadmap final audit'tir.
+
+Snapshot: 30 sarı, 35 mor, 7 mavi, 31 yeşil, 4 gri, 12 tiksiz = 119 eğitim düğümü. Desktop/Mobile 8 düğüm; 5 navigasyon button'ı hariç. Topic sınıfındaki mor/yeşil/gri başlıklar ayrı renk olarak sayılır; her topic otomatik sarı değildir.
+
+React/TypeScript ana portal korunur. Mor Next.js/TanStack Start SSR ve Astro SSG gerçek ayrı profillerdir. Nodejs mavi konu için frontend request-time rendering/lifecycle görevi eklendi; Java business backend/DB owner değişmez. Önceki Full Stack Node business-backend istisnası kalır; önceki statik portal fazının “Node yalnız tooling” ifadesi Day 91 sonrası SSR rendering role'ünü engellemez. Linked Node roadmap'in tamamı kapsam değildir.
+
+Yeşil pnpm/yarn/Bun, Rollup/Parcel/SWC/Rolldown, Biome/Jest/Cypress, Relay, React Router ve Angular/Vue/Nuxt/SvelteKit/Solid/Eleventy/VuePress için bounded gerçek lab'lar planlanır. Same responsibility profilleri ayrı output/runtime'a sahiptir; bir portalda hepsi aynı anda zorunlu dependency/owner olmaz. Copilot/Cursor/Antigravity ve hosting/provider alternatifleri paid erişimsiz Comparison olabilir.
+
+GitHub Pages sahte public static artifact için gerçek ücretsiz deployment evidence ister; uygun erişim yoksa ürün gap'i. Cloudflare yerel runtime Partial'dır; gerçek managed deployment yerel sonuçla doğrulanmış sayılmaz. Ücretli cloud/SaaS/model API ve otomatik account/billing yoktur.
