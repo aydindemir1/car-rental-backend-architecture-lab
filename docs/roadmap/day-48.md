@@ -1,4 +1,4 @@
-# Day 48 — İki proje coverage ve final audit
+# Day 48 — Backend/Full Stack ara coverage audit
 
 Durum: **Planlandı**. Day bir milestone'dır; takvim günü sınırı yoktur.
 
@@ -16,7 +16,7 @@ Durum: **Planlandı**. Day bir milestone'dır; takvim günü sınırı yoktur.
 
 ## Planlanan dosyalar
 
-- `docs/coverage/completion-report.md`
+- `docs/coverage/backend-full-stack-checkpoint.md`
 - `docs/coverage/capability-status.md`
 - `docs/evidence/day-48/` — secretsız komut, çıktı, sürüm ve ölçümler; bu yollar henüz implementation değildir.
 
@@ -44,7 +44,7 @@ Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı de�
 ## Zorunlu kapsam denetimi
 
 - Emlak Day 1–85 planı değiştirilmeden, iki proje matrisindeki her sarı/mor/mavi konu için en az bir gerçek implementation ve runtime test kanıtı bulunur.
-- Başlık yalnız comparison/ADR/dependency üzerinden tamamlandı sayılamaz. Eksik satır varsa gap ve milestone owner belirlenir; final kapanış tamamlandı ilan edilmez.
+- Başlık yalnız comparison/ADR/dependency üzerinden tamamlandı sayılamaz. Eksik satır varsa gap ve milestone owner belirlenir; ara kapanış tamamlandı ilan edilmez.
 - “Bir dil seç” gibi seçim semantiği ve mavi linked roadmap scope sınırı uygulanır; [uygulama sözleşmesi](../coverage/mandatory-implementation-contract.md) esas alınır.
 - Claude Code yerel uygulaması ve ek TimescaleDB/CouchDB/SQLite alternatifleri özellikle kontrol edilir.
 
@@ -52,3 +52,8 @@ Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı de�
 ## Full Stack kapsam audit'i
 
 [Full Stack matrisi](../coverage/full-stack-coverage.md) ve snapshot'ındaki 17 uygulanabilir ana konu, checkpoint'ler ve mavi Frontend/Backend/DevOps için evidence kontrol edilir. Emlak baseline PostgreSQL ve planlı Redis/Linux/Ansible/Terraform uygulama kanıtlarına link verilir; sadece plan varlığı yeterli değildir. Eksik owner görevi araç kiralamada kalır. Node.js backend ve Basic AWS Services/Route53/SES/EC2/VPC/S3/mavi AWS açık istisnadır. npm ve Tailwind için local build araçları bu istisnayı server-side Node scope'una dönüştürmez.
+
+
+## System Design fazına geçiş
+
+Bu gün Backend/Full Stack kapsamının ara audit'idir; bütün programın final audit'i [Day 64](day-64.md) olarak yapılır. [Day 49](day-49.md) ile System Design genişletmesi başlar. Day 48'de System Design tamamlandı iddiası yapılmaz; açık gap'ler yeni günlük owner'lara aktarılır.

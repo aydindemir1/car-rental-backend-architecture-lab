@@ -1,6 +1,6 @@
 # İki proje konu matrisi
 
-Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası değildir. Yeni proje sütunu bu repo milestone sahibidir. Her satır için implementation SHA ve evidence Day 48 audit sırasında eklenir. Mavi kutular linked roadmaplerin tamamını otomatik gerektirmez.
+Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası değildir. Yeni proje sütunu bu repo milestone sahibidir. Her satır için implementation SHA ve evidence Day 48 ara audit ve Day 64 final audit sırasında eklenir. Mavi kutular linked roadmaplerin tamamını otomatik gerektirmez.
 
 | Roadmap konusu | Renk/tik | Emlak planı | Yeni Day | Uygulama / karşılaştırma sınırı | Durum |
 |---|---|---|---|---|---|
@@ -134,14 +134,14 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | HTML | Mor | Yok | 04–06,45 | Frontend ve full stack uygulama | Planlandı / evidence yok |
 | CSS | Mor | Yok | 04–06,45 | Frontend ve full stack uygulama | Planlandı / evidence yok |
 | JavaScript | Gri/tiksiz | Java uygulama ekseni | 06–07 | Java backend ve JS frontend; diğer dil ürünleri comparison, bir dil seç semantiği | Planlandı / evidence yok |
-| System Design | Mavi | Day 8–45 | 01,09–13,19–24,48 | ADR/ownership/domain/scale/failure case; linked fullroadmap otomatik değil | Planlandı / evidence yok |
+| System Design | Mavi | Day 8–45 | 01,09–13,19–24,49–64 | Kullanıcının ayrıca istediği System Design snapshot'ı [matriste](system-design-coverage.md) bütünüyle günlük görevlere bağlandı | Planlandı / evidence yok |
 | Microservices | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
 | Serverless | Mor | Microservices, Day 32 comparison/79 Istio | 09,12–13,27–28,33,36 | Monolit extraction/SOA/Knative/12factor ve Linkerd | Planlandı / evidence yok |
 | ClickHouse | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | ScyllaDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | DGraph | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Migrations | Mor | Persistence standardı ve Day 8/26/28/78 | 10–11,29,37 | Derin ACID/normalization/EXPLAIN ve migration deneyleri | Planlandı / evidence yok |
-| System Design | Mavi | Day 8–45 | 01,09–13,19–24,48 | ADR/ownership/domain/scale/failure case; linked fullroadmap otomatik değil | Planlandı / evidence yok |
+| System Design | Mavi | Day 8–45 | 01,09–13,19–24,49–64 | Kullanıcının ayrıca istediği System Design snapshot'ı [matriste](system-design-coverage.md) bütünüyle günlük görevlere bağlandı | Planlandı / evidence yok |
 | Claude Code | Mor | Formal AI scope yok | 40 | Claude Code + local Ollama gerçek görevlerle uygulanır; yeşil coding araçları comparison | Planlandı / evidence yok |
 | Copilot | Yeşil | Formal AI scope yok | 40 | Claude Code + local Ollama implement; yeşil coding araçları comparison | Planlandı / evidence yok |
 | Cursor | Yeşil | Formal AI scope yok | 40 | Ücretsiz local coding agent implement; ticari araç isimleri comparison; literal Claude Code gap açık | Planlandı / evidence yok |

@@ -4,7 +4,7 @@ Karar: 2026-10-07. Hedef farklı mimari, yaklaşım, prensip, pattern ve teknolo
 
 ## Kapsam yükümlülüğü
 
-1. Snapshot'taki 23 sarı ana başlığın, mor tikli alt başlıkların ve mavi konuların en az bir projede açık öğrenme + gerçek temsilî uygulama + runtime doğrulama görevi bulunur.
+1. Backend snapshot'ındaki 23 sarı ana başlığın, mor tikli alt başlıkların ve mavi konuların en az bir projede açık öğrenme + gerçek temsilî uygulama + runtime doğrulama görevi bulunur.
 2. Yalnız başlık kaydı, karşılaştırma belgesi veya dependency eklemek uygulama yerine geçmez. Product-specific mor seçimlerde ürünün kendisi öğrenilir: Nginx ve Claude Code örnekleri.
 3. Her konu satırında owner proje/milestone, öğrenme çıktısı, uygulama commit'i, başarı/hata testi ve evidence bulunur. Planlama aşamasında bunlar future task'tır; günü geldiğinde yapılır.
 4. Emlakta zaten planlanan konu araç kiralamada sırf sayısal çeşitlilik için tekrar kurulmaz. Emlak kapsamının yeterliliği runtime evidence ile denetlenir; eksik zorunlu görev gerektiğinde araç kiralama programına bağlanır.
@@ -22,9 +22,16 @@ Karar: 2026-10-07. Hedef farklı mimari, yaklaşım, prensip, pattern ve teknolo
 
 ## Kapanış
 
-Day 48, her zorunlu konunun iki projenin en az birinde uygulama+test kanıtını kontrol eder. Comparison veya Design Only, zorunlu konu satırını tamamlandı yapmaz. Bu karar günlük programın kapsam yükümlülüğüdür; yeni konular bugün çalıştırıldı anlamına gelmez.
+Day 48 Backend/Full Stack ara audit'idir; Day 64, her zorunlu konunun iki projenin en az birinde uygulama+test kanıtını kontrol eder. Comparison veya Design Only, zorunlu konu satırını tamamlandı yapmaz. Bu karar günlük programın kapsam yükümlülüğüdür; yeni konular bugün çalıştırıldı anlamına gelmez.
 
 
 ## Full Stack roadmap kapsamı
 
 Aynı öğrenme+gerçek uygulama+test yükümlülüğü [Full Stack matrisine](full-stack-coverage.md) de uygulanır. Node.js backend ve Basic AWS Services ile bağlı AWS alt dalları kullanıcının explicit istisnasıdır. npm build tooling local runtime gerektirir; bu backend Node eğitimi değildir. Matrix'in 17 uygulanabilir ana başlığı ve mavi Frontend/Backend/DevOps sorumlulukları iki projede en az birinde yerine getirilir. Snapshot mor/yeşil legend taşımıyorsa varmış gibi sınıflandırılmaz; eksik frontend ve işletim konuları günlük görevlere eklenir. Emlak değiştirilmez.
+
+
+## System Design kapsamı
+
+[System Design matrisi](system-design-coverage.md) kullanıcı talebiyle ayrıca kapsamdır. 27 ana konu + 120 alt konu occurrence'ı + Backend/Software Architect/DevOps mavi konuları görev sahibine bağlanır. Snapshot mor/yeşil tik taşımadığı için tikler uydurulmaz; bütün alt konular öğrenme, uygulama ve runtime test kapsamındadır. Node ID bazında kapsama denetimi yapılır; tekrar etiketlerde ortak evidence kullanılabilir.
+
+Day 49–63 eksik deneyleri uygular; Day 64 Backend/Full Stack/System Design final audit'idir. Emlak mevcut uygulamaları evidence ile karşılar; karşılanmayan zorunlu konu araçta açık görev kalır. Geodes/stamps/CDN/leader seçim deneylerinin yerel sınırları ve correctness/failure sözleşmeleri saklanır; cloud sağlayıcı kullanılması zorunlu değildir.

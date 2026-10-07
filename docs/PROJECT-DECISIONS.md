@@ -32,3 +32,12 @@ Emlak projesinin 85 günü değişmez. Eksik zorunlu konunun uygulama sorumlulu�
 ## Full Stack kapsam kararı — 2026-10-07
 
 [roadmap.sh/full-stack](https://roadmap.sh/full-stack) da iki proje kapsamına eklenmiştir. Node.js backend eğitimi/uygulaması ve Basic AWS Services tamamen istisnadır; AWS alt ürünleri ve mavi AWS kutusu da kapsam dışıdır. npm/frontend build/test için gereken yerel Node executable araç zinciri rolündedir, backend platformu değildir. Backend Java/Spring Boot/Spring Cloud kalır. Sarı ana konuların ve uygulanabilir mavi başlıkların sahibi [Full Stack matrisinde](coverage/full-stack-coverage.md) kayıtlıdır. Eksik npm, Tailwind ve Monit görevleri araç Day 05–06 ve Day 46'ya eklenmiştir. Emlak 85 günlük programı değişmez. Yeşil alternatifler varsa requirement ile seçilir; bu snapshot'ta olmayan tik/ürünler uydurulmaz.
+
+
+## System Design kapsam kararı — 2026-10-07
+
+Kullanıcının açık talebiyle [System Design roadmap](https://roadmap.sh/system-design) bağımsız kapsam olarak eklendi. Araç kiralama programı 48'den **64 milestone**'a genişler; emlak 85 gün değişmez. Day 48 ara Backend/Full Stack audit; Day 64 üç roadmap final audit. Bu genişleme başka bir mavi roadmap bağlantısından çıkarılan örtük scope değildir.
+
+Canlı graph'ta 27 topic, 120 subtopic occurrence'ı ve 3 mavi bağlantı vardır; mor/yeşil tik bilgisi yoktur. Atlamamak için tüm alt konular günlük öğrenme/uygulama/test kapsamındadır. Aynı etiketin farklı graph düğümleri ayrı ID ile eşleştirilir; aynı verified evidence paylaşılabilir.
+
+Önceden seçilmiş Java/Spring/Kubernetes ve datastore/broker ürünleri korunur. Emlak Cassandra/MongoDB/Redis/Event Sourcing/CQRS görevleri için gerçek evidence yeniden kullanılır; yalnız plan satırı yeterli değildir. Eksik evidence/görev araçta açık kalır. Yeni CoreDNS, HAProxy ve mevcut Nginx profilleri ayrı DNS/L4/L7 eğitim rollerine aittir; aynı ingress/resource için competing controller kurulmaz. Cloud pattern'leri yerel uygulamalarla öğrenilir; Azure/AWS/GCP hesabı gerekmez. Geode deneyi iki local read replica ve tek canonical write owner ile sınırlandırılır; üretim multi-region active-active write uygulanmış sayılmaz.

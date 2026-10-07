@@ -1,0 +1,1678 @@
+{
+  "source": "https://roadmap.sh/system-design",
+  "retrieved": "2026-10-07",
+  "items": [
+    {
+      "id": "_hYN0gEi9BL24nptEtXWU",
+      "type": "topic",
+      "label": "Introduction",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 105.5,
+        "y": 214.37833957831333
+      }
+    },
+    {
+      "id": "idLHBxhvcIqZTqmh_E8Az",
+      "type": "subtopic",
+      "label": "What is System Design?",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 432.83333333333337,
+        "y": 188
+      }
+    },
+    {
+      "id": "os3Pa6W9SSNEzgmlBbglQ",
+      "type": "subtopic",
+      "label": "How to approach System Design?",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 432.83333333333337,
+        "y": 242
+      }
+    },
+    {
+      "id": "e_15lymUjFc6VWqzPnKxG",
+      "type": "topic",
+      "label": "Performance vs Scalability",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 105.5,
+        "y": 267.37833957831333
+      }
+    },
+    {
+      "id": "O3wAHLnzrkvLWr4afHDdr",
+      "type": "topic",
+      "label": "Latency vs Throughput",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 105.5,
+        "y": 320.37833957831333
+      }
+    },
+    {
+      "id": "uJc27BNAuP321HQNbjftn",
+      "type": "topic",
+      "label": "Availability vs Consistency",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 105.5,
+        "y": 373.37833957831333
+      }
+    },
+    {
+      "id": "tcGdVQsCEobdV9hgOq3eG",
+      "type": "subtopic",
+      "label": "CAP Theorem",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.6381872719934,
+        "y": 363.37833957831333
+      }
+    },
+    {
+      "id": "GHe8V-REu1loRpDnHbyUn",
+      "type": "topic",
+      "label": "Consistency Patterns",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 105.5,
+        "y": 426.37833957831333
+      }
+    },
+    {
+      "id": "EKD5AikZtwjtsEYRPJhQ2",
+      "type": "subtopic",
+      "label": "Weak Consistency",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 455.3560256958008,
+        "y": 373.671875
+      }
+    },
+    {
+      "id": "rRDGVynX43inSeQ9lR_FS",
+      "type": "subtopic",
+      "label": "Eventual Consistency",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 455.3560256958008,
+        "y": 426.671875
+      }
+    },
+    {
+      "id": "JjB7eB8gdRCAYf5M0RcT7",
+      "type": "subtopic",
+      "label": "Strong Consistency",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 455.33333333333337,
+        "y": 480.671875
+      }
+    },
+    {
+      "id": "ezptoTqeaepByegxS5kHL",
+      "type": "topic",
+      "label": "Availability Patterns",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 105.5,
+        "y": 551.671875
+      }
+    },
+    {
+      "id": "L_jRfjvMGjFbHEbozeVQl",
+      "type": "subtopic",
+      "label": "Fail-Over",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -290.6439743041992,
+        "y": 583.171875
+      }
+    },
+    {
+      "id": "0RQ5jzZKdadYY0h_QZ0Bb",
+      "type": "subtopic",
+      "label": "Replication",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -128.64397430419922,
+        "y": 583.171875
+      }
+    },
+    {
+      "id": "uHdrZllrZFAnVkwIB3y5-",
+      "type": "subtopic",
+      "label": "Availability in Numbers",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 441.3560256958008,
+        "y": 695.921875
+      }
+    },
+    {
+      "id": "DOESIlBThd_wp2uOSd_CS",
+      "type": "topic",
+      "label": "Background Jobs",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -38.450004973186594,
+        "y": 708.671875
+      }
+    },
+    {
+      "id": "NEsPjQifNDlZJE-2YLVl1",
+      "type": "subtopic",
+      "label": "Event-Driven",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -300.8123473873875,
+        "y": 682.5759021485857
+      }
+    },
+    {
+      "id": "zoViI4kzpKIxpU20T89K_",
+      "type": "subtopic",
+      "label": "Schedule Driven",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -300.8123473873875,
+        "y": 735.5759021485857
+      }
+    },
+    {
+      "id": "2gRIstNT-fTkv5GZ692gx",
+      "type": "subtopic",
+      "label": "Returning Results",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -300.8123473873875,
+        "y": 808.5503059007614
+      }
+    },
+    {
+      "id": "Uk6J8JRcKVEFz4_8rLfnQ",
+      "type": "topic",
+      "label": "Domain Name System",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -38.450004973186594,
+        "y": 808.5503059007614
+      }
+    },
+    {
+      "id": "O730v5Ww3ByAiBSs6fwyM",
+      "type": "topic",
+      "label": "Content Delivery Networks",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 238.5,
+        "y": 808.5503059007614
+      }
+    },
+    {
+      "id": "uIerrf_oziiLg-KEyz8WM",
+      "type": "subtopic",
+      "label": "Push CDNs",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 572.1868989634623,
+        "y": 838.4632786581586
+      }
+    },
+    {
+      "id": "HkXiEMLqxJoQyAHav3ccL",
+      "type": "subtopic",
+      "label": "Pull CDNs",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 572.1868989634623,
+        "y": 785.4632786581586
+      }
+    },
+    {
+      "id": "14KqLKgh090Rb3MDwelWY",
+      "type": "topic",
+      "label": "Load Balancers",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 238.5,
+        "y": 1029.2994626720824
+      }
+    },
+    {
+      "id": "ocdcbhHrwjJX0KWgmsOL6",
+      "type": "subtopic",
+      "label": "LB vs Reverse Proxy",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 502.27648583084766,
+        "y": 923.2994626720824
+      }
+    },
+    {
+      "id": "urSjLyLTE5IIz0TFxMBWL",
+      "type": "subtopic",
+      "label": "Load Balancing Algorithms",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 502.27648583084766,
+        "y": 976.2994626720824
+      }
+    },
+    {
+      "id": "e69-JVbDj7dqV_p1j1kML",
+      "type": "subtopic",
+      "label": "Layer 7 Load Balancing",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 502.27648583084766,
+        "y": 1029.2994626720824
+      }
+    },
+    {
+      "id": "MpM9rT1-_LGD7YbnBjqOk",
+      "type": "subtopic",
+      "label": "Layer 4 Load Balancing",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 502.27648583084766,
+        "y": 1082.2994626720824
+      }
+    },
+    {
+      "id": "IkUCfSWNY-02wg2WCo1c6",
+      "type": "subtopic",
+      "label": "Horizontal Scaling",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 502.27648583084766,
+        "y": 1135.2994626720824
+      }
+    },
+    {
+      "id": "XXuzTrP5UNVwSpAk-tAGr",
+      "type": "topic",
+      "label": "Application Layer",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -38.450004973186594,
+        "y": 1029.2994626720824
+      }
+    },
+    {
+      "id": "UKTiaHCzYXnrNw31lHriv",
+      "type": "subtopic",
+      "label": "Microservices",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -38.450004973186594,
+        "y": 889.9959916278779
+      }
+    },
+    {
+      "id": "Nt0HUWLOl4O77elF8Is1S",
+      "type": "subtopic",
+      "label": "Service Discovery",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -38.450004973186594,
+        "y": 942.9959916278779
+      }
+    },
+    {
+      "id": "5FXwwRMNBhG7LT5ub6t2L",
+      "type": "topic",
+      "label": "Databases",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -38.450004973186594,
+        "y": 1129.2994626720824
+      }
+    },
+    {
+      "id": "KLnpMR2FxlQkCHZP6-tZm",
+      "type": "subtopic",
+      "label": "SQL vs NoSQL",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -38.450004973186594,
+        "y": 1221.833610961679
+      }
+    },
+    {
+      "id": "dc-aIbBwUdlwgwQKGrq49",
+      "type": "subtopic",
+      "label": "Replication",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.683453649206,
+        "y": 1165.5927435005694
+      }
+    },
+    {
+      "id": "FX6dcV_93zOfbZMdM_-li",
+      "type": "subtopic",
+      "label": "Sharding",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.683453649206,
+        "y": 1218.5927435005694
+      }
+    },
+    {
+      "id": "DGmVRI7oWdSOeIUn_g0rI",
+      "type": "subtopic",
+      "label": "Federation",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.683453649206,
+        "y": 1271.5927435005694
+      }
+    },
+    {
+      "id": "Zp9D4--DgtlAjE2nIfaO_",
+      "type": "subtopic",
+      "label": "Denormalization",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.683453649206,
+        "y": 1324.5927435005694
+      }
+    },
+    {
+      "id": "fY8zgbB13wxZ1CFtMSdZZ",
+      "type": "subtopic",
+      "label": "SQL Tuning",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.683453649206,
+        "y": 1377.5927435005694
+      }
+    },
+    {
+      "id": "KFtdmmce4bRkDyvFXZzLN",
+      "type": "subtopic",
+      "label": "Key-Value Store",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.4401505968112,
+        "y": 899.2722684546688
+      }
+    },
+    {
+      "id": "didEznSlVHqqlijtyOSr3",
+      "type": "subtopic",
+      "label": "Document Store",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.4401505968112,
+        "y": 952.2722684546688
+      }
+    },
+    {
+      "id": "WHq1AdISkcgthaugE9uY7",
+      "type": "subtopic",
+      "label": "Wide Column Store",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.4401505968112,
+        "y": 1005.2722684546688
+      }
+    },
+    {
+      "id": "6RLgnL8qLBzYkllHeaI-Z",
+      "type": "subtopic",
+      "label": "Graph Databases",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -294.4401505968112,
+        "y": 1058.2722684546688
+      }
+    },
+    {
+      "id": "-X4g8kljgVBOBcf1DDzgi",
+      "type": "topic",
+      "label": "Caching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 238.5,
+        "y": 1261.115307718412
+      }
+    },
+    {
+      "id": "Bgqgl67FK56ioLNFivIsc",
+      "type": "subtopic",
+      "label": "Refresh Ahead",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1230.326180649652
+      }
+    },
+    {
+      "id": "vNndJ-MWetcbaF2d-3-JP",
+      "type": "subtopic",
+      "label": "Write-behind",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1283.326180649652
+      }
+    },
+    {
+      "id": "RNITLR1FUQWkRbSBXTD_z",
+      "type": "subtopic",
+      "label": "Write-through",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1336.326180649652
+      }
+    },
+    {
+      "id": "bffJlvoLHFldS0CluWifP",
+      "type": "subtopic",
+      "label": "Cache Aside",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 512.0255635517132,
+        "y": 1389.326180649652
+      }
+    },
+    {
+      "id": "RHNRb6QWiGvCK3KQOPK3u",
+      "type": "subtopic",
+      "label": "Client Caching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1496.6321590449484
+      }
+    },
+    {
+      "id": "Kisvxlrjb7XnKFCOdxRtb",
+      "type": "subtopic",
+      "label": "CDN Caching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1549.6321590449484
+      }
+    },
+    {
+      "id": "o532nPnL-d2vXJn9k6vMl",
+      "type": "subtopic",
+      "label": "Web Server Caching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1602.6321590449484
+      }
+    },
+    {
+      "id": "BeIg4jzbij2cwc_a_VpYG",
+      "type": "subtopic",
+      "label": "Database Caching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1655.6321590449484
+      }
+    },
+    {
+      "id": "5Ux_JBDOkflCaIm4tVBgO",
+      "type": "subtopic",
+      "label": "Application Caching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 514.5255635517132,
+        "y": 1708.6321590449484
+      }
+    },
+    {
+      "id": "84N4XY31PwXRntXX1sdCU",
+      "type": "topic",
+      "label": "Asynchronism",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 238.5,
+        "y": 1377.615307718412
+      }
+    },
+    {
+      "id": "YiYRZFE_zwPMiCZxz9FnP",
+      "type": "subtopic",
+      "label": "Back Pressure",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -39.821155651437266,
+        "y": 1324.5699820487132
+      }
+    },
+    {
+      "id": "a9wGW_H1HpvvdYCXoS-Rf",
+      "type": "subtopic",
+      "label": "Task Queues",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -39.821155651437266,
+        "y": 1377.5699820487132
+      }
+    },
+    {
+      "id": "37X1_9eCmkZkz5RDudE5N",
+      "type": "subtopic",
+      "label": "Message Queues",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -39.821155651437266,
+        "y": 1430.5699820487132
+      }
+    },
+    {
+      "id": "3pRi8M4xQXsehkdfUNtYL",
+      "type": "topic",
+      "label": "Idempotent Operations",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 238.5,
+        "y": 1526.3071977542106
+      }
+    },
+    {
+      "id": "uQFzD_ryd-8Dr1ppjorYJ",
+      "type": "topic",
+      "label": "Communication",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 11.356025695800781,
+        "y": 1525.7191455814577
+      }
+    },
+    {
+      "id": "I_nR6EwjNXSG7_hw-_VhX",
+      "type": "subtopic",
+      "label": "HTTP",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -302.4401505968112,
+        "y": 1525.7191455814577
+      }
+    },
+    {
+      "id": "2nF5uC6fYKbf0RFgGNHiP",
+      "type": "subtopic",
+      "label": "TCP",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -223.94015059681118,
+        "y": 1525.7191455814577
+      }
+    },
+    {
+      "id": "LC5aTmUKNiw9RuSUt3fSE",
+      "type": "subtopic",
+      "label": "UDP",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -155.44015059681118,
+        "y": 1525.7191455814577
+      }
+    },
+    {
+      "id": "ixqucoAkgnphWYAFnsMe-",
+      "type": "subtopic",
+      "label": "RPC",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -293.8857859406101,
+        "y": 1591.990516401245
+      }
+    },
+    {
+      "id": "6-bgmfDTAQ9zABhpmVoHV",
+      "type": "subtopic",
+      "label": "REST",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -293.8857859406101,
+        "y": 1644.990516401245
+      }
+    },
+    {
+      "id": "Hw2v1rCYn24qxBhhmdc28",
+      "type": "subtopic",
+      "label": "gRPC",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -204.2836423217721,
+        "y": 1593.7013893324854
+      }
+    },
+    {
+      "id": "jwv2g2Yeq-6Xv5zSd746R",
+      "type": "subtopic",
+      "label": "GraphQL",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -204.2836423217721,
+        "y": 1645.759886389313
+      }
+    },
+    {
+      "id": "p--uEm6klLx_hKxKJiXE5",
+      "type": "topic",
+      "label": "Performance Antipatterns",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -32,
+        "y": 1659.6321590449484
+      }
+    },
+    {
+      "id": "hxiV2uF7tvhZKe4K-4fTn",
+      "type": "subtopic",
+      "label": "Busy Database",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1738.5954266172366
+      }
+    },
+    {
+      "id": "i_2M3VloG-xTgWDWp4ngt",
+      "type": "subtopic",
+      "label": "Busy Frontend",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1791.5954266172366
+      }
+    },
+    {
+      "id": "0IzQwuYi_E00bJwxDuw2B",
+      "type": "subtopic",
+      "label": "Chatty I/O",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1844.5954266172366
+      }
+    },
+    {
+      "id": "6u3XmtJFWyJnyZUnJcGYb",
+      "type": "subtopic",
+      "label": "Extraneous Fetching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1952.198253700603
+      }
+    },
+    {
+      "id": "lwMs4yiUHF3nQwcvauers",
+      "type": "subtopic",
+      "label": "Improper Instantiation",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1740.198253700603
+      }
+    },
+    {
+      "id": "p1QhCptnwzTGUXVMnz_Oz",
+      "type": "subtopic",
+      "label": "Monolithic Persistence",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1793.198253700603
+      }
+    },
+    {
+      "id": "klvHk1_e03Jarn5T46QNi",
+      "type": "subtopic",
+      "label": "No Caching",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1950.5954266172366
+      }
+    },
+    {
+      "id": "r7uQxmurvfsYtTCieHqly",
+      "type": "subtopic",
+      "label": "Noisy Neighbor",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1846.198253700603
+      }
+    },
+    {
+      "id": "LNmAJmh2ndFtOQIpvX_ga",
+      "type": "subtopic",
+      "label": "Retry Storm",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 96.17222469280483,
+        "y": 1897.5954266172366
+      }
+    },
+    {
+      "id": "Ihnmxo_bVgZABDwg1QGGk",
+      "type": "subtopic",
+      "label": "Synchronous I/O",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -150.96939176792688,
+        "y": 1899.198253700603
+      }
+    },
+    {
+      "id": "hDFYlGFYwcwWXLmrxodFX",
+      "type": "topic",
+      "label": "Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 278.5,
+        "y": 2042.9719489680733
+      }
+    },
+    {
+      "id": "hkjYvLoVt9xKDzubm0Jy3",
+      "type": "subtopic",
+      "label": "Health Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 522.0707860146841,
+        "y": 1883.9719489680733
+      }
+    },
+    {
+      "id": "rVrwaioGURvrqNBufF2dj",
+      "type": "subtopic",
+      "label": "Availability Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 522.0707860146841,
+        "y": 1936.9719489680733
+      }
+    },
+    {
+      "id": "x1i3qWFtNNjd00-kAvFHw",
+      "type": "subtopic",
+      "label": "Performance Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 522.0707860146841,
+        "y": 1989.9719489680733
+      }
+    },
+    {
+      "id": "I_NfmDcBph8-oyFVFTknL",
+      "type": "subtopic",
+      "label": "Security Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2042.9719489680733
+      }
+    },
+    {
+      "id": "eSZq74lROh5lllLyTBK5a",
+      "type": "subtopic",
+      "label": "Usage Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2095.9719489680733
+      }
+    },
+    {
+      "id": "Q0fKphqmPwjTD0dhqiP6K",
+      "type": "subtopic",
+      "label": "Instrumentation",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2148.9719489680733
+      }
+    },
+    {
+      "id": "IwMOTpsYHApdvHZOhXtIw",
+      "type": "subtopic",
+      "label": "Visualization & Alerts",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 522.0707860146841,
+        "y": 2201.9719489680733
+      }
+    },
+    {
+      "id": "THlzcZTNnPGLRiHPWT-Jv",
+      "type": "topic",
+      "label": "Cloud Design Patterns",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 138.5,
+        "y": 2250.9719489680733
+      }
+    },
+    {
+      "id": "dsWpta3WIBvv2K9pNVPo0",
+      "type": "topic",
+      "label": "Messaging",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 249.79296473841032,
+        "y": 2338.9915694361566
+      }
+    },
+    {
+      "id": "VgvUWAC6JYFyPZKBRoEqf",
+      "type": "subtopic",
+      "label": "Sequential Convoy",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2395.9915694361566
+      }
+    },
+    {
+      "id": "uR1fU6pm7zTtdBcNgSRi4",
+      "type": "subtopic",
+      "label": "Scheduling Agent Supervisor",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2448.9915694361566
+      }
+    },
+    {
+      "id": "LncTxPg-wx8loy55r5NmV",
+      "type": "subtopic",
+      "label": "Queue-Based Load Leveling",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2501.9915694361566
+      }
+    },
+    {
+      "id": "2ryzJhRDTo98gGgn9mAxR",
+      "type": "subtopic",
+      "label": "Publisher/Subscriber",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2554.9915694361566
+      }
+    },
+    {
+      "id": "DZcZEOi7h3u0744YhASet",
+      "type": "subtopic",
+      "label": "Priority Queue",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2607.9915694361566
+      }
+    },
+    {
+      "id": "siXdR3TB9-4wx_qWieJ5w",
+      "type": "subtopic",
+      "label": "Pipes and Filters",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2660.9915694361566
+      }
+    },
+    {
+      "id": "9Ld07KLOqP0ICtXEjngYM",
+      "type": "subtopic",
+      "label": "Competing Consumers",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2713.9915694361566
+      }
+    },
+    {
+      "id": "aCzRgUkVBvtHUeLU6p5ZH",
+      "type": "subtopic",
+      "label": "Choreography",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2766.9915694361566
+      }
+    },
+    {
+      "id": "kl4upCnnZvJSf2uII1Pa0",
+      "type": "subtopic",
+      "label": "Claim Check",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 260.7929647384103,
+        "y": 2819.9915694361566
+      }
+    },
+    {
+      "id": "eNFNXPsFiryVxFe4unVxk",
+      "type": "subtopic",
+      "label": "Async Request Reply",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 261.7929647384103,
+        "y": 2872.9915694361566
+      }
+    },
+    {
+      "id": "W0cUCrhiwH_Nrzxw50x3L",
+      "type": "topic",
+      "label": "Data Management",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 19.21310958899096,
+        "y": 2338.9915694361566
+      }
+    },
+    {
+      "id": "stZOcr8EUBOK_ZB48uToj",
+      "type": "subtopic",
+      "label": "Valet Key",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2397.0836910533135
+      }
+    },
+    {
+      "id": "-lKq-LT7EPK7r3xbXLgwS",
+      "type": "subtopic",
+      "label": "Static Content Hosting",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2450.0836910533135
+      }
+    },
+    {
+      "id": "R6YehzA3X6DDo6oGBoBAx",
+      "type": "subtopic",
+      "label": "Sharding",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2503.0836910533135
+      }
+    },
+    {
+      "id": "WB7vQ4IJ0TPh2MbZvxP6V",
+      "type": "subtopic",
+      "label": "Materialized View",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2556.0836910533135
+      }
+    },
+    {
+      "id": "AH0nVeVsfYOjcI3vZvcdz",
+      "type": "subtopic",
+      "label": "Index Table",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2609.0836910533135
+      }
+    },
+    {
+      "id": "7OgRKlwFqrk3XO2z49EI1",
+      "type": "subtopic",
+      "label": "Event Sourcing",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2662.0836910533135
+      }
+    },
+    {
+      "id": "LTD3dn05c0ruUJW0IQO7z",
+      "type": "subtopic",
+      "label": "CQRS",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2715.0836910533135
+      }
+    },
+    {
+      "id": "PK4V9OWNVi8StdA2N13X2",
+      "type": "subtopic",
+      "label": "Cache-Aside",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 27.21310958899096,
+        "y": 2768.0836910533135
+      }
+    },
+    {
+      "id": "PtJ7-v1VCLsyaWWYHYujV",
+      "type": "topic",
+      "label": "Design & Implementation",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -342.19669367734,
+        "y": 2251.213852028059
+      }
+    },
+    {
+      "id": "VIbXf7Jh9PbQ9L-g6pHUG",
+      "type": "subtopic",
+      "label": "Strangler Fig",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.19669367734,
+        "y": 2308.213852028059
+      }
+    },
+    {
+      "id": "izPT8NfJy1JC6h3i7GJYl",
+      "type": "subtopic",
+      "label": "Static Content Hosting",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.19669367734,
+        "y": 2361.213852028059
+      }
+    },
+    {
+      "id": "AAgOGrra5Yz3_eG6tD2Fx",
+      "type": "subtopic",
+      "label": "Sidecar",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -162.19669367733997,
+        "y": 2308.213852028059
+      }
+    },
+    {
+      "id": "WkoFezOXLf1H2XI9AtBtv",
+      "type": "subtopic",
+      "label": "Pipes & Filters",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.19669367734,
+        "y": 2468.872440135695
+      }
+    },
+    {
+      "id": "beWKUIB6Za27yhxQwEYe3",
+      "type": "subtopic",
+      "label": "Leader Election",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.19669367734,
+        "y": 2414.429860708825
+      }
+    },
+    {
+      "id": "LXH_mDlILqcyIKtMYTWqy",
+      "type": "subtopic",
+      "label": "Gateway Routing",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2523.4562087989852
+      }
+    },
+    {
+      "id": "0SOWAA8hrLM-WsG5k66fd",
+      "type": "subtopic",
+      "label": "Gateway Offloading",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2576.4562087989852
+      }
+    },
+    {
+      "id": "bANGLm_5zR9mqMd6Oox8s",
+      "type": "subtopic",
+      "label": "Gateway Aggregation",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2629.4562087989852
+      }
+    },
+    {
+      "id": "BrgXwf7g2F-6Rqfjryvpj",
+      "type": "subtopic",
+      "label": "External Config Store",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2682.4562087989852
+      }
+    },
+    {
+      "id": "ODjVoXnvJasPvCS2A5iMO",
+      "type": "subtopic",
+      "label": "Compute Resource Consolidation",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2735.4562087989852
+      }
+    },
+    {
+      "id": "ivr3mh0OES5n86FI1PN4N",
+      "type": "subtopic",
+      "label": "CQRS",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -160.69669367733997,
+        "y": 2414.429860708825
+      }
+    },
+    {
+      "id": "n4It-lr7FFtSY83DcGydX",
+      "type": "subtopic",
+      "label": "Backends for Frontend",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2788.4562087989852
+      }
+    },
+    {
+      "id": "4hi7LvjLcv8eR6m-uk8XQ",
+      "type": "subtopic",
+      "label": "Anti-Corruption Layer",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -334.1966936773399,
+        "y": 2841.4562087989852
+      }
+    },
+    {
+      "id": "Hja4YF3JcgM6CPwB1mxmo",
+      "type": "subtopic",
+      "label": "Ambassador",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -160.69669367733997,
+        "y": 2468.872440135695
+      }
+    },
+    {
+      "id": "DYkdM_L7T2GcTPAoZNnUR",
+      "type": "topic",
+      "label": "Reliability Patterns",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 526.7929647384103,
+        "y": 2958.0321887577434
+      }
+    },
+    {
+      "id": "Xzkvf4naveszLGV9b-8ih",
+      "type": "topic",
+      "label": "Availability",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -352.21273166220635,
+        "y": 3020.2840884377797
+      }
+    },
+    {
+      "id": "FPPJw-I1cw8OxKwmDh0dT",
+      "type": "subtopic",
+      "label": "Deployment Stamps",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3077.2840884377797
+      }
+    },
+    {
+      "id": "Ml9lPDGjRAJTHkBnX51Un",
+      "type": "subtopic",
+      "label": "Geodes",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3130.2840884377797
+      }
+    },
+    {
+      "id": "cNJQoMNZmxNygWAJIA8HI",
+      "type": "subtopic",
+      "label": "Health Endpoint Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3183.2840884377797
+      }
+    },
+    {
+      "id": "-M3Zd8w79sKBAY6_aJRE8",
+      "type": "subtopic",
+      "label": "Queue-Based Load Leveling",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -344.21273166220635,
+        "y": 3236.2840884377797
+      }
+    },
+    {
+      "id": "6YVkguDOtwveyeP4Z1NL3",
+      "type": "subtopic",
+      "label": "Throttling",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -227.44015059681118,
+        "y": 3129.7840884377797
+      }
+    },
+    {
+      "id": "wPe7Xlwqws7tEpTAVvYjr",
+      "type": "topic",
+      "label": "High Availability",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -71.63171528418138,
+        "y": 3021.0183671746804
+      }
+    },
+    {
+      "id": "Ze471tPbAwlwZyU4oIzH9",
+      "type": "subtopic",
+      "label": "Deployment Stamps",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3078.0183671746804
+      }
+    },
+    {
+      "id": "6hOSEZJZ7yezVN67h5gmS",
+      "type": "subtopic",
+      "label": "Geodes",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3131.0183671746804
+      }
+    },
+    {
+      "id": "uK5o7NgDvr2pV0ulF0Fh9",
+      "type": "subtopic",
+      "label": "Health Endpoint Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3184.0183671746804
+      }
+    },
+    {
+      "id": "IR2_kgs2U9rnAJiDBmpqK",
+      "type": "subtopic",
+      "label": "Bulkhead",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 64.36828471581862,
+        "y": 3131.4996104690044
+      }
+    },
+    {
+      "id": "D1OmCoqvd3-_af3u0ciHr",
+      "type": "subtopic",
+      "label": "Circuit Breaker",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -63.63171528418138,
+        "y": 3235
+      }
+    },
+    {
+      "id": "wlAWMjxZF6yav3ZXOScxH",
+      "type": "topic",
+      "label": "Resiliency",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 198.11213811444725,
+        "y": 3021.4996104690044
+      }
+    },
+    {
+      "id": "PLn9TF9GYnPcbpTdDMQbG",
+      "type": "subtopic",
+      "label": "Bulkhead",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3078.4996104690044
+      }
+    },
+    {
+      "id": "O4zYDqvVWD7sMI27k_0Nl",
+      "type": "subtopic",
+      "label": "Circuit Breaker",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3131.4996104690044
+      }
+    },
+    {
+      "id": "MNlWNjrG8eh5OzPVlbb9t",
+      "type": "subtopic",
+      "label": "Compensating Transaction",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3184.4996104690044
+      }
+    },
+    {
+      "id": "CKCNk3obx4u43rBqUj2Yf",
+      "type": "subtopic",
+      "label": "Health Endpoint Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3237.4996104690044
+      }
+    },
+    {
+      "id": "AJLBFyAsEdQYF6ygO0MmQ",
+      "type": "subtopic",
+      "label": "Leader Election",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3290.4996104690044
+      }
+    },
+    {
+      "id": "NybkOwl1lgaglZPRJQJ_Z",
+      "type": "subtopic",
+      "label": "Queue-Based Load Leveling",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3343.4996104690044
+      }
+    },
+    {
+      "id": "xX_9VGUaOkBYFH3jPjnww",
+      "type": "subtopic",
+      "label": "Retry ",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3396.4996104690044
+      }
+    },
+    {
+      "id": "RTEJHZ26znfBLrpQPtNvn",
+      "type": "subtopic",
+      "label": "Scheduler Agent Supervisor",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 208.11213811444725,
+        "y": 3449.4996104690044
+      }
+    },
+    {
+      "id": "ZvYpE6-N5dAtRDIwqcAu6",
+      "type": "topic",
+      "label": "Security",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -72.56981288497383,
+        "y": 3292.2871372731006
+      }
+    },
+    {
+      "id": "lHPl-kr1ArblR7bJeQEB9",
+      "type": "subtopic",
+      "label": "Federated Identity",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -57.56981288497383,
+        "y": 3349.2871372731006
+      }
+    },
+    {
+      "id": "DTQJu0AvgWOhMFcOYqzTD",
+      "type": "subtopic",
+      "label": "Gatekeeper",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -57.56981288497383,
+        "y": 3402.2871372731006
+      }
+    },
+    {
+      "id": "VltZgIrApHOwZ8YHvdmHB",
+      "type": "subtopic",
+      "label": "Valet Key",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -57.56981288497383,
+        "y": 3455.2871372731006
+      }
+    },
+    {
+      "id": "OIcmPSbdsuWapb6HZ4BEi",
+      "type": "button",
+      "label": "Backend",
+      "tick": null,
+      "background": "#4136D6",
+      "position": {
+        "x": -60.11226826767984,
+        "y": 3618.8973113943102
+      }
+    },
+    {
+      "id": "CH_K6mmFX_GdSzi2n1ID7",
+      "type": "button",
+      "label": "Software Architect",
+      "tick": null,
+      "background": "#4136D6",
+      "position": {
+        "x": 74.88773173232016,
+        "y": 3618.8973113943102
+      }
+    },
+    {
+      "id": "-sFboM4eFUMVq1tlPl-fV",
+      "type": "button",
+      "label": "DevOps",
+      "tick": null,
+      "background": "#4136D6",
+      "position": {
+        "x": 237.88773173232016,
+        "y": 3618.8973113943102
+      }
+    },
+    {
+      "id": "ktU7bNX3hu-_hTFE1CjrM",
+      "type": "button",
+      "label": "roadmap.sh",
+      "tick": null,
+      "background": "#e3e3e3",
+      "position": {
+        "x": 404.61202169501337,
+        "y": 71.16001478196938
+      }
+    }
+  ],
+  "scope": {
+    "main_topics": 27,
+    "subtopic_occurrences": 120,
+    "blue_topics": [
+      "Backend",
+      "Software Architect",
+      "DevOps"
+    ],
+    "required_nodes": 150,
+    "legend": "Canlı graph tick metadata taşımıyor; topic/subtopic tamamı scope; gri roadmap.sh navigasyonu kapsam değil."
+  }
+}

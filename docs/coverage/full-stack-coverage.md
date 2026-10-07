@@ -64,3 +64,8 @@ Bu kutuların başka roadmap'e bağlantı vermesi bağlı roadmap'in bütün dal
 ## Kapanış yükümlülüğü
 
 Bütün satırlar bugün **Planlandı** kapsamındadır. Konu yalnız belgede geçtiği için kapanmaz; sahibi projede implementation SHA, runtime success/failure testi ve evidence gerekir. Day 48 hem Backend hem Full Stack matrisini kontrol eder. Emlakta aynı konunun planı var ancak uygulama kanıtı eksikse eksik görev araç kiralama programında tutulur; emlak planı büyütülmez.
+
+
+## System Design fazı sonrası final audit
+
+Day 48 bu Full Stack kapsamının ara kontrolü olarak korunur; araç programına eklenen [System Design kapsamı](system-design-coverage.md) sonrasında **Day 64** Backend/Full Stack/System Design final audit'idir. Full Stack istisnaları ve önceki günlük görevler değişmez.

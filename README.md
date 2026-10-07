@@ -2,15 +2,16 @@
 
 Araç kiralama domain'inde **öğrenme ve uygulama amaçlı Full Stack + backend/architecture + DevOps laboratuvarı**. Ana eksen Java, Spring Boot, Spring Cloud, Docker ve Kubernetes'tir.
 
-Bu repo [Real Estate Backend Architecture Lab](https://github.com/aydindemir1/real-estate-backend-architecture-lab/tree/docs/backend-roadmap-design) 85 günlük programının devamı değil, tamamlayıcı ikinci projedir. Emlak projesi büyütülmez. İki projede roadmap.sh/backend'in belirlenmiş snapshot kapsamını kanıtla karşılamak amaçlanır.
+Bu repo [Real Estate Backend Architecture Lab](https://github.com/aydindemir1/real-estate-backend-architecture-lab/tree/docs/backend-roadmap-design) 85 günlük programının devamı değil, tamamlayıcı ikinci projedir. Emlak projesi büyütülmez. İki projede Backend, Full Stack ve System Design roadmap'lerinin belirlenmiş snapshot kapsamını kanıtla karşılamak amaçlanır.
 
 **Mevcut durum: Planlandı / documentation foundation.** Çalışan kiralama sitesi, datastore integration veya runtime evidence henüz yoktur. Dosya/commit planları gerçek uygulama ile güncellenmeden tamamlandı sayılmaz.
 
-- [Ana program](ROADMAP.md) ve [48 milestone ayrıntısı](docs/roadmap/README.md)
+- [Ana program](ROADMAP.md) ve [64 milestone ayrıntısı](docs/roadmap/README.md)
 - [Proje kararları](docs/PROJECT-DECISIONS.md)
 - [Domain ve veri sahipliği](docs/architecture/domain-and-data.md)
 - [Backend iki proje coverage matrisi](docs/coverage/two-project-coverage.md)
 - [Full Stack iki proje coverage matrisi](docs/coverage/full-stack-coverage.md)
+- [System Design iki proje coverage matrisi](docs/coverage/system-design-coverage.md)
 - [Sarı/mor/mavi başlıklar](docs/coverage/required-topics.md)
 - [Seçilmiş alternatifler](docs/technology/alternatives.md)
 - [Kaynaklar ve sürüm politikası](docs/REFERENCES.md)

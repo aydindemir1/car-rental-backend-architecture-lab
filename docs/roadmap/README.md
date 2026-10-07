@@ -1,6 +1,6 @@
 # Günlük eğitim planı
 
-48 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
+64 milestone; tek takvim günü zorunluluğu yoktur. Başlangıç durumu bütünüyle **Planlandı**.
 
 | Gün | Konu | Kesin plan |
 |---|---|---|
@@ -51,4 +51,22 @@
 | Day 45 | Full Stack uçtan uca kapanış | [Plan](day-45.md) |
 | Day 46 | Recovery ve safety tatbikatı | [Plan](day-46.md) |
 | Day 47 | Yeşil alternatifler karşılaştırma kapanışı | [Plan](day-47.md) |
-| Day 48 | İki proje coverage ve final audit | [Plan](day-48.md) |
+| Day 48 | Backend/Full Stack ara coverage audit | [Plan](day-48.md) |
+| Day 49 | System Design süreci ve sayısal hedefler | [Plan](day-49.md) |
+| Day 50 | Weak, eventual ve strong consistency deneyleri | [Plan](day-50.md) |
+| Day 51 | Failover, replication ve leader election | [Plan](day-51.md) |
+| Day 52 | DNS, pull/push CDN ve static hosting | [Plan](day-52.md) |
+| Day 53 | L4/L7 load balancing ve horizontal scaling | [Plan](day-53.md) |
+| Day 54 | Cache katmanları ve yazma stratejileri | [Plan](day-54.md) |
+| Day 55 | Background jobs, back pressure ve supervisor | [Plan](day-55.md) |
+| Day 56 | TCP/UDP, RPC ve API iletişim sözleşmeleri | [Plan](day-56.md) |
+| Day 57 | Datastore modelleri, sharding ve federation | [Plan](day-57.md) |
+| Day 58 | On performance antipattern'i ölç ve düzelt | [Plan](day-58.md) |
+| Day 59 | Design ve implementation pattern'leri | [Plan](day-59.md) |
+| Day 60 | Data management ve messaging pattern'leri | [Plan](day-60.md) |
+| Day 61 | Reliability, resiliency ve gözlemlenebilirlik | [Plan](day-61.md) |
+| Day 62 | Availability, deployment stamps ve geodes | [Plan](day-62.md) |
+| Day 63 | Federated identity, Gatekeeper ve Valet Key | [Plan](day-63.md) |
+| Day 64 | Üç roadmap ve iki proje final audit | [Plan](day-64.md) |
+
+Day 48 önceki Backend/Full Stack kapsamı için ara kontrol; Day 64 üç roadmap'in final kontrolüdür. Günler cumulative implementation sırasını izler; tek günde bitirme zorunluluğu yoktur.
