@@ -39,3 +39,8 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Yeşil alternatif uygulaması — SQLite
+
+İzole bakım aracı/CLI lab'ında embedded SQLite ile migration, prepared statements, transaction rollback, foreign key enforcement ve concurrent writer davranışını uygula. MariaDB Booking canonical store olarak kalır. SQLite serverless embedded DB kavramı Knative serverless execution ile karıştırılmaz. File ownership/backup ve restart persistence testi kaydedilir; aynı veritabanı dosyasını cluster pod'ları arasında paylaşımlı OLTP store yapma. Aday dosya `labs/sqlite-maintenance/`; commit `feat(lab): SQLite embedded persistence ve concurrency davranışını doğrula`.

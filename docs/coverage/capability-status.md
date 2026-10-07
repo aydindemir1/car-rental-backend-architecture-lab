@@ -7,3 +7,6 @@ Başlangıçta bu repo bütün implementation capability'leri için **Planlandı
 | Yeni capability'ler | Gün dizini | Henüz yok | Henüz yok | Henüz yok | Planlandı | Documentation foundation |
 
 Completion report Day 48'de satır bazlı doldurulur. Comparison/Design Only konular Implemented sayılmaz. Topic-by-topic evidence tamamlanmadan iki repo bütün roadmap'i bitirdi iddiası yok.
+
+
+Zorunlu sarı/mor/mavi bir konu Comparison veya Design Only ile tamamlanmış sayılamaz. Kapanış alanları: owner proje, milestone, öğrenme notu, uygulama dosyası/commit, başarı testi, hata testi ve evidence. Semantik seçim başlıkları uygulama sözleşmesinde açıklanır.

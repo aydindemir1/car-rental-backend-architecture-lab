@@ -39,3 +39,8 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Skills ve agent uygulama kanıtı
+
+Bir rental-policy/read-only tool kullanım skill'i oluştur: giriş/çıkış şeması, allowed tools, kullanıcı kapsamı, yetki sınırı, retry ve durma koşulları version-controlled olur. Agent bu skill'i gerçek görevde kullanır. Yanlış tool argümanı, yetkisiz kullanıcı, prompt injection, sonsuz döngü ve model outage testleri uygulanır. MCP server ve client temsilî uçtan uca çağrıyla doğrulanır; yalnız dependency eklemek yeterli değildir. Dosyalar: `docs/ai/skills/rental-policy.md`, `labs/ai-agents/`. Human approval gerektiren domain mutation read-only skill'e sızmaz.

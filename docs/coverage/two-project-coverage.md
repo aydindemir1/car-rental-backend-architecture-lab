@@ -75,7 +75,7 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | Redis | Mor | Day 13 Redis | 15 | HTTP caching+Memcached; Redis adı farklı dallarda olsa da rol aynı | Planlandı / evidence yok |
 | Memcached | Yeşil | Day 13 Redis | 15 | HTTP caching+Memcached; Redis adı farklı dallarda olsa da rol aynı | Planlandı / evidence yok |
 | MongoDB | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| CouchDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| CouchDB | Yeşil | MongoDB/Couchbase seçili | 22 | Offline inspection replication/conflict uygulaması | Planlandı / evidence yok |
 | Neo4j | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Design & Architecture | Mavi | Day 8–45 | 01,09–13,19–24,48 | ADR/ownership/domain/scale/failure case; linked fullroadmap otomatik değil | Planlandı / evidence yok |
 | Graceful Degradation | Mor | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
@@ -122,9 +122,9 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | DynamoDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Firebase | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | RethinkDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| SQLite | Yeşil | PostgreSQL/MySQL kapsamda | 10–11 | MariaDB implement; diğer relational ürünler comparison | Planlandı / evidence yok |
+| SQLite | Yeşil | PostgreSQL/MySQL seçili | 37 | Embedded bakım aracı, transaction ve concurrent writer uygulaması | Planlandı / evidence yok |
 | Influx DB | Mor | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
-| TimescaleDB | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
+| TimescaleDB | Yeşil | InfluxDB seçili | 20 | İzole SQL time-series telemetry uygulaması ve runtime karşılaştırma | Planlandı / evidence yok |
 | Cassandra | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | AWS Neptune | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Observability | Mor | Day 23/29/30/38/80–82 | 13,20,25–26,30,36 | Loadshifting ek; capacity ölçümü ve telemetry | Planlandı / evidence yok |
@@ -142,8 +142,8 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 | DGraph | Yeşil | Mongo/Couchbase/Cassandra/Redis | 19–22,42 | Neo4j/Influx/Firebase/ClickHouse implement; seçilmeyen ürünler comparison | Planlandı / evidence yok |
 | Migrations | Mor | Persistence standardı ve Day 8/26/28/78 | 10–11,29,37 | Derin ACID/normalization/EXPLAIN ve migration deneyleri | Planlandı / evidence yok |
 | System Design | Mavi | Day 8–45 | 01,09–13,19–24,48 | ADR/ownership/domain/scale/failure case; linked fullroadmap otomatik değil | Planlandı / evidence yok |
-| Claude Code | Mor | Formal AI scope yok | 40 | Ücretsiz local coding agent implement; ticari araç isimleri comparison; literal Claude Code gap açık | Planlandı / evidence yok |
-| Copilot | Yeşil | Formal AI scope yok | 40 | Ücretsiz local coding agent implement; ticari araç isimleri comparison; literal Claude Code gap açık | Planlandı / evidence yok |
+| Claude Code | Mor | Formal AI scope yok | 40 | Claude Code + local Ollama gerçek görevlerle uygulanır; yeşil coding araçları comparison | Planlandı / evidence yok |
+| Copilot | Yeşil | Formal AI scope yok | 40 | Claude Code + local Ollama implement; yeşil coding araçları comparison | Planlandı / evidence yok |
 | Cursor | Yeşil | Formal AI scope yok | 40 | Ücretsiz local coding agent implement; ticari araç isimleri comparison; literal Claude Code gap açık | Planlandı / evidence yok |
 | Antigravity | Yeşil | Formal AI scope yok | 40 | Ücretsiz local coding agent implement; ticari araç isimleri comparison; literal Claude Code gap açık | Planlandı / evidence yok |
 | How LLMs work | Gri/tiksiz | Yok | 39,41–42 | Local model/RAG ve eval | Planlandı / evidence yok |
@@ -173,8 +173,13 @@ Emlak sütunu mevcut **plan kapsamını** belirtir; runtime proficiency iddiası
 
 ## Literal ürün kapsamı istisnaları
 
-Java seçimi Go/Python/Ruby gibi bütün dil seçeneklerini kodlamak değildir. Claude Code paid/trial erişimi varsayılmaz; ücretsiz yerel coding agent ile konu uygulanır, ürün comparison kalır. Gemini/OpenAI/Anthropic paid API çağrısı yapılmaz. Firebase emulator production Firebase değildir. Bu istisnalar nedeniyle **listedeki her ürün birebir uygulandı** iddiası yapılmaz. Kullanıcının hedefi topic-by-topic eğitim ve seçilmiş yaygın alternatiflerin uygulamasıdır.
+Java seçimi Go/Python/Ruby gibi bütün dil seçeneklerini kodlamak değildir. Claude Code Day 40'ta Ollama yerel model ile gerçekten uygulanır; paid/trial API erişimi varsayılmaz. Gemini/OpenAI/Anthropic paid API çağrısı yapılmaz. Firebase emulator production Firebase değildir. Bu istisnalar nedeniyle **listedeki her ürün birebir uygulandı** iddiası yapılmaz. Kullanıcının hedefi topic-by-topic eğitim ve seçilmiş yaygın alternatiflerin uygulamasıdır.
 
 ## Snapshot kapsamı
 
 23 sarı başlık, bütün mor/mavi düğümler ve green/grey karşılaştırma satırları envantere alındı. Roadmap değişince yeni diff/ADR gerekir. Şu an yalnız documentation hazırdır; bütün implementation/evidence satırları açıktır.
+
+
+## Zorunlu uygulama gate'i
+
+Sarı/mor/mavi konular yalnız comparison ile kapatılamaz. Öğrenme, temsilî uygulama, runtime test ve evidence gerekir; emlakta eksik olan araç kiralamada uygulanır. Birebir ürün veya kapsam engeli varsa açık gap olarak tutulur. Ayrıntılı kurallar: [uygulama sözleşmesi](mandatory-implementation-contract.md).

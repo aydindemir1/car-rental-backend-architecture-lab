@@ -39,3 +39,8 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Yeşil alternatif uygulaması — TimescaleDB
+
+Aynı bounded telemetry fixture'ını izole TimescaleDB profile'ında PostgreSQL time-series tablosu/hypertable olarak uygula. Pin edilmiş ücretsiz local dağıtımın license/extension özelliklerini doğrula. Time-window SQL, relational join ihtiyacı, indeks/chunk/retention yaklaşımı ve Influx query sonucunu karşılaştır. Influx esas telemetri use-case'inde kalır; Timescale lab aynı production sample akışının ikinci canonical owner'ı değildir. Late/duplicate sample, restart ve ölçüm testlerini gerçek datastore'da çalıştır. Aday dosya `labs/timescale-telemetry/`; commit `feat(lab): TimescaleDB time-series alternatifini uygula ve doğrula`.

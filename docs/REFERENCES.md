@@ -14,3 +14,5 @@
 Exact sürüm day başında resmi compatibility/support/license matrix'ten seçilip pin edilir. Spring Boot/Cloud/AI BOM, Java, datastore driver/server, container/chart/CRD uyumluluğu birlikte kaydedilir. Floating latest yok. Free local distribution lisansının her ürün için aynı olduğu veya wholecloud feature parity olduğu varsayılmaz.
 
 Roadmap static PDF'si canlı diyagramdan farklı olabilir; coverage canlı düğüm snapshot'ını esas alır. Mavi bağlantının hedef yol haritasının her alt konusu bu repo kapsamına otomatik girmez; ilgili capability öğrenme/evidence hedefi burada açıkça tanımlanır.
+
+- [Claude Code ile yerel Ollama entegrasyonu](https://docs.ollama.com/integrations/claude-code) — local model seçimi; cloud ürün erişimi varsayılmaz.

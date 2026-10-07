@@ -8,10 +8,10 @@ Durum: **Planlandı**. Day bir milestone'dır; takvim günü sınırı yoktur.
 
 ## Görevler
 
-1. Yerel model destekleyen açık kaynak coding agent seç; code review/refactoring/docs generation görevlerini tests/diff review ile değerlendir.
+1. Claude Code CLI'yi resmi dağıtımından kur; Ollama local endpoint + tool calling destekli yerel model ile bağla; code review/refactoring/docs generation görevlerini tests/diff review ile değerlendir.
 2. Requirement, alternatif, data/resource ownership, failure mode ve version compatibility kararını ADR'ye kaydet.
 3. Mevcut dosya yapısında minimal gerçek use-case'i uygula; ihtiyaç yoksa aynı responsibility için ikinci ürün ekleme.
-4. Human baseline vs assisted output, injected bad suggestion ve recovery; Claude Code yalnız karşılaştırma, paid account zorunlu değil.
+4. Human baseline vs assisted output, injected bad suggestion ve recovery testlerini Claude Code üzerinde gerçekten çalıştır; ücretli account/model API veya cloud fallback kullanma.
 5. Öğrenme notunu, runbook'u, ölçüm koşullarını ve karşılaştırma sonucunu güncelle.
 
 ## Planlanan dosyalar
@@ -39,3 +39,15 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Zorunlu Claude Code uygulaması
+
+- [Ollama resmî Claude Code entegrasyonu](https://docs.ollama.com/integrations/claude-code) esas alınır. Yerel model, context ve RAM bütçesi pin edilir; CLI için açık kaynak lisansı varsayılmaz.
+- Day 40'ta önce local Ollama/model bootstrap tamamlanır; Day 41 aynı foundation'ı Spring AI uygulamasına bağlar. Sonraki güne ait çalışan servis önkoşulu yaratılmaz.
+- Backend ve model isteklerinin yalnız yerel endpoint'e gittiği doğrulanır; cloud model suffix'i ve hosted web-search bu zorunlu local deneyde kullanılmaz.
+- Aynı küçük değişiklik için manuel baseline ve Claude Code review/refactor/documentation çıktıları karşılaştırılır; diff, test sonucu, süre ve yanlış öneri kaydedilir.
+- Agent shell/file izinleri sınırlandırılır; permission bypass varsayılan değildir. Destructive veya domain mutation önerisi otomatik yürütülmez.
+- Exact version/resource/support nedeniyle çalıştırılamazsa “açık uygulama gap” bırakılır; başka agent veya comparison belgesi Claude Code satırını kapatmaz.
+
+Ek dosyalar: `docs/ai/claude-code-local.md`, `labs/ai-coding/claude-code/`. Ek commit: `test(ai-coding): Claude Code yerel model görevlerini ve network sınırını doğrula`.

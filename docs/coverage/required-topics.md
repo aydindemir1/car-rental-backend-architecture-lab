@@ -117,3 +117,8 @@ Kullanıcı ölçütü: sarı ana başlıklar, mor tikli alt başlıklar ve mavi
 - AI Agents Roadmap
 
 Kaynak: [roadmap.sh/backend](https://roadmap.sh/backend). Renkler öneri/alternatif gösterir; profesyonel yetkinlik sertifikası değildir. [Coverage matrisi](two-project-coverage.md) gün bazlı sorumlulukları belirtir.
+
+
+## Uygulama yükümlülüğü
+
+Bu envanter yalnız not listesi değildir. Her zorunlu konu için [uygulama sözleşmesi](mandatory-implementation-contract.md) ve iki proje matrisindeki milestone uygulanır. Yeşil alternatiflerden seçilenler ayrı runtime deneyleri içerir. “Bir dil seç” başlığı Java ile karşılanır; diğer dil seçenekleri kendiliğinden zorunlu değildir.

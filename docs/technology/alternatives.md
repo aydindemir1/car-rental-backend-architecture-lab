@@ -16,6 +16,17 @@ Seçim tanınırlık/Java ekosistem fit/ücretsiz local kullanım/öğrenme değ
 
 ## Seçilmeyen roadmap alternatifleri
 
-MS SQL/Oracle/SQLite, CouchDB, DynamoDB, ScyllaDB, DGraph, RethinkDB, TimescaleDB, AWS Neptune ve Apache/Caddy/IIS için veri modeli/operasyon/lisans/Java fit comparison notu hazırlanır; hepsi kurulmaz. Cloud ürünleri production olarak local taklit edilmiş sayılmaz. TimescaleDB ve InfluxDB farklı query/relational fit ile karşılaştırılır; ClickHouse doğrudan Firebase alternatifi değildir. Go/Python/Rust/PHP/Ruby/C# için ecosystem comparison; dil seçimi Java kalır. GitLab repo hosting alternatifidir; GitHub kullanımı yeterlidir.
+MS SQL/Oracle, DynamoDB, ScyllaDB, DGraph, RethinkDB, AWS Neptune ve Apache/Caddy/IIS için veri modeli/operasyon/lisans/Java fit comparison notu hazırlanır; hepsi kurulmaz. Cloud ürünleri production olarak local taklit edilmiş sayılmaz. TimescaleDB ve InfluxDB farklı query/relational fit ile karşılaştırılır; ClickHouse doğrudan Firebase alternatifi değildir. Go/Python/Rust/PHP/Ruby/C# için ecosystem comparison; dil seçimi Java kalır. GitLab repo hosting alternatifidir; GitHub kullanımı yeterlidir.
 
 İhtiyaç olmadan örneğin Graph için Neo4j yanında DGraph, cache için Memcached yanında Redis, search için Solr yanında Elasticsearch ikinci runtime owner olmaz. SOAP/HATEOAS/polling gibi protokol karşılaştırma adapter'ları sınırlı lab'da aynı canonical service'i çağırır.
+
+
+## Ek yeşil alternatif uygulamaları
+
+| Alternatif | Gün | Gerçek educational use-case |
+|---|---|---|
+| TimescaleDB | 20 | İzole SQL time-series telemetry karşılaştırması |
+| CouchDB | 22 | Offline inspection fixture, replication ve conflict |
+| SQLite | 37 | Embedded bakım aracı, transaction ve concurrency |
+
+Bu üç ürün artık yalnız comparison değildir; gerçek local fixture uygulaması ve runtime testleri planlıdır. Exact özellikler ücretsiz lisans/sürüm uyumuna göre gün başında doğrulanır; desteklenmeyen özellik uygulanmış sayılmaz.

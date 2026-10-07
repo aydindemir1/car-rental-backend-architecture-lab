@@ -39,3 +39,11 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Zorunlu kapsam denetimi
+
+- Emlak Day 1–85 planı değiştirilmeden, iki proje matrisindeki her sarı/mor/mavi konu için en az bir gerçek implementation ve runtime test kanıtı bulunur.
+- Başlık yalnız comparison/ADR/dependency üzerinden tamamlandı sayılamaz. Eksik satır varsa gap ve milestone owner belirlenir; final kapanış tamamlandı ilan edilmez.
+- “Bir dil seç” gibi seçim semantiği ve mavi linked roadmap scope sınırı uygulanır; [uygulama sözleşmesi](../coverage/mandatory-implementation-contract.md) esas alınır.
+- Claude Code yerel uygulaması ve ek TimescaleDB/CouchDB/SQLite alternatifleri özellikle kontrol edilir.

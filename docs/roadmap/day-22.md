@@ -40,3 +40,8 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Yeşil alternatif uygulaması — CouchDB
+
+Firebase canlı durum projection'ından ayrı, izole offline araç inspection fixture'ı için CouchDB local node'ları kur. Document/revision, conflict ve replication davranışını gerçek bağlantı kesintisi ve tekrar bağlantı testleriyle öğren. Fixture fake/synthetic veridir; gerçek hasar/rezervasyon canonical ownership değişmez. Offline conflict çözümü, auth deny, replication retry ve aynı inspection'ın duplicate-safe işlenmesi kaydedilir. Aday dosya `labs/couchdb-offline-inspection/`; commit `feat(lab): CouchDB offline replication ve conflict deneyini ekle`.
