@@ -1,0 +1,501 @@
+{
+  "source": "https://roadmap.sh/full-stack",
+  "retrieved": "2026-10-07",
+  "items": [
+    {
+      "id": "sQsxo9QyLKZyhMnFUcxhS",
+      "type": "button",
+      "label": "Frontend",
+      "tick": null,
+      "background": "#4136D4",
+      "position": {
+        "x": -235.86972326342038,
+        "y": 1802.4845433334572
+      }
+    },
+    {
+      "id": "B0kARTODvCBi0iOF8iiqI",
+      "type": "topic",
+      "label": "HTML",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -395.56446376179997,
+        "y": 43.404587772901664
+      }
+    },
+    {
+      "id": "dAJHWmGeiYdzZ1ZjrWz1S",
+      "type": "topic",
+      "label": "CSS",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -251.56446376179997,
+        "y": 43.404587772901664
+      }
+    },
+    {
+      "id": "T9PB6WQf-Fa9NXKKvVOy_",
+      "type": "topic",
+      "label": "JavaScript",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 28.00948964805815,
+        "y": 43.404587772901664
+      }
+    },
+    {
+      "id": "mGgx_QTEPmVKf6AijX9fi",
+      "type": "topic",
+      "label": "npm",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 298.1821043313223,
+        "y": 133.40458777290166
+      }
+    },
+    {
+      "id": "WsdUAEaI7FX6DKKhPXUHp",
+      "type": "subtopic",
+      "label": "Checkpoint - Static Webpages",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -351.97806963137555,
+        "y": 133.40458777290166
+      }
+    },
+    {
+      "id": "2DFzoIUjKdAKGjfu_SCfa",
+      "type": "subtopic",
+      "label": "Checkpoint - Interactivity",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -23.99051035194185,
+        "y": 133.40458777290166
+      }
+    },
+    {
+      "id": "We2APJpOPTr-VNfowG0kI",
+      "type": "topic",
+      "label": "Git",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 162.00948964805815,
+        "y": 316.40458777290166
+      }
+    },
+    {
+      "id": "8sPXL8iClpPqje03ksses",
+      "type": "topic",
+      "label": "GitHub",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -19.56446376179997,
+        "y": 316.40458777290166
+      }
+    },
+    {
+      "id": "R4aeJNOrfWyVp3ea-qF4H",
+      "type": "subtopic",
+      "label": "Checkpoint - External Packages",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -26.978069631375547,
+        "y": 215.40458777290166
+      }
+    },
+    {
+      "id": "CVCqdPkq_hGQfI8EEi5RC",
+      "type": "topic",
+      "label": "Tailwind CSS",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -329.47806963137555,
+        "y": 315.40458777290166
+      }
+    },
+    {
+      "id": "khoUtTUxdf8udAzN9_CAb",
+      "type": "topic",
+      "label": "React",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -444.8178956686777,
+        "y": 315.40458777290166
+      }
+    },
+    {
+      "id": "zFGWxgLPcZoW7KIzlnSV9",
+      "type": "subtopic",
+      "label": "Checkpoint - Collaborative Work",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -350.97806963137555,
+        "y": 215.40458777290166
+      }
+    },
+    {
+      "id": "7JU1cVggMDoZUV-adGsf-",
+      "type": "subtopic",
+      "label": "Checkpoint - Frontend Apps",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -443.47806963137555,
+        "y": 483.40458777290166
+      }
+    },
+    {
+      "id": "_aA6Hp4KkgJeptqo8oKTg",
+      "type": "topic",
+      "label": "Node.js",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 7.00948964805815,
+        "y": 574.9045877729017
+      }
+    },
+    {
+      "id": "JGu0TKwAw-ieiG92BytYI",
+      "type": "subtopic",
+      "label": "Checkpoint — CLI Apps",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -47.99051035194185,
+        "y": 651.9045877729017
+      }
+    },
+    {
+      "id": "vmHbWdmMHF53otXIrqzRV",
+      "type": "topic",
+      "label": "RESTful APIs",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -117.38142186176219,
+        "y": 847.9045877729017
+      }
+    },
+    {
+      "id": "3EtGLO6cwkLc1-o9gwFNk",
+      "type": "subtopic",
+      "label": "Checkpoint — Simple CRUD Apps",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -49.99051035194191,
+        "y": 779.7210153640276
+      }
+    },
+    {
+      "id": "vHojhJYjiN0IwruEqi1Dv",
+      "type": "topic",
+      "label": "JWT Auth",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -257.06446376179997,
+        "y": 847.9045877729017
+      }
+    },
+    {
+      "id": "Onfd7Sl8LG2sjh2aQY7gb",
+      "type": "topic",
+      "label": "Redis",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -460.08230823147517,
+        "y": 847.9045877729017
+      }
+    },
+    {
+      "id": "SHTSvMDqI7X1_ZT7-m--n",
+      "type": "topic",
+      "label": "Linux Basics",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -576.5823082314752,
+        "y": 1145.3143775154215
+      }
+    },
+    {
+      "id": "v4NF25lJElAtkU0Rm6Fob",
+      "type": "subtopic",
+      "label": "Checkpoint — Complete App",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -459.47806963137555,
+        "y": 955.5850398450953
+      }
+    },
+    {
+      "id": "cUOfvOlQ_0Uu1VX3i67kJ",
+      "type": "topic",
+      "label": "Basic AWS Services",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -241.7043395768536,
+        "y": 1145.3143775154215
+      }
+    },
+    {
+      "id": "6oBIxYj8WPcUHidQ99tus",
+      "type": "subtopic",
+      "label": "EC2",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -239.56446376179997,
+        "y": 1087.3143775154215
+      }
+    },
+    {
+      "id": "QtL-bLKtWIdH00K6k_PdC",
+      "type": "subtopic",
+      "label": "VPC",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -165.56446376179997,
+        "y": 1087.3143775154215
+      }
+    },
+    {
+      "id": "5zyYpu9cyuTFwQCjTbHpS",
+      "type": "subtopic",
+      "label": "Route53",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -239.56446376179997,
+        "y": 1032.3143775154215
+      }
+    },
+    {
+      "id": "B-cphY7Imnv6JBMujVIF7",
+      "type": "subtopic",
+      "label": "SES",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -133.7043395768536,
+        "y": 1032.3143775154215
+      }
+    },
+    {
+      "id": "n2Xp_ijJ2OS8xhE7xMWxk",
+      "type": "subtopic",
+      "label": "S3",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -91.56446376179997,
+        "y": 1087.3143775154215
+      }
+    },
+    {
+      "id": "y1SFX7uvWaCy4OYBnECLu",
+      "type": "topic",
+      "label": "Monit",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 290.52193036862445,
+        "y": 1266.5238331844262
+      }
+    },
+    {
+      "id": "HGhnbMg6jh6cAmUH4DtOx",
+      "type": "topic",
+      "label": "PostgreSQL",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 262.02193036862445,
+        "y": 716.9045877729017
+      }
+    },
+    {
+      "id": "J2_IWAb1s9zZcxOY3NXm2",
+      "type": "subtopic",
+      "label": "Checkpoint — Deployment",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 16.00948964805815,
+        "y": 1200.7210153640276
+      }
+    },
+    {
+      "id": "863KMXcFJzInvTp_-Ldmz",
+      "type": "topic",
+      "label": "GitHub Actions",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 103.00948964805815,
+        "y": 1392.5238331844262
+      }
+    },
+    {
+      "id": "NQmEl27eBPYhivcXdOEz3",
+      "type": "subtopic",
+      "label": "Checkpoint — Monitoring",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": 16.00948964805815,
+        "y": 1325.7210153640276
+      }
+    },
+    {
+      "id": "rFXupYpUFfp7vZO8zh614",
+      "type": "topic",
+      "label": "Ansible",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -327.56446376179997,
+        "y": 1392.5238331844262
+      }
+    },
+    {
+      "id": "liaY1GnlOateB_ZKBjNpY",
+      "type": "subtopic",
+      "label": "Checkpoint — CI / CD",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -226.56446376179997,
+        "y": 1325.7210153640276
+      }
+    },
+    {
+      "id": "2kKHuQZScu7hCDgQWxl5u",
+      "type": "topic",
+      "label": "Terraform",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -560.0823082314752,
+        "y": 1468.728630371825
+      }
+    },
+    {
+      "id": "sO_9-l4FECbaqiaFnyeXO",
+      "type": "subtopic",
+      "label": "Checkpoint — Automation",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -571.7578102157039,
+        "y": 1324.9030216520516
+      }
+    },
+    {
+      "id": "YVMyHFSCVF-GgXydq-SFJ",
+      "type": "subtopic",
+      "label": "Checkpoint — Infrastructure",
+      "tick": null,
+      "background": null,
+      "position": {
+        "x": -415.56446376179997,
+        "y": 1538.0384432996068
+      }
+    },
+    {
+      "id": "DezWXw5LWeP1S5Sosj90S",
+      "type": "button",
+      "label": "Backend",
+      "tick": null,
+      "background": "#4136D4",
+      "position": {
+        "x": -128.86972326342038,
+        "y": 1802.4845433334572
+      }
+    },
+    {
+      "id": "DsvdvpHWD0FgTjdkSJ9Uu",
+      "type": "button",
+      "label": "DevOps",
+      "tick": null,
+      "background": "#4136D4",
+      "position": {
+        "x": -21.869723263420383,
+        "y": 1802.4845433334572
+      }
+    },
+    {
+      "id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "label": "AWS",
+      "tick": null,
+      "background": "#4136D4",
+      "position": {
+        "x": 85.13027673657962,
+        "y": 1802.4845433334572
+      }
+    },
+    {
+      "id": "p1nlhjqz_BiKFFop2yHpJ",
+      "type": "button",
+      "label": "Frontend",
+      "tick": null,
+      "background": "#E3E3E3",
+      "position": {
+        "x": -293.3007174828185,
+        "y": -187.42126760749414
+      }
+    },
+    {
+      "id": "bt_V8XXqg8XDAJCzHrbWt",
+      "type": "button",
+      "label": "Backend",
+      "tick": null,
+      "background": "#E3E3E3",
+      "position": {
+        "x": -192.09195631976291,
+        "y": -187.42126760749414
+      }
+    },
+    {
+      "id": "x1j-a82XiCX3bNIgLFryZ",
+      "type": "button",
+      "label": "DevOps",
+      "tick": null,
+      "background": "#E3E3E3",
+      "position": {
+        "x": -89.5180029099048,
+        "y": -187.42126760749414
+      }
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "label": "roadmap.sh",
+      "tick": null,
+      "background": "#e3e3e3",
+      "position": {
+        "x": 57.7005592047509,
+        "y": -204.1655035777258
+      }
+    }
+  ]
+}

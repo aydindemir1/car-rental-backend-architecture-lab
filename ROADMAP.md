@@ -14,3 +14,8 @@ Bu program emlak lab'ının 85 günlük planını değiştirmez. Java/Spring Boo
 | 45–48 | Full Stack, restore, alternatifler ve iki proje coverage audit |
 
 Her gün için [görev/dosya/commit/kanıt planı](docs/roadmap/README.md) vardır. Tek gün birden fazla takvim gününe yayılabilir. Yeni repo uygulama kodu henüz içermez; bütün capabilities Planlandı durumundadır.
+
+
+## Full Stack roadmap eşleştirmesi
+
+[Full Stack kapsam matrisi](docs/coverage/full-stack-coverage.md) Node.js backend ve Basic AWS Services istisnalarıyla programa dahildir. Day 05 Tailwind, Day 06 npm/React, Day 07 collaborative Git/Java CLI, Day 14 frontend deployment, Day 45 complete app ve Day 46 Monit görevleri ayrıntılı plana eklenmiştir. Emlak programı korunur; 48 milestone gerektiğinde birden fazla takvim gününe yayılır.

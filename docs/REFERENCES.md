@@ -16,3 +16,13 @@ Exact sürüm day başında resmi compatibility/support/license matrix'ten seçi
 Roadmap static PDF'si canlı diyagramdan farklı olabilir; coverage canlı düğüm snapshot'ını esas alır. Mavi bağlantının hedef yol haritasının her alt konusu bu repo kapsamına otomatik girmez; ilgili capability öğrenme/evidence hedefi burada açıkça tanımlanır.
 
 - [Claude Code ile yerel Ollama entegrasyonu](https://docs.ollama.com/integrations/claude-code) — local model seçimi; cloud ürün erişimi varsayılmaz.
+
+
+## Full Stack ek kaynakları
+
+- [Full Stack roadmap](https://roadmap.sh/full-stack) — 2026-10-07 snapshot.
+- [npm](https://docs.npmjs.com/about-npm/)
+- [Tailwind CSS ve Vite](https://tailwindcss.com/docs/installation/using-vite)
+- [Monit resmi manual](https://mmonit.com/monit/documentation/monit.html)
+
+Exact version/license/support, ilgili uygulama gününde doğrulanır. Paid M/Monit veya Tailwind Plus gerekmez.

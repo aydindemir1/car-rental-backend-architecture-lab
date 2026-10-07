@@ -39,3 +39,14 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Full Stack ek görevi — Tailwind CSS
+
+CSS temellerinden sonra Tailwind CSS'i gerçek araç kiralama frontend'inde uygula. Minimal npm/package/Vite bootstrap bu gün yapılır; ayrıntılı package yönetimi Day 06'da öğrenilir. Sürümler resmi compatibility ile pin edilir; ücretli Tailwind UI/Plus gerekmez.
+
+- Utility classes, theme tokens, responsive breakpoints ve hover/focus/disabled durumlarıyla araç kartı, arama formu ve reservation layout oluştur.
+- Native CSS'teki grid/flex/spacing karşılıklarını açıkla; framework kullanımı CSS temelinin yerine geçmez.
+- Üretilen CSS'in production build'de bulunduğunu, dynamic class seçimlerinin kaybolmadığını ve mobil/desktop/a11y durumlarını test et.
+- Dosyalar: `web/package.json`, `web/package-lock.json`, `web/vite.config.ts`, `web/src/styles/`, `docs/frontend/tailwind.md`.
+- Commit: `feat(frontend): Tailwind responsive bileşenlerini ve production CSS buildini ekle`; sonra ilgili test/evidence.

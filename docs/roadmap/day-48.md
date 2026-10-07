@@ -47,3 +47,8 @@ Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı de�
 - Başlık yalnız comparison/ADR/dependency üzerinden tamamlandı sayılamaz. Eksik satır varsa gap ve milestone owner belirlenir; final kapanış tamamlandı ilan edilmez.
 - “Bir dil seç” gibi seçim semantiği ve mavi linked roadmap scope sınırı uygulanır; [uygulama sözleşmesi](../coverage/mandatory-implementation-contract.md) esas alınır.
 - Claude Code yerel uygulaması ve ek TimescaleDB/CouchDB/SQLite alternatifleri özellikle kontrol edilir.
+
+
+## Full Stack kapsam audit'i
+
+[Full Stack matrisi](../coverage/full-stack-coverage.md) ve snapshot'ındaki 17 uygulanabilir ana konu, checkpoint'ler ve mavi Frontend/Backend/DevOps için evidence kontrol edilir. Emlak baseline PostgreSQL ve planlı Redis/Linux/Ansible/Terraform uygulama kanıtlarına link verilir; sadece plan varlığı yeterli değildir. Eksik owner görevi araç kiralamada kalır. Node.js backend ve Basic AWS Services/Route53/SES/EC2/VPC/S3/mavi AWS açık istisnadır. npm ve Tailwind için local build araçları bu istisnayı server-side Node scope'una dönüştürmez.

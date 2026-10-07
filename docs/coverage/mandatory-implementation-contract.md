@@ -23,3 +23,8 @@ Karar: 2026-10-07. Hedef farklı mimari, yaklaşım, prensip, pattern ve teknolo
 ## Kapanış
 
 Day 48, her zorunlu konunun iki projenin en az birinde uygulama+test kanıtını kontrol eder. Comparison veya Design Only, zorunlu konu satırını tamamlandı yapmaz. Bu karar günlük programın kapsam yükümlülüğüdür; yeni konular bugün çalıştırıldı anlamına gelmez.
+
+
+## Full Stack roadmap kapsamı
+
+Aynı öğrenme+gerçek uygulama+test yükümlülüğü [Full Stack matrisine](full-stack-coverage.md) de uygulanır. Node.js backend ve Basic AWS Services ile bağlı AWS alt dalları kullanıcının explicit istisnasıdır. npm build tooling local runtime gerektirir; bu backend Node eğitimi değildir. Matrix'in 17 uygulanabilir ana başlığı ve mavi Frontend/Backend/DevOps sorumlulukları iki projede en az birinde yerine getirilir. Snapshot mor/yeşil legend taşımıyorsa varmış gibi sınıflandırılmaz; eksik frontend ve işletim konuları günlük görevlere eklenir. Emlak değiştirilmez.

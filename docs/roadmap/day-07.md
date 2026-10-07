@@ -40,3 +40,10 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Full Stack ek görevi — collaborative work ve Java CLI
+
+Git branch/merge/rebase farklarını disposable fixture üzerinde öğren; küçük PR, diff review ve conflict resolution senaryosu yap. Başka katkıcı yoksa solo simülasyon olduğunu açık yaz; sahte insan review kanıtı üretme. GitHub Actions check sonuçlarına PR'dan erişim göster.
+
+CLI checkpoint'i için Java veya kısa ömürlü Spring Boot non-web maintenance CLI oluştur: synthetic fleet fixture validate/report, argüman/help, exit code, stdout/stderr ve invalid input testleri. Booking API'sini bypass eden direct canonical DB mutation aracı olmaz; Node.js CLI implementation eklenmez. Dosyalar: `labs/java-maintenance-cli/`, `docs/learning/git-collaboration.md`; commit: `feat(lab): Java bakım CLIsi ve collaborative Git deneyi ekle`.

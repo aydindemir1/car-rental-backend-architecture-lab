@@ -39,3 +39,8 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Full Stack deployment checkpoint'i
+
+React/npm production çıktısını Nginx static location üzerinden sun; browser route deep-link refresh, cache header ve API reverse proxy testlerini çalıştır. Development Vite server'ı production deployment diye gösterme. Yerel hostname/TLS bootstrap, artifact hash ve rollback adımlarını runbook'a kaydet. Cloud/AWS deploy yoktur.

@@ -39,3 +39,14 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Full Stack ek görevi — Monit yerel process monitoring
+
+1. Ücretsiz Monit dağıtımını resmi kaynaktan/version pinning ile kur; ücretli M/Monit merkezi dashboard zorunlu değildir.
+2. İzole host/VM/local lab'da synthetic maintenance worker veya yalnız Monit'in sahip olduğu basit HTTP fixture process'i izle. PID, port/HTTP health, CPU/memory ve file/checksum check'leri seç.
+3. Process stop, health fail, threshold ve repeated failure tatbikatlarıyla bounded restart/alert/timeout davranışını gözle. Sınırsız restart loop kurma; local log/alert sink kullan.
+4. Compose/Kubernetes tarafından zaten yönetilen process/container için ikinci restart authority oluşturma. Monit host lab, Prometheus/Grafana observability stack ve Kubernetes controllers farklı sorumluluk taşır.
+5. Monit control/config secrets Git'e girmez; management UI varsa yalnız local/least privilege erişim sağlanır. Cleanup ve original state recovery doğrulanır.
+
+Aday dosyalar: `labs/monit/monitrc.example`, `labs/monit/fixtures/`, `docs/runbooks/monit-local.md`. Commit: `feat(operations): Monit host checks ve bounded recovery deneyini ekle`; negative failure evidence Day 46'da tutulur.

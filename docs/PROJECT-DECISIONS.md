@@ -27,3 +27,8 @@ Planlandı, Implemented, Integrated, Verified, Comparison ve Design Only ayrı t
 Emlak projesinin 85 günü değişmez. Eksik zorunlu konunun uygulama sorumluluğu araç kiralama projesindedir. Sarı başlık ve mavi konu yalnız ad olarak kayıtlı bırakılmaz; günlük görev ve ölçülebilir test bulunur. Mor tikli ürün (örneğin Nginx/Claude Code) sırf başka araç kullanıldı diye kendiliğinden karşılanmış sayılmaz.
 
 “Bir backend dili seç” başlığında Java seçimi yeterlidir; Go/Python gibi diğer dil seçeneklerini birlikte zorunlu yapmak başlığın anlamıyla çelişir. Mavi bağlantıda istenen konu gerçekten uygulanır; bağlantı verilen başka roadmap'in bütün alt dalları sessizce yeni scope olmaz. Bu iki semantik sınır [zorunlu uygulama sözleşmesinde](coverage/mandatory-implementation-contract.md) kayıtlıdır.
+
+
+## Full Stack kapsam kararı — 2026-10-07
+
+[roadmap.sh/full-stack](https://roadmap.sh/full-stack) da iki proje kapsamına eklenmiştir. Node.js backend eğitimi/uygulaması ve Basic AWS Services tamamen istisnadır; AWS alt ürünleri ve mavi AWS kutusu da kapsam dışıdır. npm/frontend build/test için gereken yerel Node executable araç zinciri rolündedir, backend platformu değildir. Backend Java/Spring Boot/Spring Cloud kalır. Sarı ana konuların ve uygulanabilir mavi başlıkların sahibi [Full Stack matrisinde](coverage/full-stack-coverage.md) kayıtlıdır. Eksik npm, Tailwind ve Monit görevleri araç Day 05–06 ve Day 46'ya eklenmiştir. Emlak 85 günlük programı değişmez. Yeşil alternatifler varsa requirement ile seçilir; bu snapshot'ta olmayan tik/ürünler uydurulmaz.

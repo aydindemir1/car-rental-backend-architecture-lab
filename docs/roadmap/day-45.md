@@ -39,3 +39,8 @@ Dosya ve sorumluluklar implementation sırasında incelenir; task yapılmadan bo
 - [ ] İki proje coverage satırları gerçek duruma göre güncellendi; kanıt olmadan Verified işaretlenmedi.
 
 Yerel emulator, benchmark ve toy lab sonucu production SLA/HA/scale kanıtı değildir. Ücretli cloud/model API zorunluluğu yoktur.
+
+
+## Full Stack complete-app doğrulaması
+
+[Full Stack konu matrisi](../coverage/full-stack-coverage.md) içindeki HTML/CSS/JS/npm/Tailwind/React ve REST/JWT akışlarını gerçek browser testine bağla. Cookie BFF session ile downstream JWT ayrı katmanlardır: browser'ın confidential service credential görmediğini; backend'in invalid signature/issuer/expired token/wrong scope için 401/403 davranışını doğrula. Static frontend→Nginx→BFF/Gateway→Booking DB→derived views zinciri actual environment'ta çalışır. Node.js backend ve AWS endpoint olmaması konfigürasyon/evidence üzerinden kontrol edilir.
