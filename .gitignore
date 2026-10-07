@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+**/build/
+**/node_modules/
+**/target/
+**/.gradle/
+**/state/
+**/secrets/
+*.pem
+*.key
